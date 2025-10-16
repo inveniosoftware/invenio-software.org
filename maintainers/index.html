@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="invenio, library, framework, ils, research, data, multimedia, ir, institutional, repository, cern, foss, open, software, model, search, workflows, marc, marc21, python, api, doi, json, oai-pmh, orcid, openaire, rest, zenodo, cds, flask">
+    <meta name="generator" content="Eleventy v3.1.2">
+    <title>Maintainers Handbook - inveniosoftware.org</title>
+    <link rel="icon" href="/assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600|Oswald|Source+Code+Pro:400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    
+<section class="header-section ">
+  <div class="cover-image">
+    
+<header class="header-nav">
+  <nav class="navbar navbar-fixed-top invenio-navbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#inv-navbar-collapse" aria-controls="inv-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="navbar-brand">
+          <img src="/assets/images/logo-invenio-white.svg" alt="Invenio logo" title="Invenio logo" class="icon-contact">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="inv-navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/">Home</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="nav-label">Products</span>
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  
+                    <li><a href="/products/rdm/">InvenioRDM</a></li>
+                  
+                    <li><a href="/products/ils/">InvenioILS</a></li>
+                  
+                    <li><a href="/products/framework/">Invenio Framework</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/showcase/">Showcase</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle active-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="nav-label">Community</span>
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  
+                    <li><a href="/getinvolved/">Get Involved</a></li>
+                  
+                    <li><a href="/events/">Events & Training</a></li>
+                  
+                    <li><a href="/support/">Hosting & Support</a></li>
+                  
+                    <li><a href="/governance/">Governance</a></li>
+                  
+                    <li><a href="/maintainers/">Maintainers</a></li>
+                  
+                    <li><a href="/people/">People</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/documentation/">Docs</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/blog/">Blog</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="https://invenio-talk.web.cern.ch/">Talk</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/about/">About</a></li>
+            
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <div class="container">
+      <div class="row centered">
+        <div class="col-12">
+          
+          <div class="header-section-title">
+            
+            <h1>Maintainers Handbook</h1>
+            <p class="sub-title"></p>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+    <main tabindex="-1" id="main-content">
+    
+<section class="maintainers-section section-content-white-bg">
+  <div class="container">
+    <h1>Introduction</h1>
+    <p>
+      Maintainers are a key part of the Invenio open source community. They help
+      ensure the health, quality, and sustainability of the codebase while
+      fostering a welcoming environment for contributors. This document defines
+      the role of maintainers, their responsibilities, how to become a
+      maintainer, and related processes.
+    </p>
+
+    <h2>Role of Maintainers</h2>
+    <p>
+      Maintainers are individuals who have demonstrated expertise and commitment
+      to the Invenio project. They maintain at least one Invenio software
+      repository and are appointed by the Principal Architect, in accordance
+      with the Product Manager.
+    </p>
+
+    <h2>Responsibilities</h2>
+    <p>Maintainers have responsibilities across several key areas:</p>
+    <p>
+      <strong>Technical Leadership:</strong> Maintainers participate in
+      architectural discussions, make technical decisions, and evaluate
+      contributions for community reusability. They help shape the technical
+      architecture in coordination with the Principal Architect and manage
+      releases according to the <a href="/governance/">principles</a> and
+      <a href="https://github.com/orgs/inveniosoftware/projects/80">roadmap</a>.
+      They may specialize in specific areas of the framework such as
+      translations, infrastructure, metadata schemas, or UI/UX.
+    </p>
+    <p>
+      <strong>Code Quality and Repository Management</strong>: Maintainers
+      review pull requests, test new changes, manage issues, prepare releases,
+      backport changes when necessary, and address security vulnerabilities.
+      They ensure contributions follow best practices and are aligned with
+      project goals. A minimum of two maintainers should agree before merging
+      significant changes.
+    </p>
+    <p>
+      <strong>Community Support</strong>: Maintainers guide newcomers, answer
+      questions and share their expertise on communication channels (GitHub,
+      Discord, Discourse), help engage contributors, and ensure adequate
+      documentation for repositories. They identify testers and reviewers for
+      complex PRs and participate in merge parties during telecons and events.
+    </p>
+    <p>
+      <strong>Fostering Best Practices:</strong> Maintainers exemplify the Code
+      of Conduct and maintain a supportive environment for contributors. They
+      use GitHub boards to organize work, proactively address technical debt,
+      and seek input from other maintainers when reviewing unfamiliar changes.
+      Regular participation in community events and an active presence in
+      communication channels helps maintain project momentum.
+    </p>
+    <h2>Becoming a Maintainer</h2>
+    <h3>Prerequisites</h3>
+    <ul>
+      <li>Active contributor to Invenio</li>
+      <li>Demonstrated understanding of the codebase</li>
+      <li>Adherence to the Code of Conduct and Maintainers Handbook</li>
+      <li>Track record of quality contributions</li>
+      <li>
+        Association with a participating partner organization is typical but not
+        required
+      </li>
+    </ul>
+    <h3>Application Process</h3>
+    <ol>
+      <li>
+        Applicant – Contact the Product Manager or Principal Architect to
+        express interest, <strong>OR</strong> be nominated by current
+        maintainers
+      </li>
+      <li>
+        Existing maintainers
+        <ul>
+          <li>
+            Review with consideration for diversity, representation and above
+            prerequisites.
+          </li>
+          <li>
+            Vote through anonymous process – 7-day period, requires ≥70%
+            positive votes and &lt;20% negative votes with majority
+            participation
+          </li>
+        </ul>
+      </li>
+      <li>
+        Applicant – Onboard with appropriate GitHub access and introduction to
+        communication channels, tools, and practices
+      </li>
+      <li>
+        Applicant – Formal announcement in official channels and update to
+        public pages
+      </li>
+    </ol>
+
+    <h2>Leaving the Maintainer Role</h2>
+    <ul>
+      <li>
+        <strong>Voluntary Departure:</strong> Notify leadership and assist with
+        transitioning responsibilities when possible.
+      </li>
+      <li>
+        <strong>Involuntary Removal:</strong> Leadership may revoke a maintainer
+        role for lack of activity, Code of Conduct violations, or repeated
+        infringements of project guidelines. A warning will be given, except in
+        severe cases, as revoking roles is considered a last measure.
+      </li>
+    </ul>
+
+    <h2>Communication and Decision-Making</h2>
+    <p>
+      Maintainers communicate through the dedicated "maintainers" Discord
+      channel, GitHub discussions, monthly maintainer calls, and Invenio events.
+      They follow Invenio's decision-making principles by striving for
+      consensus, facilitating open discussions, and ensuring alignment with the
+      overall project vision.
+    </p>
+  </div>
+</section>
+
+    </main>
+
+    <footer>
+  <!-- hero footer -->
+  <div class="contact-section section-content-dark-bg">
+    <div class="container">
+      <div class="row">
+        <!-- first col -->
+        <div class="col-md-6 footer-logo-centered">
+          <a href="/">
+            <img src="/assets/images/logo-invenio-white.svg" alt="Invenio logo" title="Invenio logo" class="icon-contact">
+          </a>
+        </div>
+        <!-- second col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Products</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td><a href="/products/rdm/">InvenioRDM</a></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/products/ils/">InvenioILS</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/products/framework/">Invenio Framework</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/#products">Get Started</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/showcase/">Examples</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="/about/">About</a></td>
+              </tr>
+              <tr>
+                <td><a href="/about#logos">Logos</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- third col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Community</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td><a href="/products/rdm/roadmap/">Roadmap</a></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/getinvolved/">Get Involved</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/events/">Events & Training</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/support/">Hosting & Support</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/governance/">Governance</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/people/">People</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- fourth col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Keep in touch</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td>
+                  <a href="https://github.com/inveniosoftware">GitHub</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://discord.gg/8qatqBC">Chatroom</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://invenio-talk.web.cern.ch">Talk</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://x.com/inveniosoftware">@𝕏</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="/blog/">Blog</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /end hero footer -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 centered">
+          <span>Copyright &copy; 2016-2025 CERN &amp; contributors. Icons by <a href="http://fontawesome.io/">Font Awesome</a> and <a href="https://icons8.com/">Icons8</a>. Text is licensed under Creative Commons Attribution 4.0 International.<br>
+        </span></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://webanalytics.web.cern.ch/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '233']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Matomo Code -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"></script>
+    <script>
+      //Main navigation scroll spy for shadow
+      $(window).scroll(function() {
+        var y = $(window).scrollTop();
+        if (y > 0) {
+          $(".invenio-navbar").addClass('invenio-navbar-not-top');
+        } else {
+          $(".invenio-navbar").removeClass('invenio-navbar-not-top');
+        }
+      });
+  </script>
+  </body>
+</html>

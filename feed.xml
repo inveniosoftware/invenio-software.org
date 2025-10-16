@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Invenio Blog</title>
+  <subtitle>Follow news and updates on Invenio world.</subtitle>
+  <link href="https://inveniosoftware.org/feed.xml" rel="self" />
+  <link href="https://inveniosoftware.org/blog/" />
+  <updated>2025-08-11T00:00:00Z</updated>
+  <id>https://inveniosoftware.org/blog/</id>
+  <author>
+    <name>Invenio Software</name>
+    <email>info@inveniosoftware.org</email>
+  </author>
+  <entry>
+    <title>Ensuring the Future of Digital Repositories in West and Central Africa: A Case Study on BAOBAB and Sustainable Repository Development</title>
+    <link href="https://inveniosoftware.org/blog/2025-07-25-OR2025_BAOBAB/" />
+    <updated>2025-08-11T00:00:00Z</updated>
+    <id>https://inveniosoftware.org/blog/2025-07-25-OR2025_BAOBAB/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/BalmeLibrary.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;In today’s rapidly digitizing research landscape, the ability to preserve and share knowledge openly is not just a technological challenge, it’s a matter of equity and innovation. Yet, across much of West and Central Africa, many institutions still struggle with inadequate infrastructure for digital preservation. As I shared at a recent &lt;a href=&quot;https://doi.org/10.5281/zenodo.15758380&quot;&gt;OR2025 session&lt;/a&gt;, this is where &lt;a href=&quot;https://inveniosoftware.org/blog/2025-07-25-OR2025_BAOBAB/%5Bhttps:/baobab.wacren.net&quot;&gt;BAOBAB&lt;/a&gt; comes in.&lt;/p&gt;
+&lt;h3&gt;Why Repositories Matter&lt;/h3&gt;
+&lt;p&gt;Open Access repositories are critical tools for fueling collaboration, driving innovation, and reducing information inequality. But for many African universities and research centers, significant barriers, from unreliable digital systems to a lack of preservation strategies, hinder their ability to contribute to and benefit from the global research ecosystem.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/BAOBAB_Service_Network.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Introducing BAOBAB&lt;/h3&gt;
+&lt;p&gt;Launched in 2024 by &lt;a href=&quot;https://wacren.net&quot;&gt;WACREN&lt;/a&gt;, the West and Central African Research and Education Network, BAOBAB is an InvenioRDM-based regional repository service designed to close these gaps. As of now, it supports more than 14 institutions across 8 countries, including public universities, research councils, and technical institutes. What sets BAOBAB apart is its ability to offer a centralized infrastructure while preserving local institutional autonomy, a model that ensures scalability without sacrificing ownership.&lt;/p&gt;
+&lt;h3&gt;Tackling the Challenges&lt;/h3&gt;
+&lt;p&gt;Before BAOBAB, institutions operated in silos. Many lacked reliable backup systems, and technical capacity varied widely. This often led to duplicated efforts and even loss of valuable data. BAOBAB’s shared, cloud-based platform reduces the technical burden for individual institutions, while a community-driven governance model ensures the service evolves with user needs.&lt;/p&gt;
+&lt;h3&gt;What’s Inside the Repository?&lt;/h3&gt;
+&lt;p&gt;BAOBAB has quickly become a treasure trove of African research. From PhD theses and conference papers to datasets, the repository ensures materials are enriched with multilingual metadata and accessible through persistent identifiers. That last point is key.&lt;/p&gt;
+&lt;h3&gt;Why ARKs?&lt;/h3&gt;
+&lt;p&gt;BAOBAB adopts ARKs (Archival Resource Keys) as its persistent identifier system. Why? Because they’re:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cost-effective and flexible&lt;/li&gt;
+&lt;li&gt;Free from vendor lock-in&lt;/li&gt;
+&lt;li&gt;Interoperable with existing and future PID systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each item in BAOBAB automatically receives an ARK, ensuring it can be reliably found and cited over the long term.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/Digital_Preservation_Lifecycle.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Building for the Long Run&lt;/h3&gt;
+&lt;p&gt;But identifiers alone don’t guarantee preservation. BAOBAB is developing a comprehensive digital preservation strategy, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A formal preservation policy&lt;/li&gt;
+&lt;li&gt;Offsite backup strategies&lt;/li&gt;
+&lt;li&gt;Regular file fixity checks&lt;/li&gt;
+&lt;li&gt;Compliance with international metadata standards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These efforts aim to make the repository resilient, even in the face of funding or infrastructure challenges.&lt;/p&gt;
+&lt;h3&gt;Learning from Global Peers&lt;/h3&gt;
+&lt;p&gt;BAOBAB didn’t start from scratch. It was inspired by global leaders in repository development, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LA Referencia in Latin America&lt;/li&gt;
+&lt;li&gt;HAL in France&lt;/li&gt;
+&lt;li&gt;The Africa Open Science Platform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These models were carefully studied and adapted to local realities—proving that global solutions can be tailored to local contexts.&lt;/p&gt;
+&lt;h3&gt;Measurable Impact&lt;/h3&gt;
+&lt;p&gt;Since its launch, BAOBAB has archived over 408 documents, reduced duplication across participating institutions, and improved the visibility of African research on a regional and international scale. That’s not just a technical win, it’s a step toward equity.&lt;/p&gt;
+&lt;h3&gt;A Blueprint for the Continent&lt;/h3&gt;
+&lt;p&gt;BAOBAB is more than a platform, it’s a blueprint for sustainable repository development across the continent. It shows that with thoughtful design, community involvement, and the right infrastructure, even resource-constrained regions can lead in Open Access.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/Sustainability_Accessibility_Preservation.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Final Thoughts&lt;/h3&gt;
+&lt;p&gt;Sustainable, equitable, and locally owned repositories aren’t just possible, they’re essential. BAOBAB’s success offers hope and a roadmap for other regions aiming to strengthen their research infrastructure. At WACREN, we believe the future of African research lies in collaboration, openness, and resilience.&lt;/p&gt;
+&lt;p&gt;Let’s build it together.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/BAOBAB_Logo.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>InvenioRDM v13.0 released</title>
+    <link href="https://inveniosoftware.org/blog/2025-07-22-invenio-rdm-13/" />
+    <updated>2025-07-29T00:00:00Z</updated>
+    <id>https://inveniosoftware.org/blog/2025-07-22-invenio-rdm-13/</id>
+    <content type="html">&lt;p&gt;We are excited to announce the release of InvenioRDM &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v13/version-v13.0.0/&quot;&gt;v13.0&lt;/a&gt; on July 23, 2025! This new version brings a host of new features and improvements, building upon the strong foundation of previous releases.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-v13.0-screenshot.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Try it&lt;/h2&gt;
+&lt;p&gt;Want to try the new features in v13.0? Just head over to &lt;a href=&quot;https://inveniordm.web.cern.ch&quot;&gt;the demo site&lt;/a&gt;. If you want to install it, you can follow &lt;a href=&quot;https://inveniordm.docs.cern.ch/install/&quot;&gt;the installation instructions&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Release Notes&lt;/h2&gt;
+&lt;p&gt;See the &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v13/version-v13.0.0/&quot;&gt;full release notes&lt;/a&gt; for details on all the new features, and the &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v13/upgrade-v13.0/&quot;&gt;upgrade guide&lt;/a&gt; for instructions on how to upgrade from your v12 instance to v13.&lt;/p&gt;
+&lt;h2&gt;What&#39;s new?&lt;/h2&gt;
+&lt;p&gt;InvenioRDM v13.0 focuses on enhancing &lt;strong&gt;administrative capabilities&lt;/strong&gt;, improving &lt;strong&gt;community features&lt;/strong&gt;, and introducing powerful new tools for &lt;strong&gt;data management and organization&lt;/strong&gt;.
+Here are some of the &lt;strong&gt;major highlights&lt;/strong&gt;, be sure to check the release notes for a comprehensive list of new features and improvements.&lt;/p&gt;
+&lt;h3&gt;Communities enhancements&lt;/h3&gt;
+&lt;p&gt;The Communities functionality has been significantly expanded with exciting new features:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Themed communities&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Communities can now be customized with unique fonts, colors, and homepages. These themes apply to all community pages, including records and requests, allowing for a more branded and distinct user experience.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/blog/2025-07-22-invenio-rdm-13/themed-communities.png&quot; alt=&quot;Themed communities&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Subcommunities&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;InvenioRDM v13.0 introduces hierarchical relationships between communities through subcommunities. This allows for structured organization, where records from child communities are automatically indexed in parent communities.
+A dedicated &amp;quot;Browse&amp;quot; page lists subcommunities and collections, providing a clear overview.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collections&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Collections are a powerful new feature enabling dynamic, query-based groupings of records that automatically update. Collections provide dedicated pages for records matching specific criteria and can be organized hierarchically by subject, resource type, funding program, or other metadata fields. This is ideal for grouping content by research disciplines, publication dates, or funding programs.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/blog/2025-07-22-invenio-rdm-13/collection-page.png&quot; alt=&quot;Collections feature&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Curation checks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It is now possible to configure automated checks in your communities to provide instant feedback on draft review and record inclusion requests.
+Checks provide feedback to both the user and reviewer that submissions to your community are compliant with your curation policy.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/blog/2025-07-22-invenio-rdm-13/curation-checks-zenodo.jpg&quot; alt=&quot;Curation checks&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Files uploader &amp;amp; S3-compatible storage&lt;/h3&gt;
+&lt;p&gt;The new file uploader delivers a faster, more intuitive, and modern file upload experience. It also enables advanced features such as multipart file transfers with S3-compatible storage backends.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/blog/2025-07-22-invenio-rdm-13/upload_form_uppy_files_ui.png&quot; alt=&quot;Files uploader&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;FAIR Signposting&lt;/h3&gt;
+&lt;p&gt;With v13, you can now enable support for FAIR Signposting level 1 in addition to the automatically enabled level 2.&lt;/p&gt;
+&lt;h3&gt;Sitemaps&lt;/h3&gt;
+&lt;p&gt;InvenioRDM v13 introduces the automatic generation of sitemaps to help search engines and other crawlers discover and index your repository&#39;s content. Sitemaps are even automatically linked in your robots.txt.&lt;/p&gt;
+&lt;h3&gt;DOIs on demand&lt;/h3&gt;
+&lt;p&gt;You can now let users to choose if they need a DOI or not when uploading.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/blog/2025-07-22-invenio-rdm-13/dois-on-demand.jpg&quot; alt=&quot;DOIs on demand&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;New metadata fields&lt;/h3&gt;
+&lt;p&gt;We have introduced new metadata fields that will allow you to capture more useful information when uploading:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A dedicated &lt;strong&gt;copyright&lt;/strong&gt; field is now available, ensuring clear and comprehensive copyright information.&lt;/li&gt;
+&lt;li&gt;We&#39;ve added a new &lt;strong&gt;Thesis&lt;/strong&gt; set of optional metadata fields. We&#39;ve also reorganized the thesis section, grouping thesis fields together.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;edition&lt;/strong&gt; field has been introduced under the &lt;strong&gt;Imprint&lt;/strong&gt; set of optional metadata fields, providing a way to specify the edition of a book.&lt;/li&gt;
+&lt;li&gt;A new &lt;strong&gt;identifiers&lt;/strong&gt; field, composed of id and scheme, has been added to the &lt;strong&gt;Meeting&lt;/strong&gt; set of optional metadata fields.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Dashboard: shared with you&lt;/h3&gt;
+&lt;p&gt;You can now easily find records and requests shared with you.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/blog/2025-07-22-invenio-rdm-13/my-dashboard-shared-with-me.jpg&quot; alt=&quot;Dashboard shared with you&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Compare revisions&lt;/h3&gt;
+&lt;p&gt;A brand new compare revisions feature has been introduced, allowing administrators to audit record updates and track changes over time. This provides a transparent history of modifications, crucial for data integrity and compliance.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/blog/2025-07-22-invenio-rdm-13/records-compare-diff.png&quot; alt=&quot;Compare revisions&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Audit Logs&lt;/h3&gt;
+&lt;p&gt;A significant addition is audit logs, a new feature designed for tracking system activities and providing a detailed record of events accessible from the administration panel.&lt;/p&gt;
+&lt;h3&gt;Jobs&lt;/h3&gt;
+&lt;p&gt;This release introduces a new jobs feature, providing a comprehensive way to manage asynchronous tasks via the UI or REST API.
+Jobs are triggered via the admin UI or REST API, run using Celery, and support logging, argument validation, and result tracking.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/blog/2025-07-22-invenio-rdm-13/created-job.jpg&quot; alt=&quot;Jobs UI&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;Jobs can be very useful to setup automatic recurrent fetching of ROR and ORCID databases or other vocabularies.&lt;/p&gt;
+&lt;h2&gt;Breaking changes&lt;/h2&gt;
+&lt;p&gt;Make sure to read the &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v13/version-v13.0.0/#breaking-changes&quot;&gt;Breaking Changes&lt;/a&gt; section in the release notes.&lt;/p&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;InvenioRDM v13 requires:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python 3.9 (end of life October 2025), 3.11 and 3.12&lt;/li&gt;
+&lt;li&gt;Node.js 18+&lt;/li&gt;
+&lt;li&gt;PostgreSQL 12+&lt;/li&gt;
+&lt;li&gt;OpenSearch v2.12+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Questions&lt;/h2&gt;
+&lt;p&gt;If you have questions related to the InvenioRDM v13.0 release, don&#39;t hesitate to jump on &lt;a href=&quot;https://discord.gg/8qatqBC&quot;&gt;Discord&lt;/a&gt; and ask us!&lt;/p&gt;
+&lt;h2&gt;Credit&lt;/h2&gt;
+&lt;p&gt;The development work of this impressive release wouldn&#39;t have been possible without the help of these great people (name or GitHub handle, alphabetically sorted):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adrian Moennich&lt;/li&gt;
+&lt;li&gt;alejandromumo&lt;/li&gt;
+&lt;li&gt;Alex Ioannidis&lt;/li&gt;
+&lt;li&gt;Alzbeta Pokorna&lt;/li&gt;
+&lt;li&gt;Anika Churilova&lt;/li&gt;
+&lt;li&gt;Austin Sharp&lt;/li&gt;
+&lt;li&gt;Brian Kelly&lt;/li&gt;
+&lt;li&gt;Carlin MacKenzie&lt;/li&gt;
+&lt;li&gt;Christoph Ladurner&lt;/li&gt;
+&lt;li&gt;Cristian Pogolsha MBP&lt;/li&gt;
+&lt;li&gt;Dan Granville&lt;/li&gt;
+&lt;li&gt;David Eckhard&lt;/li&gt;
+&lt;li&gt;David Glueck&lt;/li&gt;
+&lt;li&gt;ducica&lt;/li&gt;
+&lt;li&gt;Eduard Nitu&lt;/li&gt;
+&lt;li&gt;Emil Dandanell Agerschou&lt;/li&gt;
+&lt;li&gt;Eric Newman&lt;/li&gt;
+&lt;li&gt;Eric Phetteplace&lt;/li&gt;
+&lt;li&gt;Esteban J. G. Gabancho&lt;/li&gt;
+&lt;li&gt;Fatimah Zulfiqar&lt;/li&gt;
+&lt;li&gt;Felipe Carlos&lt;/li&gt;
+&lt;li&gt;Florian Gantner&lt;/li&gt;
+&lt;li&gt;Furkan Kalkan&lt;/li&gt;
+&lt;li&gt;Guillaume Viger&lt;/li&gt;
+&lt;li&gt;Hrafn Malmquist&lt;/li&gt;
+&lt;li&gt;Ian W. Scott&lt;/li&gt;
+&lt;li&gt;Janne Jensen&lt;/li&gt;
+&lt;li&gt;Javier Romero Castro&lt;/li&gt;
+&lt;li&gt;Karl Krägelin&lt;/li&gt;
+&lt;li&gt;Karolina Przerwa&lt;/li&gt;
+&lt;li&gt;libremente&lt;/li&gt;
+&lt;li&gt;liptakpanna&lt;/li&gt;
+&lt;li&gt;Martin Fenner&lt;/li&gt;
+&lt;li&gt;Martin Obersteiner&lt;/li&gt;
+&lt;li&gt;Matt Carson&lt;/li&gt;
+&lt;li&gt;Maximilian Moser&lt;/li&gt;
+&lt;li&gt;mb-wali&lt;/li&gt;
+&lt;li&gt;Michael Groh&lt;/li&gt;
+&lt;li&gt;Mirek Simek&lt;/li&gt;
+&lt;li&gt;Miroslav Bauer&lt;/li&gt;
+&lt;li&gt;mkloeppe&lt;/li&gt;
+&lt;li&gt;Nicola Tarocco&lt;/li&gt;
+&lt;li&gt;Pablo Panero&lt;/li&gt;
+&lt;li&gt;Pablo Saiz&lt;/li&gt;
+&lt;li&gt;Pablo Tamarit&lt;/li&gt;
+&lt;li&gt;Panna Liptak&lt;/li&gt;
+&lt;li&gt;roll&lt;/li&gt;
+&lt;li&gt;Saksham Arora&lt;/li&gt;
+&lt;li&gt;Sam Arbid&lt;/li&gt;
+&lt;li&gt;Sarah Wiechers&lt;/li&gt;
+&lt;li&gt;Tom Morrell&lt;/li&gt;
+&lt;li&gt;Werner Greßhoff&lt;/li&gt;
+&lt;li&gt;Will Riley&lt;/li&gt;
+&lt;li&gt;Yash Lamba&lt;/li&gt;
+&lt;li&gt;Zacharias Zacharodimos&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>KTH Data Repository: Launching an InvenioRDM-based Institutional Repository</title>
+    <link href="https://inveniosoftware.org/blog/2025-03-11-march-KTH-data-repository/" />
+    <updated>2025-03-11T00:00:00Z</updated>
+    <id>https://inveniosoftware.org/blog/2025-03-11-march-KTH-data-repository/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/KTH_Data_Repository.png&quot; alt=&quot;&quot;&gt;
+KTH Data Repository - we added &lt;a href=&quot;https://docs.datarepository.kth.se/&quot;&gt;user guides&lt;/a&gt; and updated the &lt;a href=&quot;https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/forskningsdata-1.1002828&quot;&gt;KTH web-pages on research data management&lt;/a&gt; when the new repository was launched.&lt;/p&gt;
+&lt;p&gt;On the 29th of January 2025, the &lt;a href=&quot;https://datarepository.kth.se/&quot;&gt;KTH Data Repository&lt;/a&gt; was launched through a team effort supported by management and policies at the KTH Royal Institute of Technology, and by partnering up with the InvenioRDM community.&lt;/p&gt;
+&lt;h3&gt;A Bit of History Behind the Launch&lt;/h3&gt;
+&lt;p&gt;Back in 2021, KTH had an institutional repository for publications, theses, and student reports, but no repository for research data. A recently established cross-functional research data team offers curation support for researchers depositing data to either a KTH community in Zenodo or the Swedish National Data Service data catalog, DORIS. But we had challenges the services at the time didn’t meet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Researchers often document data at the last minute before publishing results, resulting in both stress and lower quality of metadata.&lt;/li&gt;
+&lt;li&gt;Composing good quality metadata requires researchers’ domain-specific understanding of the data as well as understanding of FAIR data principles.&lt;/li&gt;
+&lt;li&gt;Researchers prefer to keep documentation and data private or share data within a limited group before results are published. That group most often consists of collaboration partners as well as KTH staff.&lt;/li&gt;
+&lt;li&gt;KTH has a legal obligation to keep a registry of data underlying scientific results. Some types of data can’t be shared outside the organisation; other types can only be shared if legal agreements are signed.&lt;/li&gt;
+&lt;li&gt;Data-driven research areas produce much larger data-sets than the current limits to deposit in the institutional repository and most external repositories.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Since the team also supported researchers writing data management plans, we knew that in a few years there would be a large number of projects in need of long-term archival storage compliant with funder requirements on FAIR data. Many of those projects also had data that could only be shared with restricted access.&lt;/p&gt;
+&lt;p&gt;In 2022 a project aiming to find out how research support could become more accessible was conducted and a group of researchers were interviewed. Conclusions from the interviews were combined with basic technical requirements collected via the KTH digitalisation platform. This resulted in a pilot project where InvenioRDM was selected as the candidate that best fulfilled the requirements collected by the digitalisation platform and criteria for a FAIR data repository according to the KTH guidelines for managing research data. The pilot was funded after a decision from a steering group which allowed for an IT-developer to join the team, and KTH also decided to join the InvenioRDM project as a partner.&lt;/p&gt;
+&lt;p&gt;The pilot was extended in 2023, when test users from different research communities tried out the system and provided feedback during demos, and more user stories and insights to the pilot team. 2024 was the year of management decisions on long-term maintenance and work on deployment, where we could get access to devops expertise for deploying on Kubernetes thanks to shared interest with the &lt;a href=&quot;https://www.scilifelab.se/&quot;&gt;Scilifelab&lt;/a&gt; research infrastructure. Kubernetes allows for scaling services running on the platform and ensures high availability, so we hope that contributions in the area may be of use for other partners.&lt;/p&gt;
+&lt;h3&gt;Where are we now?&lt;/h3&gt;
+&lt;p&gt;It has been very fruitful to be part of the global InvenioRDM Open Source Community, and we are very grateful for the support we’ve received from the community. For KTH, the most interesting features that came with InvenioRDM were the ability to create communities, the easy-to-use deposit interface, and the APIs. The APIs are crucial since many research groups are using automated workflows. For data governance reasons, we needed to customize InvenioRDM so that all data must belong to at least one community. We also see the need in the near future to make changes to the log-in mechanism, where collaborative research makes it necessary to enable log-in for collaboration partners but with stronger means of verification of the identity of users in a way that complies with the eIDAS regulation.&lt;/p&gt;
+&lt;p&gt;We have received quite a lot of interest since the launch both from KTH researchers interested in using the repository but also from other universities and research infrastructures in Sweden. We are open for discussions with anyone interested in the KTH data repository - so don&#39;t hesitate to &lt;a href=&quot;https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/deponera-och-publicera-data-1.861137&quot;&gt;contact us&lt;/a&gt; if you want to learn more!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>FreiData: InvenioRDM at the University of Freiburg</title>
+    <link href="https://inveniosoftware.org/blog/2024-12-09-december-FreiData/" />
+    <updated>2024-12-09T00:00:00Z</updated>
+    <id>https://inveniosoftware.org/blog/2024-12-09-december-FreiData/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/ComputerCenter_UniversityFreiburg.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Image by Sandra Meyndt/University of Freiburg&lt;/p&gt;
+&lt;p&gt;When InvenioRDM launched on 27th of October 2023 at the University of Freiburg under the label &lt;a href=&quot;https://freidata.uni-freiburg.de/&quot;&gt;FreiData&lt;/a&gt;, campus storage options which minted DOIs for publications already existed. For over a decade, Freiburg has hosted an institutional repository called &amp;quot;FreiDok“, which is also used as a documentation system for the university&#39;s publication activity. In its policies for handling research data and for Open Science, the university recommends that researchers prioritize visibility to their key target audience as the most important criterion when publishing research data. This often leads researchers to choose externally operated repositories.&lt;/p&gt;
+&lt;p&gt;Why did the University of Freiburg still decide to establish its own instance of InvenioRDM? And why did the university&#39;s management commit to sustainable operation?&lt;/p&gt;
+&lt;p&gt;Motivated by the principles of scientific accountability enshrined in the state higher education law of Baden-Württemberg, as well as globally increasing scholarly adoption of Open Science best practices, University of Freiburg has embraced the publication of research results (i.e., data) as a fundamental mission of the university. In its Open Science policy, the university has set the goal of independent operation at the infrastructure level, acknowledging that local repository control allows more flexibility for researchers. While the established FreiDok service could accommodate research data, on a technical level, it could only handle smaller data volumes. These limits were established at a time when larger volumes of research data were not typically intended for publication. Therefore, there was a need for an addition to the existing service to connect storage systems with greater capacity in the background. During the same period, an object storage system with several petabytes of capacity was put into operation. This storage is operated in the same server room from which the local instance of InvenioRDM is delivered.&lt;/p&gt;
+&lt;p&gt;Automation and FAIRness are crucial desired features for storage of Freiburg&#39;s large-volume research datasets. Both local research data and larger Open Science policies require Findability and Accessibility of datasets, Interoperability, and clear guidelines for data Reusability. For all these features to be delivered as concisely and easily as possible is key. InvenioRDM meets the challenge in various ways, including automatically issuing DOIs for deposits, use of the DataCite metadata schema, use of open protocols, clear licensing options, and having a corresponding REST API for every function available on the web interface. These are vital tools for allowing researchers and institutions to map the lifecycle of research data. However, launching the repository is just the first step. The next step is to engage researchers to use InvenioRDM.&lt;/p&gt;
+&lt;h3&gt;FreiData and User Engagement&lt;/h3&gt;
+&lt;p&gt;Data quality control and user control of datasets were clear local use cases and needs for the InvenioRDM instance. An InvenioRDM feature which accommodates both needs is the ability to create communities in a self-service manner, where registered users can come together. Community owners can personalize their space and assign their communities distinct names via a brief abbreviation. The abbreviation is appended to the domain name of the InvenioRDM instance and serves as the hostname for the group&#39;s deposited research outputs.&lt;/p&gt;
+&lt;p&gt;In a community, various roles with increasing permission levels are predefined: Reader, Curator, Manager, and Owner. In addition to controlling community branding and membership, those with higher permissions can initiate more focused tasks, such as assigning review of a resource to another community member before its record is published and issued a DOI. The nuanced roles allow the establishment of group-specific workflows through which internal review and quality control can be achieved for all deposits. Such review processes allow each community to set quality standards for its FreiData publications. The criteria for these quality standards can be defined and documented by the community itself.&lt;/p&gt;
+&lt;p&gt;In this way, communities organized around specific subjects leverage their own expertise to ensure high-quality data deposits. The resultant benefits to individual researchers, to the communities that they form, and to both data depositors and data re-users, are the underpinnings of growing user engagement with FreiData. And if this engagement continues to increase, it bodes well for the long-term sustainability of FreiData.&lt;/p&gt;
+&lt;p&gt;Despite desire for local repository control, University of Freiburg never intended to tax its capacities to the point of offering all repository IT services in-house. From the beginning, the operational planning of &amp;quot;FreiData&amp;quot; included the intention to make its InvenioRDM installation available to others. The  &lt;a href=&quot;https://nfdi4plants.org/&quot;&gt;DataPLANT&lt;/a&gt; consortium, a partner within the &lt;a href=&quot;https://nfdi.de/&quot;&gt;National Research Data Infrastructure (NFDI)&lt;/a&gt;, operates another instance of this InvenioRDM installation under its own domain. Partners in this installation offer each other mutual support, leading to sustainable operation.&lt;/p&gt;
+&lt;p&gt;The computing center of the University of Freiburg supports work on its installation through its involvement in the InvenioRDM Developer Community.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Zenodo/InvenioRDM participation at GREI Annual Meeting, Chicago</title>
+    <link href="https://inveniosoftware.org/blog/2024-11-19-november-GREI/" />
+    <updated>2024-11-19T00:00:00Z</updated>
+    <id>https://inveniosoftware.org/blog/2024-11-19-november-GREI/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/MerchandiseMart.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Merchandise_Mart,_River_North,_Chicago,_IL.jpg&quot;&gt;Merchandise Mart, River North, Chicago, IL&lt;/a&gt; by w_lemay, CC &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/2.0&quot;&gt;BY-SA 2.0&lt;/a&gt; via Wikimedia Commons&lt;/p&gt;
+&lt;p&gt;On September 19-20, 2024, members from the seven participating repositories in the &lt;a href=&quot;https://datascience.nih.gov/data-ecosystem/generalist-repository-ecosystem-initiative&quot;&gt;Generalist Repository Ecosystem Initiative (GREI)&lt;/a&gt; met in Chicago for the GREI Year 3 Annual Meeting to celebrate the achievements of Year 3 of the National Institutes of Health (NIH)-funded, data sharing and open science-focused, four-year initiative. The event was held at Chicago’s historic Merchandise Mart at &lt;a href=&quot;https://matter.health/&quot;&gt;MATTER&lt;/a&gt;, a global healthcare startup incubator, community nexus, and corporate innovation accelerator.&lt;/p&gt;
+&lt;p&gt;The GREI program’s primary mission is to establish a common set of cohesive and consistent capabilities, services, metrics, and social infrastructure across generalist repositories. The program’s secondary mission is to raise general awareness and help researchers adopt FAIR principles to better share and reuse data. This is particularly important for the health research community to fulfill data sharing requirements per the NIH’s &lt;a href=&quot;https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html&quot;&gt;Policy on Data Management and Sharing&lt;/a&gt;. Generalist repositories are essential infrastructure to enable data sharing when discipline-specific or institutional repositories cannot be identified or do not exist.&lt;/p&gt;
+&lt;p&gt;The plans for the third year of GREI have been nearly fully implemented, and the group that gathered in Chicago last month reported on outcomes and completed planning exercises for priorities for Year 4. The Year 3 plan is &lt;a href=&quot;https://medium.com/@blog-grei/unlocking-innovation-the-generalist-repositories-embrace-transparency-and-community-on-github-08cdef676e2e&quot;&gt;published and available on GitHub&lt;/a&gt;, and is broken down into eight objectives. Below is an outline of how Zenodo representatives contributed to each objective, foundational work which often aligned with improvements being made for the InvenioRDM development and user communities:&lt;/p&gt;
+&lt;h3&gt;Desirable Characteristics for All Data Repositories (for sharing scientific data)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Zenodo team members co-led the effort to update the &lt;a href=&quot;https://doi.org/10.5281/zenodo.7946938&quot;&gt;Generalist Repository Comparison Chart&lt;/a&gt;, a tool to help researchers select the best generalist repository to meet their needs. The new version is projected for Spring 2025&lt;/li&gt;
+&lt;li&gt;Zenodo team members co-led the team which created the &lt;a href=&quot;https://doi.org/10.5281/zenodo.11105430&quot;&gt;Generalist Repository Selection Flowchart&lt;/a&gt;, a tool designed to guide users through a series of considerations while selecting the best repository to share data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Consistent Metadata&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Zenodo and InvenioRDM continue to adhere to the recommended GREI standard, which incorporates the DataCite metadata schema. In addition, InvenioRDM already has capability for further suggested metadata enhancements, such as incorporation of LCSH and MeSH subject headings and CRediT &lt;a href=&quot;https://credit.niso.org/&quot;&gt;contributor role taxonomy&lt;/a&gt; roles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Search &amp;amp; Browse&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Work is ongoing to explore a cross-GREI-repository search option. Meanwhile, InvenioRDM has already achieved a further recommendation: incorporation of &lt;a href=&quot;https://ror.org/&quot;&gt;ROR&lt;/a&gt;, the identification registry for research organizations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Analytics &amp;amp; Reporting&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Zenodo team members are co-leading the effort to share the &lt;a href=&quot;https://makedatacount.org/learn-about-us/&quot;&gt;Make Data Count&lt;/a&gt; usage metrics with the wider community via DataCite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Use Cases&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Zenodo team members co-led the task group responsible for updating the &lt;a href=&quot;https://doi.org/10.5281/zenodo.12212654&quot;&gt;Use Case catalog&lt;/a&gt; with two new use cases: one outlining a scenario where a researcher utilizes a generalist repository in lieu of a local institutional repository, and one scenario where a researcher must deposit portions of a heterogenous dataset into several different repositories, one of which is a generalist repository&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Connecting Digital Objects&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Zenodo team members are working on the effort to map DataCite relationTypes to all types of non-data research objects, and to submit any needed updates to DataCite via API&lt;/li&gt;
+&lt;li&gt;InvenioRDM has also completed work on the FAIR signposting recommendation, thanks to Guillaume Viger’s work on &lt;a href=&quot;https://doi.org/10.5281/zenodo.12554416&quot;&gt;signposting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;QA/QC&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Zenodo team members are contributing to a comprehensive review and report on approaches to handling personal or sensitive data, as well as a comprehensive review of how QA/QC on data is done at each GREI repository&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Training &amp;amp; Community Engagement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Zenodo team members are actively involved in the multiple GREI webinars, conference proposals, and &lt;a href=&quot;https://medium.com/@blog-grei&quot;&gt;blog posts&lt;/a&gt; produced each project year&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The GREI-Zenodo team members look forward to continuing our efforts through all the above projects, and new ones in Year 4, to provide an interoperable, robust repository option to US-based health researchers. Additional GREI milestones that can positively impact InvenioRDM development will be reported on in future telecons.&lt;/p&gt;
+&lt;p&gt;This work was supported by the National Institutes of Health (NIH) Office of Data Science Strategy/Office of the NIH Director pursuant to OTA-21-009, “Generalist Repository Ecosystem Initiative (GREI)” through Other Transactions Agreement (OTA) Number OT2DB000013.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>InvenioRDM v12.0 released</title>
+    <link href="https://inveniosoftware.org/blog/2024-08-20-invenio-rdm-12/" />
+    <updated>2024-08-20T00:00:00Z</updated>
+    <id>https://inveniosoftware.org/blog/2024-08-20-invenio-rdm-12/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-v12.0-screenshot.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce the release of InvenioRDM &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v12/version-v12.0.0/&quot;&gt;v12.0&lt;/a&gt;! Released on August 1, 2024, it is the first InvenioRDM release since &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v11/version-v11.0.0/&quot;&gt;v11.0&lt;/a&gt; was released on January 23, 2023, and it includes not only many bug fixes and small improvements but also several major new features listed below.&lt;/p&gt;
+&lt;p&gt;Since the v11.0 release several &lt;a href=&quot;https://inveniosoftware.org/products/rdm/&quot;&gt;InvenioRDM partners&lt;/a&gt; have launched InvenioRDM instances in production, including &lt;a href=&quot;https://blog.zenodo.org/2023/10/13/2023-10-13-zenodo-rdm/&quot;&gt;Zenodo, which migrated to InvenioRDM in October 2023&lt;/a&gt;. A number of these partners have migrated already to InvenioRDM v12.0 or plan to do so in the coming months.&lt;/p&gt;
+&lt;p&gt;German translations for v12 will be coming in v12.1 targeted for release in October 2024. We hope that other language translations will follow suit. Work on InvenioRDM v13.0 has already started and you can track it &lt;a href=&quot;https://github.com/inveniosoftware/invenio-app-rdm&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Try it&lt;/h2&gt;
+&lt;p&gt;Want to try the new features in v12.0? Just head over to the demo site: &lt;a href=&quot;https://inveniordm.web.cern.ch&quot;&gt;https://inveniordm.web.cern.ch&lt;/a&gt;. If you want to install it, follow the installation instructions at &lt;a href=&quot;https://inveniordm.docs.cern.ch/install/&quot;&gt;https://inveniordm.docs.cern.ch/install/&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Release Notes&lt;/h2&gt;
+&lt;p&gt;See the full release notes at &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v12/version-v12.0.0/&quot;&gt;https://inveniordm.docs.cern.ch/releases/v12/version-v12.0.0/&lt;/a&gt; and the upgrade guide at &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v12/upgrade-v12.0/&quot;&gt;https://inveniordm.docs.cern.ch/releases/v12/upgrade-v12.0/&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;What’s new?&lt;/h2&gt;
+&lt;h3&gt;Usage statistics compliant with MakeDataCount and COUNTER&lt;/h3&gt;
+&lt;p&gt;A major new feature in this release is the integration of &lt;a href=&quot;https://github.com/inveniosoftware/invenio-stats&quot;&gt;invenio-stats&lt;/a&gt;, a powerful and flexible extension for measuring usage statistics of InvenioRDM records. Usage statistics are compliant with the &lt;a href=&quot;https://makedatacount.org/&quot;&gt;MakeDataCount&lt;/a&gt; and &lt;a href=&quot;https://www.projectcounter.org/&quot;&gt;COUNTER&lt;/a&gt; standards. Usage statistics are displayed in the record landing page and record search:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/stats-landing-page.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Record inclusion in multiple communities&lt;/h3&gt;
+&lt;p&gt;A record can now belong to multiple communities. Including a record in multiple communities will let different curators change the files or metadata of the record.&lt;/p&gt;
+&lt;h3&gt;Powerful and reliable record access&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://inveniordm.docs.cern.ch/features/features-walk-through/access_requests/&quot;&gt;Giving and requesting access&lt;/a&gt; to records have seen a complete overhaul in this release. Record owners or curators can share them directly with other users or with groups, as well as control whether, with whom, and how access can be demanded.&lt;/p&gt;
+&lt;h3&gt;Notifications&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://inveniordm.docs.cern.ch/features/features-walk-through/notifications/&quot;&gt;A notification system&lt;/a&gt; has been introduced. Users can now receive email notifications depending on their preferences when they are involved in certain activities.&lt;/p&gt;
+&lt;h3&gt;Moderation of users and records&lt;/h3&gt;
+&lt;p&gt;The administration panel now includes a &amp;quot;User Management&amp;quot; section to suspend, block and delete users, and undo all those actions. Records can also be deleted (with a grace period for appeal or undoing), which empowers administrators to enforce institutional policies and fight spam.&lt;/p&gt;
+&lt;h3&gt;DOIs for concept records and no DOIs for restricted records&lt;/h3&gt;
+&lt;p&gt;InvenioRDM now mints a concept DOI for every record by default, similar to what Zenodo has done for many years. Along with this update, restricted records will now stop minting a DOI upon publication thus keeping private records truly private.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/concept_doi.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Even better previewers&lt;/h3&gt;
+&lt;p&gt;Audio and video previewers come by default. Tiling support for the International Image Interoperability Framework (IIIF) API standards &lt;a href=&quot;https://github.com/inveniosoftware/invenio-rdm-records/tree/master/invenio_rdm_records/records/processors&quot;&gt;is available&lt;/a&gt;. Text previewing has been made much more resilient.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/video_previewer.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;External resources integration (e.g. GitHub)&lt;/h3&gt;
+&lt;p&gt;The landing page for a record can now provide nicer visuals for configured related works. A configuration variable can be set to highlight some of the referred platforms.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/external_resources.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Skippable community submission review&lt;/h3&gt;
+&lt;p&gt;With InvenioRDM v12, you can adjust whether a record review is always required for your community, or if curators, managers, and owners can submit a record without the review process.&lt;/p&gt;
+&lt;h3&gt;Banners&lt;/h3&gt;
+&lt;p&gt;With the addition of &lt;a href=&quot;https://github.com/inveniosoftware/invenio-banners&quot;&gt;invenio-banners&lt;/a&gt;, you can easily add and manage important alerts and messages on your InvenioRDM instance, such as system maintenance notifications or announcements.&lt;/p&gt;
+&lt;h3&gt;Static pages - administration panel&lt;/h3&gt;
+&lt;p&gt;Another notable addition is the integration of &lt;a href=&quot;https://github.com/inveniosoftware/invenio-pages&quot;&gt;invenio-pages&lt;/a&gt; with the administration panel. It exposes a convenient UI to create and manage static pages.&lt;/p&gt;
+&lt;h2&gt;Breaking changes&lt;/h2&gt;
+&lt;p&gt;Make sure to read the &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v12/version-v12.0.0/#breaking-changes&quot;&gt;Breaking Changes&lt;/a&gt; section in the release notes.&lt;/p&gt;
+&lt;h2&gt;Limitations and known issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Translations for v12 will be coming in v12.1 targeted for release in October 2024.&lt;/li&gt;
+&lt;li&gt;Sharing a secret link to a restricted record in a restricted community does not provide access to the record yet. Work on this is &lt;a href=&quot;https://github.com/inveniosoftware/invenio-app-rdm/issues/2706&quot;&gt;tracked here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;InvenioRDM v12 requires:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python 3.9, 3.11 or 3.12&lt;/li&gt;
+&lt;li&gt;Node.js 18+&lt;/li&gt;
+&lt;li&gt;PostgreSQL 12+&lt;/li&gt;
+&lt;li&gt;OpenSearch v2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Support for older versions of Elasticsearch/Opensearch, PostgreSQL and Node.js has been phased out.&lt;/p&gt;
+&lt;h2&gt;Questions&lt;/h2&gt;
+&lt;p&gt;If you have questions related to the InvenioRDM v12.0 release, don&#39;t hesitate to jump on &lt;a href=&quot;https://discord.gg/8qatqBC&quot;&gt;Discord&lt;/a&gt; and ask us!&lt;/p&gt;
+&lt;h2&gt;Credit&lt;/h2&gt;
+&lt;p&gt;The development work of this impressive release wouldn&#39;t have been possible without the help of these great people:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CERN: Alex, Anna, Antonio, Carlin, Fatimah, Javier, Jenny, Karolina, Lars, Manuel, Nicola, Pablo G., Pablo P., Pablo T., Yash, Zacharias&lt;/li&gt;
+&lt;li&gt;Northwestern University: Guillaume&lt;/li&gt;
+&lt;li&gt;TU Graz: Christoph, David, Mojib&lt;/li&gt;
+&lt;li&gt;TU Wien: Max&lt;/li&gt;
+&lt;li&gt;Uni Bamberg: Christina&lt;/li&gt;
+&lt;li&gt;Uni Münster: Werner&lt;/li&gt;
+&lt;li&gt;Front Matter: Martin&lt;/li&gt;
+&lt;li&gt;KTH Royal Institute of Technology: Sam&lt;/li&gt;
+&lt;li&gt;Caltech: Tom&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Conference Spotlight: InvenioRDM Workshop Day at Open Repositories 2024</title>
+    <link href="https://inveniosoftware.org/blog/2024-07-10-july-OR2024/" />
+    <updated>2024-07-19T00:00:00Z</updated>
+    <id>https://inveniosoftware.org/blog/2024-07-10-july-OR2024/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/GoteborgCanal.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The 19th annual &lt;a href=&quot;https://or2024.openrepositories.org/&quot;&gt;Open Repositories conference&lt;/a&gt; took place June 3 - 6, 2024 in Göteborg, Sweden. Attendees benefitted from hundreds of &lt;a href=&quot;https://zenodo.org/communities/openrepos/records?q=&amp;amp;f=subject%3AOR2024&amp;amp;l=list&amp;amp;p=1&amp;amp;s=10&amp;amp;sort=newest&quot;&gt;presentations&lt;/a&gt; on innovations in the world of digital repositories, all focused around this year&#39;s conference themes of Community, Transparency, and Sustainability. In addition, ten workshops were presented on June 3rd, the InvenioRDM Workshop being one of only two to receive a full-day allotment.&lt;/p&gt;
+&lt;p&gt;At our third annual OR &lt;a href=&quot;https://zenodo.org/communities/inveniordm-workshop-2024&quot;&gt;InvenioRDM Workshop&lt;/a&gt;, over a dozen of our community members collaborated to present and discuss the software, and to showcase features and customizations currently in place at our own institutions. These include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Caltech&#39;s &lt;a href=&quot;https://doi.org/10.5281/zenodo.12583898&quot;&gt;guide to customizing templates, vocabularies, and the deposit form&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NYU&#39;s &lt;a href=&quot;https://doi.org/10.5281/zenodo.12686857&quot;&gt;multiple storage configuration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;University of Bamberg&#39;s &lt;a href=&quot;https://doi.org/10.5281/zenodo.12583809&quot;&gt;UI-customizations, custom subjects and vocabularies, and deployment concept&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;TU Wien&#39;s &lt;a href=&quot;https://doi.org/10.5281/zenodo.12583693&quot;&gt;innovations on authentication and digital preservation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;University of Münster&#39;s use of &lt;a href=&quot;https://doi.org/10.5281/zenodo.12554567&quot;&gt;Devbox to provide a streamlined InvenioRDM installation and development experience&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Northwestern University&#39;s implementation of &lt;a href=&quot;https://doi.org/10.5281/zenodo.12554416&quot;&gt;Signposting in InvenioRDM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CERN&#39;s demo of the &lt;a href=&quot;https://doi.org/10.5281/zenodo.12554030&quot;&gt;Zenodo and CDS installations&lt;/a&gt;, as well as a v12 features demo&lt;/li&gt;
+&lt;li&gt;KTH Royal Institute of Technology&#39;s &lt;a href=&quot;https://doi.org/10.5281/zenodo.12553429&quot;&gt;customizations of InvenioRDM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the afternoon, we offered two separate tracks. In the first we hosted self-organizing technical discussions, including a hands-on demonstration of Devbox presented by project partners from Uni Münster. We also encouraged participants to install InvenioRDM on their machines with help from technical experts, many of whom had already spoken in the earlier showcase session.&lt;/p&gt;
+&lt;p&gt;In the second track, we focused on community discussions with two additional presentations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://doi.org/10.5281/zenodo.12574995&quot;&gt;The InvenioRDM Community&lt;/a&gt;: what it is and how to join&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://doi.org/10.5281/zenodo.12587111&quot;&gt;Supporting Transparency and Compliance with InvenioRDM&lt;/a&gt;, a presentation from Northwestern on how InvenioRDM&#39;s features support compliance with the increasing number of public access and data sharing requirements for researchers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An informal survey of our 30+ participants afterward revealed that the workshop was generally very favorably received. Participants enjoyed the general introduction to the platform, as well as feature demonstrations and the opportunity to speak with members of the community. While some participants found installation challenging, others found deployment easy. Overall, participants found the experience to be valuable, with some encouraging us to offer the workshop again next year with minor tweaks.&lt;/p&gt;
+&lt;p&gt;Our active community participated in more than just the InvenioRDM workshop, however. Project partners also participated in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://doi.org/10.5281/zenodo.12527422&quot;&gt;The Repository Rodeo&lt;/a&gt;: Alex Ioannidis on behalf of Zenodo&lt;/li&gt;
+&lt;li&gt;A Data Repositories and Lessons Learned presentation from KTH on the &lt;a href=&quot;https://doi.org/10.5281/zenodo.12579325&quot;&gt;KTH data repository based on InvenioRDM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;An outline of Zenodo&#39;s role in the &lt;a href=&quot;https://datascience.nih.gov/data-ecosystem/generalist-repository-ecosystem-initiative&quot;&gt;Generalist Repository Ecosystem Initiative&lt;/a&gt;, presented by Northwestern University, in &lt;a href=&quot;https://doi.org/10.5281/zenodo.12784019&quot;&gt;Empowering Global Progress: GREI Coopetition&#39;s Role in Standardizing Transparency, Community, and Sustainability Initiatives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;24x7 session on Integrations for Sustainability and Transparency: NYU&#39;s presentation &lt;a href=&quot;https://doi.org/10.5281/zenodo.12548292&quot;&gt;We Can Work It Out: Cross-Functional Collaboration on Repository Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A Developer Track session, &lt;a href=&quot;https://doi.org/10.5281/zenodo.12542572&quot;&gt;Repositories and Computation: Crossover Episode&lt;/a&gt; presented by TU Wien&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At the end of the conference, it was announced that the next Open Repositories will be hosted in Chicago from June 15 - 18, 2025. We will aim to host an InvenioRDM workshop once again, and we hope to see you there!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>InvenioRDM Partner Meeting / Developer Workshop: Action Items</title>
+    <link href="https://inveniosoftware.org/blog/2024-04-25-project-meeting-actions/" />
+    <updated>2024-04-24T00:00:00Z</updated>
+    <id>https://inveniosoftware.org/blog/2024-04-25-project-meeting-actions/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/20_workgroup_structure_governance_image01.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;From March 18 - 22 the InvenioRDM partner community met in Münster, Germany, to discuss current challenges and plans for the future of the project. While many smaller questions and issues were addressed immediately on-site, e.g. during one of the “merge parties” or in work sessions resulting from and building upon previous discussions, many sessions ended with clear lists of planned actions for the coming weeks and months.&lt;/p&gt;
+&lt;p&gt;To showcase the kinds of actions we decided on, and to have something to measure our success by at the next developer workshop, we&#39;re sharing here our full list of action items. In the fall, approximately at the half-way-point between the last and the next workshop, the community will meet at a themed Telecon to evaluate this list and see what the status on these plans is.&lt;/p&gt;
+&lt;p&gt;In the following you can find a list of all sessions and the actions decided upon by the participants. Some of the plans mentioned were already set into action - a huge thank you goes to the motivated community members working on all these actions!&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Community engagement and handling pull requests&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;document this process in invenio-docs (curator role, responsibilities, templates, schedule, reviewer guide)&lt;/li&gt;
+&lt;li&gt;make PR checklist more extensive (criticality, bug/feature, packages impacted, target release (old, current, new brach))&lt;/li&gt;
+&lt;li&gt;merge party this afternoon and on a regular basis&lt;/li&gt;
+&lt;li&gt;dream parties (form pitch to architecture proposal, mockups)&lt;/li&gt;
+&lt;li&gt;demo parties&lt;/li&gt;
+&lt;li&gt;public documentation of people to talk to for packages and features (e.g. list of module maintainers)&lt;/li&gt;
+&lt;li&gt;dedicated role for community contribution management&lt;/li&gt;
+&lt;li&gt;identify people involved from the community and their involvement (e.g. searchable expertise board)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Translations / i18n, i10n&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;test if yaml-files can have four letter codes&lt;/li&gt;
+&lt;li&gt;group tests Münster approach way of overwriting python strings, java-script&lt;/li&gt;
+&lt;li&gt;Zack and David try to implement the Münster approach into the official cookiecutter so its easier to use and has a global storage of frontend translations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Large file management&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Multipart uploader&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/inveniosoftware/invenio-app-rdm/issues/2612&quot;&gt;Issue 2612&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File linking API&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/inveniosoftware/invenio-app-rdm/issues/2613&quot;&gt;Issue 2613&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File metadata&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/inveniosoftware/invenio-app-rdm/issues/2614&quot;&gt;Issue 2614&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Invenio RDM Version 12&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix the blockers until end of April&lt;/li&gt;
+&lt;li&gt;document features&lt;/li&gt;
+&lt;li&gt;translate in May&lt;/li&gt;
+&lt;li&gt;going forward and release v12 before open repositories&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Invenio CRIS&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;further call for interest in InvenioRDM visio conferences (presentation)&lt;/li&gt;
+&lt;li&gt;Created a GitHub Discussion to gather more use cases and interest from the community &lt;a href=&quot;https://github.com/inveniosoftware/product-rdm/discussions/153&quot;&gt;inveniosoftware/product-rdm#153&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;decide between specific in communities and more ambitious in a specific module based on traction&lt;/li&gt;
+&lt;li&gt;If invenio-communities is the way to go, try to put specific fields in community data model in a bucketed way&lt;/li&gt;
+&lt;li&gt;deepen code review&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Customising Schema&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Write a feature request for overlay config for required fields per instance / community.&lt;/li&gt;
+&lt;li&gt;Improve docs on Custom Fields - checklist on when they&#39;re useful, community examples.&lt;/li&gt;
+&lt;li&gt;Case studies / knowledge sharing of the &#39;hard way&#39; customisations that have been achieved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Deployment&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;do a Session on small one VM deployments&lt;/li&gt;
+&lt;li&gt;do a Session on Helm charts&lt;/li&gt;
+&lt;li&gt;update deployment documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Digital Preservation&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Brush up Invenio-SIPStore (Max) Check out Invenio-Archivematica, or look at the AM Python client (Max) Check if an AM plugin for Invenio is needed (Panna?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Workflow to keep internal roadmap updated&lt;/strong&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/inveniosoftware/product-rdm/discussions/new?category=ideas&quot;&gt;GitHub Discussions&lt;/a&gt; implemented for feature request forum&lt;/li&gt;
+&lt;li&gt;CERN will do quarterly cleaning &amp;amp; updates of roadmap items (Jan, Apr, Jul, and Oct) and will host talks about issues at corresponding Telecons&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;&lt;strong&gt;RDM Curation Workflow&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;open question is if/how this could go into the core or if it should remain an extra package maintained by TU Graz&lt;/li&gt;
+&lt;li&gt;ensure possibility to configure aspects in order to meet discussed requirements, use cases, and user stories&lt;/li&gt;
+&lt;li&gt;upload package to GitHub for future collaboration&lt;/li&gt;
+&lt;li&gt;after follow-up discussion, one idea is to extend the functionality of the requests in the core and build the curation on top of these changes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://codimd.web.cern.ch/_pB2IO2sTy2U6MB67ExW2w#&quot;&gt;more details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Split approval and acceptance of requests&lt;/li&gt;
+&lt;li&gt;Requests can be extended with requirements/checks. These have to be fulfilled before a request can be accepted.
+&lt;ul&gt;
+&lt;li&gt;Can be specified per request type&lt;/li&gt;
+&lt;li&gt;Repository wide requirements are applied to all request types&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Harvesting vocabularies&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Start a coordinated sprint in May (CERN and Uni Münster).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Creating a place to collect Invenio modules etc.&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://inveniosoftware.github.io/awesome-invenio/&quot;&gt;Awesome Invenio&lt;/a&gt; - links to the actual GitHub Repository where everyone with a GitHub account can add their or other projects and create a PR for it. It&#39;s mainly curated by @egabancho for the time being.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Community workflow improvements&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pitch governance documentation update&lt;/li&gt;
+&lt;li&gt;Propose group structure (InvenioRDM Interest and Task Groups)&lt;/li&gt;
+&lt;li&gt;Propose new/additional way of subscribing to the list-serv&lt;/li&gt;
+&lt;li&gt;Pin and list welcome message and resource list to the welcome channel in Discord&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Developing with Devbox&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;share repository with all used scripts with community&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Repeatable installs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;always copy &lt;code&gt;package-lock.json&lt;/code&gt; from &lt;code&gt;../var/instance/assets/&lt;/code&gt; to &lt;code&gt;my-site/&lt;/code&gt;. Make sure that &lt;code&gt;git&lt;/code&gt; ignores the creation/modification file dates if the file content didn&#39;t change&lt;/li&gt;
+&lt;li&gt;have an extra CLI param in &lt;code&gt;invenio-cli&lt;/code&gt; that will:
+&lt;ul&gt;
+&lt;li&gt;copy the &lt;code&gt;package-lock.json&lt;/code&gt; from &lt;code&gt;my-site&lt;/code&gt; to &lt;code&gt;../var/instance/assets/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;if the &lt;code&gt;my-site/pipfile.lock&lt;/code&gt; is newer than &lt;code&gt;my-site/package-lock.json&lt;/code&gt;, then overwrite or fail (some python deps might have changed)&lt;/li&gt;
+&lt;li&gt;run &lt;code&gt;npm ci&lt;/code&gt; instead of &lt;code&gt;npm install&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;the development workflow with linked editable (watched) modules should be tested, to ensure nothing breaks&lt;/li&gt;
+&lt;li&gt;when in &lt;code&gt;NODE_ENV=production&lt;/code&gt;, the above should always happen. When in &lt;code&gt;NODE_ENV=dev&lt;/code&gt;, then I can use a new param &lt;code&gt;invenio-cli install --keep-deps&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;New issue tracked here: &lt;a href=&quot;https://github.com/inveniosoftware/product-rdm/issues/179&quot;&gt;inveniosoftware/product-rdm#179&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;One VM Deployment&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;improve documentation with the deployment
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pad.gwdg.de/hEje65dOTIWuejjf2r30RA#&quot;&gt;Docu PR work in progress&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;cookiecutter issue: &lt;a href=&quot;https://github.com/inveniosoftware/cookiecutter-invenio-rdm/issues/278&quot;&gt;inveniosoftware/cookiecutter-invenio-rdm#278&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;have a finished docker-compose without dev container&lt;/li&gt;
+&lt;li&gt;improve secrets by default&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Preservation of workshop outcomes&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a Google form for filling in session information (→ Steve)&lt;/li&gt;
+&lt;li&gt;Process information from the Google form entries (→ Markus)&lt;/li&gt;
+&lt;li&gt;Create a repo in the inveniosoftware namespace (→ someone from CERN)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Kubernetes Helm-charts requirements&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Issues on the &lt;code&gt;[helm-invenio&lt;/code&gt; Github repo](https://github.com/inveniosoftware/helm-invenio/issues)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/inveniosoftware/helm-invenio/issues/109&quot;&gt;Configurable resources for deployments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/inveniosoftware/helm-invenio/issues/110&quot;&gt;Configurable {liveness,readiness,startup}Probes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/inveniosoftware/helm-invenio/issues/111&quot;&gt;Init and Sidecar containers config for web/worker deployments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/inveniosoftware/helm-invenio/issues/112&quot;&gt;Granular env-based solution for &amp;quot;connection string&amp;quot;-like config&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Share of current community charts:
+&lt;ul&gt;
+&lt;li&gt;University of Münster: &lt;code&gt;helm pull oci://harbor.uni-muenster.de/ulb/invenio --version 0.4.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Workgroup structure - Governance&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;please contact Lars if you know a good mailing list software! - in progress&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;InvenioRDM feature request form&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/inveniosoftware/product-rdm/discussions/new?category=ideas&quot;&gt;GitHub Discussions&lt;/a&gt; feature request forum implemented&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Usage statistics&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Created discussions
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/inveniosoftware/product-rdm/discussions/181&quot;&gt;inveniosoftware/product-rdm#181&lt;/a&gt;&lt;a href=&quot;https://github.com/inveniosoftware/product-rdm/discussions/182&quot;&gt;inveniosoftware/product-rdm#182&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Evaluate proposed strategies for handling PRs&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;regular merge parties right after Telecons (cut Telecons to 30 minutes) (Sara)&lt;/li&gt;
+&lt;li&gt;train more people as maintainers with merge rights (in on-site meetings) (CERN)&lt;/li&gt;
+&lt;li&gt;figure out a clear labeling system (Karolina)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>InvenioRDM Partner Meeting Summary, March 2024</title>
+    <link href="https://inveniosoftware.org/blog/2024-04-23-april-project-meeting-update/" />
+    <updated>2024-04-23T00:00:00Z</updated>
+    <id>https://inveniosoftware.org/blog/2024-04-23-april-project-meeting-update/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/2024-03-18-22_InvenioRDM-Workshop_1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The InvenioRDM partner community met in Münster, Germany from March 18 - 22, 2024, for our first in-person annual meeting in over four years. Forty-six attendees from over fifteen institutions spent the five days making connections, planning, and diligently working on all things InvenioRDM.&lt;/p&gt;
+&lt;p&gt;Organizer Sarah Wiechers, software developer and research data manager for the Service Center for Data Management, ULB Münster, proposed the use of &lt;a href=&quot;https://en.wikipedia.org/wiki/Open_space_technology&quot;&gt;Open Space Technology&lt;/a&gt;, a meeting organization methodology in which the agenda and topics discussed are voted upon and implemented by the meeting’s attendees on the meeting date. This methodology was highly effective, allowing all community members the opportunity to pitch ideas and vote on their favorites for discussion.&lt;/p&gt;
+&lt;p&gt;University of Münster’s &lt;a href=&quot;https://github.com/ulbmuenster/InvenioRDM-community&quot;&gt;InvenioRDM Community&lt;/a&gt; GitHub site contains our full output of discussions, decisions, and plans. Key topics addressed were the timely handling of pull requests, planning for the v12 release, improvements to community workflows, translations, large file management, deployment, digital preservation, vocabularies and fixtures, Kubernetes Helm-charts requirements, and much more. To help manage feature requests going forward, we have agreed to implement &lt;a href=&quot;https://github.com/inveniosoftware/product-rdm/discussions/new?category=ideas&quot;&gt;GitHub Discussions&lt;/a&gt;, a tool which will allow for providing context, asking questions, and upvoting most-wanted features. GitHub Discussions is now part of our workflow for keeping the &lt;a href=&quot;https://github.com/inveniosoftware/product-rdm?tab=readme-ov-file&quot;&gt;Roadmap&lt;/a&gt; updated.&lt;/p&gt;
+&lt;p&gt;We were thrilled to be able to work with so many old and new friends in beautiful Münster, and a huge thanks goes to our local hosts at University of Münster for their hard work and hospitality. We hope that you will be able to join us at next year’s meeting, with Hamburg currently slated as the host city. In the meantime, please take advantage of our following updated community workflows, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Development-focused chats during half of each telecon&lt;/li&gt;
+&lt;li&gt;A new email list - coming soon&lt;/li&gt;
+&lt;li&gt;Newly established Interest Groups (long-standing) or Task Groups (deliverable-focused). For the current list of all Groups, see the new &lt;a href=&quot;https://inveniordm.docs.cern.ch/community/onboard/&quot;&gt;Onboarding page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Prism: The New Feinberg Repository for Global Dissemination of Research</title>
+    <link href="https://inveniosoftware.org/blog/2023-10-05-october-Prism-launch/" />
+    <updated>2023-11-28T00:00:00Z</updated>
+    <id>https://inveniosoftware.org/blog/2023-10-05-october-Prism-launch/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/PrismAnnoucementHeader.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The Prism institutional repository has launched at Northwestern University. Prism preserves and makes available articles, conference presentations, preprints, datasets, and other items created by faculty, staff, and students. Prism helps openness, maximizes reproducibility, and enhances research connections within Feinberg School of Medicine and across the globe.&lt;/p&gt;
+&lt;p&gt;Prism replaces the former DigitalHub and includes many much-anticipated features, such as the ability to create metadata-only records for offsite datasets, set embargo dates for releasing content to the public, create and curate communities of practice, and share private links to view and edit with colleagues. These new features complement existing features such as the ability to assign Digital Object Identifiers that make records citable, indexing by Google to make research widely discoverable, and a responsive staff at Galter Library to answer questions and provide support.&lt;/p&gt;
+&lt;p&gt;Kristi Holmes, the Director of Galter Health Sciences Library, Associate Dean of Knowledge Management and Strategy, and professor of Preventive Medicine, played a leading role in the development of Prism. According to Holmes, “It is essential to have a robust institutional repository that can keep up with the latest technologies and trends. As models for open access and data sharing continue to evolve, it&#39;s clear that institutional repositories will play an increasingly critical role to make research Findable, Accessible, Interoperable, and Reusable (FAIR).” She continues, “What makes this project particularly special is the strong collaborative approach we’ve taken both at Northwestern and also in partnership with the larger open source community. I’m grateful to our team at Galter Library for their incredible work.”&lt;/p&gt;
+&lt;p&gt;“We are excited to announce the launch of Prism as the institutional repository for Feinberg School of Medicine” says Karen Gutzman, Head of Research Assessment and Communications at Galter Health Sciences Library and Learning Center. Prism builds on a strong research foundation first made possible in the DigitalHub repository. “One of the most exciting features of Prism is the ability to create communities on topics, projects, or events” says Gutzman. Communities include open access research from Feinberg on &lt;a href=&quot;https://prism.northwestern.edu/communities/covid-19-community?q=&amp;amp;l=list&amp;amp;p=1&amp;amp;s=10&amp;amp;sort=newest&quot;&gt;COVID-19&lt;/a&gt;, training presentations from the &lt;a href=&quot;https://prism.northwestern.edu/communities/biostatistics-collaboration-center-lecture-series?q=&amp;amp;l=list&amp;amp;p=1&amp;amp;s=10&amp;amp;sort=newest&quot;&gt;Biostatistics Collaboration Center&lt;/a&gt;, and the NUCATS Grant Repository, a centralized resource for grant writers and investigators internal to Northwestern provided by the NUCATS Institute. “Prism is an excellent home for the NUCATS Grants Repository, allowing us to easily share exemplar grant templates and other resources with investigators across the Northwestern University community,” says Dr. Richard D’Aquila, Director of NUCATS.&lt;/p&gt;
+&lt;p&gt;Prism is built on the InvenioRDM software, which also forms a strong and sustainable foundation for Zenodo. “With its user-friendly interface and advanced features, InvenioRDM is truly a game-changer in the world of repositories. This platform is designed to make research more accessible and open to the public, promoting innovation and collaboration within the academic community,” says Holmes. Over the past several years, CERN and Northwestern have collaborated as core co-developers of the software, partnering with the global Invenio Open Source Community to develop InvenioRDM as a turnkey, scalable, and top-of-the-class user experience software for repositories. The InvenioRDM software offers a reliable environment for science, empowering preservation, credit, discovery, and sharing while maintaining integrity in its responsiveness to the evolving needs of the research community, including data sharing policy compliance. Northwestern contributions to the open source project are led by Matt Carson, Senior Data Scientist and Head of the Galter Library Digital Systems Department, with developer Guillaume Viger leading technical work and Sara Gonzales, Senior Data Librarian at Galter Library, contributing to a wide range of efforts, including serving as the Community Manager.&lt;/p&gt;
+&lt;p&gt;Notably, Northwestern and CERN recently expanded this collaboration through an &lt;a href=&quot;https://blog.zenodo.org/2022/09/30/2022-09-30-northwestern-cern-join-nih-in-enhancing-access-to-biomedical-research/&quot;&gt;award&lt;/a&gt; from the NIH Office of Data Science Strategy/Office of the NIH Director pursuant to OTA-21-009, &lt;a href=&quot;https://datascience.nih.gov/data-ecosystem/generalist-repository-ecosystem-initiative&quot;&gt;Generalist Repository Ecosystem Initiative (GREI)&lt;/a&gt;, to Zenodo to help researchers improve discoverability of their data and lead to greater reproducibility and reuse of data. Through this award and others, the infrastructure reflects &lt;a href=&quot;https://www.whitehouse.gov/ostp/news-updates/2022/05/30/nstc-desirable-characteristics-of-data-repositories-for-federally-funded-research/&quot;&gt;Desirable Characteristics of Data Repositories for Federally Funded Research&lt;/a&gt; and continues to evolve to meet research needs and support a vibrant data ecosystem.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
