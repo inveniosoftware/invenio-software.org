@@ -4,12 +4,46 @@
   <subtitle>Follow news and updates on Invenio world.</subtitle>
   <link href="https://inveniosoftware.org/feed.xml" rel="self" />
   <link href="https://inveniosoftware.org/blog/" />
-  <updated>2025-08-11T00:00:00Z</updated>
+  <updated>2025-10-15T00:00:00Z</updated>
   <id>https://inveniosoftware.org/blog/</id>
   <author>
     <name>Invenio Software</name>
     <email>info@inveniosoftware.org</email>
   </author>
+  <entry>
+    <title>datasafe: Implementing a Dark Archive with InvenioRDM</title>
+    <link href="https://inveniosoftware.org/blog/2025-10-15-datasafe-uni-muenster.md/" />
+    <updated>2025-10-15T00:00:00Z</updated>
+    <id>https://inveniosoftware.org/blog/2025-10-15-datasafe-uni-muenster.md/</id>
+    <content type="html">&lt;p&gt;We&#39;ve recently completed a major overhaul of our research data archive, datasafe, which is now built on InvenioRDM.
+Our team at the University of Münster&#39;s University and State Library (ULB) has been working to implement this
+open-source software, tailoring it to meet the specific needs of our researchers.&lt;/p&gt;
+&lt;p&gt;datasafe is designed as a dark archive, where researchers can deposit their datasets for long-term preservation.
+Once archived, the data will be retained for a minimum of 10 years, and up to 15 years, after which it will be
+automatically deleted. To streamline the process, metadata can be easily imported from our local Current Research
+Information System (CRIS).&lt;/p&gt;
+&lt;p&gt;One of the key benefits of using datasafe is the ability for researchers to demonstrate compliance with funder
+requirements for data storage. Upon archiving their data, users receive a certificate that confirms their datasets
+have been securely stored, making it easier to report to funding agencies.&lt;/p&gt;
+&lt;p&gt;A notable feature of our implementation is the heavily customized frontend, which provides a minimalist and modern
+interface. By simplifying the user experience, we&#39;ve created an intuitive platform that meets the unique needs of a
+dark archive, where data is primarily stored for preservation purposes rather than dissemination. This approach allows
+researchers to easily deposit and manage their data, while also ensuring the long-term integrity and authenticity of
+the archived materials.&lt;/p&gt;
+&lt;p&gt;Another significant improvement is the increased upload limit, now up to 5 TB in size. This community-driven
+feature, which our team helped implement, enables researchers to upload large files directly through their web
+browser into the underlying S3 storage backend, eliminating the former need for an SFTP server. This will greatly
+benefit researchers working with large datasets, allowing them to archive and preserve their data in a single,
+convenient location.&lt;/p&gt;
+&lt;p&gt;By building on InvenioRDM, we&#39;re able to leverage a community-driven solution that is actively maintained and
+developed by a global network of institutions and experts. We&#39;re pleased to be part of this community and look
+forward to sharing our experiences and feedback to help shape the future of the platform.&lt;/p&gt;
+&lt;p&gt;For those interested in learning more about our implementation of InvenioRDM, you can contact our team
+at &lt;a href=&quot;mailto:forschungsdaten@uni-muenster.de&quot;&gt;forschungsdaten@uni-muenster.de&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/datasafe-dashboard.png&quot; alt=&quot;Customized datasafe dashboard with example records and drafts&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/datasafe-depositform.png&quot; alt=&quot;datasafe deposit form which only contains the sections &amp;quot;Files&amp;quot;, &amp;quot;Access&amp;quot; and &amp;quot;Metadata&amp;quot; for simplified usage.&quot;&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Ensuring the Future of Digital Repositories in West and Central Africa: A Case Study on BAOBAB and Sustainable Repository Development</title>
     <link href="https://inveniosoftware.org/blog/2025-07-25-OR2025_BAOBAB/" />
@@ -619,20 +653,6 @@ KTH Data Repository - we added &lt;a href=&quot;https://docs.datarepository.kth.
 &lt;li&gt;A new email list - coming soon&lt;/li&gt;
 &lt;li&gt;Newly established Interest Groups (long-standing) or Task Groups (deliverable-focused). For the current list of all Groups, see the new &lt;a href=&quot;https://inveniordm.docs.cern.ch/community/onboard/&quot;&gt;Onboarding page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Prism: The New Feinberg Repository for Global Dissemination of Research</title>
-    <link href="https://inveniosoftware.org/blog/2023-10-05-october-Prism-launch/" />
-    <updated>2023-11-28T00:00:00Z</updated>
-    <id>https://inveniosoftware.org/blog/2023-10-05-october-Prism-launch/</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/PrismAnnoucementHeader.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;The Prism institutional repository has launched at Northwestern University. Prism preserves and makes available articles, conference presentations, preprints, datasets, and other items created by faculty, staff, and students. Prism helps openness, maximizes reproducibility, and enhances research connections within Feinberg School of Medicine and across the globe.&lt;/p&gt;
-&lt;p&gt;Prism replaces the former DigitalHub and includes many much-anticipated features, such as the ability to create metadata-only records for offsite datasets, set embargo dates for releasing content to the public, create and curate communities of practice, and share private links to view and edit with colleagues. These new features complement existing features such as the ability to assign Digital Object Identifiers that make records citable, indexing by Google to make research widely discoverable, and a responsive staff at Galter Library to answer questions and provide support.&lt;/p&gt;
-&lt;p&gt;Kristi Holmes, the Director of Galter Health Sciences Library, Associate Dean of Knowledge Management and Strategy, and professor of Preventive Medicine, played a leading role in the development of Prism. According to Holmes, “It is essential to have a robust institutional repository that can keep up with the latest technologies and trends. As models for open access and data sharing continue to evolve, it&#39;s clear that institutional repositories will play an increasingly critical role to make research Findable, Accessible, Interoperable, and Reusable (FAIR).” She continues, “What makes this project particularly special is the strong collaborative approach we’ve taken both at Northwestern and also in partnership with the larger open source community. I’m grateful to our team at Galter Library for their incredible work.”&lt;/p&gt;
-&lt;p&gt;“We are excited to announce the launch of Prism as the institutional repository for Feinberg School of Medicine” says Karen Gutzman, Head of Research Assessment and Communications at Galter Health Sciences Library and Learning Center. Prism builds on a strong research foundation first made possible in the DigitalHub repository. “One of the most exciting features of Prism is the ability to create communities on topics, projects, or events” says Gutzman. Communities include open access research from Feinberg on &lt;a href=&quot;https://prism.northwestern.edu/communities/covid-19-community?q=&amp;amp;l=list&amp;amp;p=1&amp;amp;s=10&amp;amp;sort=newest&quot;&gt;COVID-19&lt;/a&gt;, training presentations from the &lt;a href=&quot;https://prism.northwestern.edu/communities/biostatistics-collaboration-center-lecture-series?q=&amp;amp;l=list&amp;amp;p=1&amp;amp;s=10&amp;amp;sort=newest&quot;&gt;Biostatistics Collaboration Center&lt;/a&gt;, and the NUCATS Grant Repository, a centralized resource for grant writers and investigators internal to Northwestern provided by the NUCATS Institute. “Prism is an excellent home for the NUCATS Grants Repository, allowing us to easily share exemplar grant templates and other resources with investigators across the Northwestern University community,” says Dr. Richard D’Aquila, Director of NUCATS.&lt;/p&gt;
-&lt;p&gt;Prism is built on the InvenioRDM software, which also forms a strong and sustainable foundation for Zenodo. “With its user-friendly interface and advanced features, InvenioRDM is truly a game-changer in the world of repositories. This platform is designed to make research more accessible and open to the public, promoting innovation and collaboration within the academic community,” says Holmes. Over the past several years, CERN and Northwestern have collaborated as core co-developers of the software, partnering with the global Invenio Open Source Community to develop InvenioRDM as a turnkey, scalable, and top-of-the-class user experience software for repositories. The InvenioRDM software offers a reliable environment for science, empowering preservation, credit, discovery, and sharing while maintaining integrity in its responsiveness to the evolving needs of the research community, including data sharing policy compliance. Northwestern contributions to the open source project are led by Matt Carson, Senior Data Scientist and Head of the Galter Library Digital Systems Department, with developer Guillaume Viger leading technical work and Sara Gonzales, Senior Data Librarian at Galter Library, contributing to a wide range of efforts, including serving as the Community Manager.&lt;/p&gt;
-&lt;p&gt;Notably, Northwestern and CERN recently expanded this collaboration through an &lt;a href=&quot;https://blog.zenodo.org/2022/09/30/2022-09-30-northwestern-cern-join-nih-in-enhancing-access-to-biomedical-research/&quot;&gt;award&lt;/a&gt; from the NIH Office of Data Science Strategy/Office of the NIH Director pursuant to OTA-21-009, &lt;a href=&quot;https://datascience.nih.gov/data-ecosystem/generalist-repository-ecosystem-initiative&quot;&gt;Generalist Repository Ecosystem Initiative (GREI)&lt;/a&gt;, to Zenodo to help researchers improve discoverability of their data and lead to greater reproducibility and reuse of data. Through this award and others, the infrastructure reflects &lt;a href=&quot;https://www.whitehouse.gov/ostp/news-updates/2022/05/30/nstc-desirable-characteristics-of-data-repositories-for-federally-funded-research/&quot;&gt;Desirable Characteristics of Data Repositories for Federally Funded Research&lt;/a&gt; and continues to evolve to meet research needs and support a vibrant data ecosystem.&lt;/p&gt;
 </content>
   </entry>
 </feed>
