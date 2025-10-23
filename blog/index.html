@@ -8,6 +8,7 @@
     <meta name="generator" content="Eleventy v3.1.2">
     <title>Invenio Blog - inveniosoftware.org</title>
     <link rel="icon" href="/assets/images/favicon.ico">
+    <link rel="alternate" type="application/atom+xml" title="Invenio Blog Feed" href="/feed.xml">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600|Oswald|Source+Code+Pro:400&display=swap" rel="stylesheet">
@@ -172,7 +173,7 @@
           <div class="header-section-title">
             
             <h1>Invenio Blog</h1>
-            <p class="sub-title">Follow news and updates on Invenio world</p>
+            <p class="sub-title">Follow news and updates from the Invenio community</p>
             
           </div>
           
@@ -198,8 +199,6 @@
         
         
         
-        
-        
         <div class="blog-top blog-top-frame">
   <header class="blog-top-header">
     <h2>
@@ -207,12 +206,11 @@
     </h2>
     <p class="blog-list-item-meta">
       <i class="fa fa-user text-muted"></i>
-      <span class="author">Sarah Wiechers</span>
+      <span class="author">
+        
+      </span>
       <i class="fa fa-calendar text-muted"></i>
-      <span>Oct 15, 2025</span>
-      <i class="fa fa-users text-muted"></i>
-      <span class="label invenio-team"><a class="team-url" href=".">InvenioRDM</a></span>
-    </p>
+      <span>Oct 15, 2025</span></p>
   </header>
   <div class="blog-list-item-content">
     <p>We've recently completed a major overhaul of our research data archive, datasafe, which is now built on InvenioRDM.
@@ -266,8 +264,6 @@ at <a href="mailto:forschungsdaten@uni-muenster.de">forschungsdaten@uni-muenster
               
               
               
-              
-              
               <div class="blog-list-item blog-list-item-frame">
   <header class="blog-list-item-header">
     <h3>
@@ -275,14 +271,16 @@ at <a href="mailto:forschungsdaten@uni-muenster.de">forschungsdaten@uni-muenster
         <a href="/blog/2025-07-25-OR2025_BAOBAB/">Ensuring the Future of Digital Repositories in West and Central Africa: A Case Study on BAOBAB and Sustainable Repository Development</a>
       
     </h3>
-    <p class="blog-list-item-meta">
-      <i class="fa fa-user text-muted"></i>
-      <span class="author">Sefakor Ankora, West and Central African Research and Education Network (WACREN)</span>
+    <div class="blog-list-item-meta">
+      <i class="fa fa-users text-muted"></i>
+      <span class="author">
+        Sefakor Ankora
+      </span>
       <i class="fa fa-calendar text-muted"></i>
       <span>Aug 11, 2025</span>
-      <i class="fa fa-users text-muted"></i>
-      <span class="label invenio-team"><a class="team-url" href=".">InvenioRDM</a></span>
-    </p>
+      <div>
+        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span><span class="label label-primary">Open Repositories</span><span class="label label-primary">Showcase</span></div>
+    </div>
   </header>
   <div class="blog-list-item-content">
     <p><img src="/assets/images/blog-posts/BalmeLibrary.jpg" alt=""></p>
@@ -351,8 +349,6 @@ at <a href="mailto:forschungsdaten@uni-muenster.de">forschungsdaten@uni-muenster
               
               
               
-              
-              
               <div class="blog-list-item blog-list-item-frame">
   <header class="blog-list-item-header">
     <h3>
@@ -360,14 +356,16 @@ at <a href="mailto:forschungsdaten@uni-muenster.de">forschungsdaten@uni-muenster
         <a href="/blog/2025-07-22-invenio-rdm-13/">InvenioRDM v13.0 released</a>
       
     </h3>
-    <p class="blog-list-item-meta">
-      <i class="fa fa-user text-muted"></i>
-      <span class="author">Nicola Tarocco, Alex Ioannidis, Martin Fenner, Sara Gonzales</span>
+    <div class="blog-list-item-meta">
+      <i class="fa fa-users text-muted"></i>
+      <span class="author">
+        Nicola Tarocco, Alex Ioannidis, Martin Fenner, Sara Gonzales
+      </span>
       <i class="fa fa-calendar text-muted"></i>
       <span>Jul 29, 2025</span>
-      <i class="fa fa-users text-muted"></i>
-      <span class="label invenio-team"><a class="team-url" href=".">InvenioRDM</a></span>
-    </p>
+      <div>
+        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span></div>
+    </div>
   </header>
   <div class="blog-list-item-content">
     <p>We are excited to announce the release of InvenioRDM <a href="https://inveniordm.docs.cern.ch/releases/v13/version-v13.0.0/">v13.0</a> on July 23, 2025! This new version brings a host of new features and improvements, building upon the strong foundation of previous releases.</p>
@@ -384,7 +382,7 @@ Here are some of the <strong>major highlights</strong>, be sure to check the rel
 <p><strong>Themed communities</strong></p>
 <p>Communities can now be customized with unique fonts, colors, and homepages. These themes apply to all community pages, including records and requests, allowing for a more branded and distinct user experience.</p>
 <p align="center">
-  <img src="themed-communities.png" alt="Themed communities" width="600">
+  <img src="/assets/images/blog-posts/themed-communities.png" alt="Themed communities" width="600">
 </p>
 <p><strong>Subcommunities</strong></p>
 <p>InvenioRDM v13.0 introduces hierarchical relationships between communities through subcommunities. This allows for structured organization, where records from child communities are automatically indexed in parent communities.
@@ -392,18 +390,18 @@ A dedicated &quot;Browse&quot; page lists subcommunities and collections, provid
 <p><strong>Collections</strong></p>
 <p>Collections are a powerful new feature enabling dynamic, query-based groupings of records that automatically update. Collections provide dedicated pages for records matching specific criteria and can be organized hierarchically by subject, resource type, funding program, or other metadata fields. This is ideal for grouping content by research disciplines, publication dates, or funding programs.</p>
 <p align="center">
-  <img src="collection-page.png" alt="Collections feature" width="600">
+  <img src="/assets/images/blog-posts/collection-page.png" alt="Collections feature" width="600">
 </p>
 <p><strong>Curation checks</strong></p>
 <p>It is now possible to configure automated checks in your communities to provide instant feedback on draft review and record inclusion requests.
 Checks provide feedback to both the user and reviewer that submissions to your community are compliant with your curation policy.</p>
 <p align="center">
-  <img src="curation-checks-zenodo.jpg" alt="Curation checks" width="600">
+  <img src="/assets/images/blog-posts/curation-checks-zenodo.jpg" alt="Curation checks" width="600">
 </p>
 <h3>Files uploader &amp; S3-compatible storage</h3>
 <p>The new file uploader delivers a faster, more intuitive, and modern file upload experience. It also enables advanced features such as multipart file transfers with S3-compatible storage backends.</p>
 <p align="center">
-  <img src="upload_form_uppy_files_ui.png" alt="Files uploader" width="600">
+  <img src="/assets/images/blog-posts/upload_form_uppy_files_ui.png" alt="Files uploader" width="600">
 </p>
 <h3>FAIR Signposting</h3>
 <p>With v13, you can now enable support for FAIR Signposting level 1 in addition to the automatically enabled level 2.</p>
@@ -412,7 +410,7 @@ Checks provide feedback to both the user and reviewer that submissions to your c
 <h3>DOIs on demand</h3>
 <p>You can now let users to choose if they need a DOI or not when uploading.</p>
 <p align="center">
-  <img src="dois-on-demand.jpg" alt="DOIs on demand" width="600">
+  <img src="/assets/images/blog-posts/dois-on-demand.jpg" alt="DOIs on demand" width="600">
 </p>
 <h3>New metadata fields</h3>
 <p>We have introduced new metadata fields that will allow you to capture more useful information when uploading:</p>
@@ -425,12 +423,12 @@ Checks provide feedback to both the user and reviewer that submissions to your c
 <h3>Dashboard: shared with you</h3>
 <p>You can now easily find records and requests shared with you.</p>
 <p align="center">
-  <img src="my-dashboard-shared-with-me.jpg" alt="Dashboard shared with you" width="600">
+  <img src="/assets/images/blog-posts/my-dashboard-shared-with-me.jpg" alt="Dashboard shared with you" width="600">
 </p>
 <h3>Compare revisions</h3>
 <p>A brand new compare revisions feature has been introduced, allowing administrators to audit record updates and track changes over time. This provides a transparent history of modifications, crucial for data integrity and compliance.</p>
 <p align="center">
-  <img src="records-compare-diff.png" alt="Compare revisions" width="600">
+  <img src="/assets/images/blog-posts/records-compare-diff.png" alt="Compare revisions" width="600">
 </p>
 <h3>Audit Logs</h3>
 <p>A significant addition is audit logs, a new feature designed for tracking system activities and providing a detailed record of events accessible from the administration panel.</p>
@@ -438,7 +436,7 @@ Checks provide feedback to both the user and reviewer that submissions to your c
 <p>This release introduces a new jobs feature, providing a comprehensive way to manage asynchronous tasks via the UI or REST API.
 Jobs are triggered via the admin UI or REST API, run using Celery, and support logging, argument validation, and result tracking.</p>
 <p align="center">
-  <img src="created-job.jpg" alt="Jobs UI" width="600">
+  <img src="/assets/images/blog-posts/created-job.jpg" alt="Jobs UI" width="600">
 </p>
 <p>Jobs can be very useful to setup automatic recurrent fetching of ROR and ORCID databases or other vocabularies.</p>
 <h2>Breaking changes</h2>
@@ -532,8 +530,6 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
               
               
               
-              
-              
               <div class="blog-list-item blog-list-item-frame">
   <header class="blog-list-item-header">
     <h3>
@@ -541,18 +537,20 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
         <a href="/blog/2025-03-11-march-KTH-data-repository/">KTH Data Repository: Launching an InvenioRDM-based Institutional Repository</a>
       
     </h3>
-    <p class="blog-list-item-meta">
-      <i class="fa fa-user text-muted"></i>
-      <span class="author">Rosa Lönneborg, Sara Gonzales, Martin Fenner</span>
+    <div class="blog-list-item-meta">
+      <i class="fa fa-users text-muted"></i>
+      <span class="author">
+        Rosa Lönneborg, Sara Gonzales, Martin Fenner
+      </span>
       <i class="fa fa-calendar text-muted"></i>
       <span>Mar 11, 2025</span>
-      <i class="fa fa-users text-muted"></i>
-      <span class="label invenio-team"><a class="team-url" href=".">InvenioRDM</a></span>
-    </p>
+      <div>
+        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span></div>
+    </div>
   </header>
   <div class="blog-list-item-content">
-    <p><img src="/assets/images/blog-posts/KTH_Data_Repository.png" alt="">
-KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">user guides</a> and updated the <a href="https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/forskningsdata-1.1002828">KTH web-pages on research data management</a> when the new repository was launched.</p>
+    <p><img src="/assets/images/blog-posts/KTH_Data_Repository.png" alt=""></p>
+<p>KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">user guides</a> and updated the <a href="https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/forskningsdata-1.1002828">KTH web-pages on research data management</a> when the new repository was launched.</p>
 <p>On the 29th of January 2025, the <a href="https://datarepository.kth.se/">KTH Data Repository</a> was launched through a team effort supported by management and policies at the KTH Royal Institute of Technology, and by partnering up with the InvenioRDM community.</p>
 <h3>A Bit of History Behind the Launch</h3>
 <p>Back in 2021, KTH had an institutional repository for publications, theses, and student reports, but no repository for research data. A recently established cross-functional research data team offers curation support for researchers depositing data to either a KTH community in Zenodo or the Swedish National Data Service data catalog, DORIS. But we had challenges the services at the time didn’t meet:</p>
@@ -589,8 +587,6 @@ KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">use
               
               
               
-              
-              
               <div class="blog-list-item blog-list-item-frame">
   <header class="blog-list-item-header">
     <h3>
@@ -598,14 +594,16 @@ KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">use
         <a href="/blog/2024-12-09-december-FreiData/">FreiData: InvenioRDM at the University of Freiburg</a>
       
     </h3>
-    <p class="blog-list-item-meta">
-      <i class="fa fa-user text-muted"></i>
-      <span class="author">Jan Leendertse, Sara Gonzales, Martin Fenner</span>
+    <div class="blog-list-item-meta">
+      <i class="fa fa-users text-muted"></i>
+      <span class="author">
+        Jan Leendertse, Sara Gonzales, Martin Fenner
+      </span>
       <i class="fa fa-calendar text-muted"></i>
       <span>Dec 9, 2024</span>
-      <i class="fa fa-users text-muted"></i>
-      <span class="label invenio-team"><a class="team-url" href=".">InvenioRDM</a></span>
-    </p>
+      <div>
+        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span><span class="label label-primary">Showcase</span></div>
+    </div>
   </header>
   <div class="blog-list-item-content">
     <p><img src="/assets/images/blog-posts/ComputerCenter_UniversityFreiburg.jpg" alt=""></p>
@@ -640,8 +638,6 @@ KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">use
               
               
               
-              
-              
               <div class="blog-list-item blog-list-item-frame">
   <header class="blog-list-item-header">
     <h3>
@@ -649,14 +645,16 @@ KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">use
         <a href="/blog/2024-11-19-november-GREI/">Zenodo/InvenioRDM participation at GREI Annual Meeting, Chicago</a>
       
     </h3>
-    <p class="blog-list-item-meta">
-      <i class="fa fa-user text-muted"></i>
-      <span class="author">Sara Gonzales, Kristi Holmes, Martin Fenner</span>
+    <div class="blog-list-item-meta">
+      <i class="fa fa-users text-muted"></i>
+      <span class="author">
+        Sara Gonzales, Kristi Holmes, Martin Fenner
+      </span>
       <i class="fa fa-calendar text-muted"></i>
       <span>Nov 19, 2024</span>
-      <i class="fa fa-users text-muted"></i>
-      <span class="label invenio-team"><a class="team-url" href=".">InvenioRDM</a></span>
-    </p>
+      <div>
+        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span></div>
+    </div>
   </header>
   <div class="blog-list-item-content">
     <p><img src="/assets/images/blog-posts/MerchandiseMart.jpg" alt=""></p>
@@ -720,8 +718,6 @@ KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">use
               
               
               
-              
-              
               <div class="blog-list-item blog-list-item-frame">
   <header class="blog-list-item-header">
     <h3>
@@ -729,14 +725,16 @@ KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">use
         <a href="/blog/2024-08-20-invenio-rdm-12/">InvenioRDM v12.0 released</a>
       
     </h3>
-    <p class="blog-list-item-meta">
-      <i class="fa fa-user text-muted"></i>
-      <span class="author">Martin Fenner, Sara Gonzales, Guillaume Viger</span>
+    <div class="blog-list-item-meta">
+      <i class="fa fa-users text-muted"></i>
+      <span class="author">
+        Martin Fenner, Sara Gonzales, Guillaume Viger
+      </span>
       <i class="fa fa-calendar text-muted"></i>
       <span>Aug 20, 2024</span>
-      <i class="fa fa-users text-muted"></i>
-      <span class="label invenio-team"><a class="team-url" href=".">InvenioRDM</a></span>
-    </p>
+      <div>
+        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span></div>
+    </div>
   </header>
   <div class="blog-list-item-content">
     <p><img src="/assets/images/blog-posts/invenio-rdm-v12.0-screenshot.png" alt=""></p>
@@ -825,8 +823,6 @@ KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">use
               
               
               
-              
-              
               <div class="blog-list-item blog-list-item-frame">
   <header class="blog-list-item-header">
     <h3>
@@ -834,14 +830,16 @@ KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">use
         <a href="/blog/2024-07-10-july-OR2024/">Conference Spotlight: InvenioRDM Workshop Day at Open Repositories 2024</a>
       
     </h3>
-    <p class="blog-list-item-meta">
-      <i class="fa fa-user text-muted"></i>
-      <span class="author">Sara Gonzales</span>
+    <div class="blog-list-item-meta">
+      <i class="fa fa-users text-muted"></i>
+      <span class="author">
+        Sara Gonzales
+      </span>
       <i class="fa fa-calendar text-muted"></i>
       <span>Jul 19, 2024</span>
-      <i class="fa fa-users text-muted"></i>
-      <span class="label invenio-team"><a class="team-url" href=".">InvenioRDM</a></span>
-    </p>
+      <div>
+        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span><span class="label label-primary">Open Repositories</span></div>
+    </div>
   </header>
   <div class="blog-list-item-content">
     <p><img src="/assets/images/blog-posts/GoteborgCanal.png" alt=""></p>
@@ -893,8 +891,6 @@ KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">use
               
               
               
-              
-              
               <div class="blog-list-item blog-list-item-frame">
   <header class="blog-list-item-header">
     <h3>
@@ -902,17 +898,19 @@ KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">use
         <a href="/blog/2024-04-25-project-meeting-actions/">InvenioRDM Partner Meeting / Developer Workshop: Action Items</a>
       
     </h3>
-    <p class="blog-list-item-meta">
-      <i class="fa fa-user text-muted"></i>
-      <span class="author">Sarah Wiechers</span>
+    <div class="blog-list-item-meta">
+      <i class="fa fa-users text-muted"></i>
+      <span class="author">
+        Sarah Wiechers
+      </span>
       <i class="fa fa-calendar text-muted"></i>
       <span>Apr 24, 2024</span>
-      <i class="fa fa-users text-muted"></i>
-      <span class="label invenio-team"><a class="team-url" href=".">InvenioRDM</a></span>
-    </p>
+      <div>
+        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span></div>
+    </div>
   </header>
   <div class="blog-list-item-content">
-    <p><img src="/assets/images/blog-posts/20_workgroup_structure_governance_image01.jpg" alt=""></p>
+    <p><img src="/assets/images/20_workgroup_structure_governance_image01.jpg" alt=""></p>
 <p>From March 18 - 22 the InvenioRDM partner community met in Münster, Germany, to discuss current challenges and plans for the future of the project. While many smaller questions and issues were addressed immediately on-site, e.g. during one of the “merge parties” or in work sessions resulting from and building upon previous discussions, many sessions ended with clear lists of planned actions for the coming weeks and months.</p>
 <p>To showcase the kinds of actions we decided on, and to have something to measure our success by at the next developer workshop, we're sharing here our full list of action items. In the fall, approximately at the half-way-point between the last and the next workshop, the community will meet at a themed Telecon to evaluate this list and see what the status on these plans is.</p>
 <p>In the following you can find a list of all sessions and the actions decided upon by the participants. Some of the plans mentioned were already set into action - a huge thank you goes to the motivated community members working on all these actions!</p>
@@ -1240,7 +1238,7 @@ KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">use
                 </td>
               </tr>
               <tr>
-                <td><a href="/blog/">Blog</a></td>
+                <td><a href="/feed.xml">Blog Feed</a></td>
               </tr>
             </tbody>
           </table>
