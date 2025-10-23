@@ -14,7 +14,12 @@
     <link href="https://inveniosoftware.org/blog/2025-10-15-datasafe-uni-muenster.md/" />
     <updated>2025-10-15T00:00:00Z</updated>
     <published>2025-10-15T00:00:00Z</published>
-    <id>https://inveniosoftware.org/blog/2025-10-15-datasafe-uni-muenster.md/</id>
+    <author>
+      <name>Sarah Wiechers</name>
+    </author>
+    <category term="InvenioRDM" />
+    <category term="Showcase" />
+    <id>https://doi.org/10.5555/744hh-af128</id>
     <content type="html">&lt;p&gt;We&#39;ve recently completed a major overhaul of our research data archive, datasafe, which is now built on InvenioRDM.
 Our team at the University of Münster&#39;s University and State Library (ULB) has been working to implement this
 open-source software, tailoring it to meet the specific needs of our researchers.&lt;/p&gt;
