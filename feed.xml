@@ -19,7 +19,7 @@
     </author>
     <category term="InvenioRDM" />
     <category term="Showcase" />
-    <id>https://doi.org/10.5555/744hh-af128</id>
+    <id>https://doi.org/10.63517/744hh-af128</id>
     <content type="html">&lt;p&gt;We&#39;ve recently completed a major overhaul of our research data archive, datasafe, which is now built on InvenioRDM.
 Our team at the University of Münster&#39;s University and State Library (ULB) has been working to implement this
 open-source software, tailoring it to meet the specific needs of our researchers.&lt;/p&gt;
@@ -61,7 +61,7 @@ at &lt;a href=&quot;mailto:forschungsdaten@uni-muenster.de&quot;&gt;forschungsda
     <category term="Open Repositories" />
     <category term="Showcase" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/BalmeLibrary.jpg" />
-    <id>https://doi.org/10.5555/s0p8t-3vw26</id>
+    <id>https://doi.org/10.63517/s0p8t-3vw26</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/BalmeLibrary.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;In today’s rapidly digitizing research landscape, the ability to preserve and share knowledge openly is not just a technological challenge, it’s a matter of equity and innovation. Yet, across much of West and Central Africa, many institutions still struggle with inadequate infrastructure for digital preservation. As I shared at a recent &lt;a href=&quot;https://doi.org/10.5281/zenodo.15758380&quot;&gt;OR2025 session&lt;/a&gt;, this is where &lt;a href=&quot;https://inveniosoftware.org/blog/2025-07-25-OR2025_BAOBAB/%5Bhttps:/baobab.wacren.net&quot;&gt;BAOBAB&lt;/a&gt; comes in.&lt;/p&gt;
 &lt;h3&gt;Why Repositories Matter&lt;/h3&gt;
@@ -129,7 +129,7 @@ at &lt;a href=&quot;mailto:forschungsdaten@uni-muenster.de&quot;&gt;forschungsda
     </author>
     <category term="InvenioRDM" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-v13.0-screenshot.jpg" />
-    <id>https://doi.org/10.5555/921s7-pyn26</id>
+    <id>https://doi.org/10.63517/921s7-pyn26</id>
     <content type="html">&lt;p&gt;We are excited to announce the release of InvenioRDM &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v13/version-v13.0.0/&quot;&gt;v13.0&lt;/a&gt; on July 23, 2025! This new version brings a host of new features and improvements, building upon the strong foundation of previous releases.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-v13.0-screenshot.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;Try it&lt;/h2&gt;
@@ -290,7 +290,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     </author>
     <category term="InvenioRDM" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/KTH_Data_Repository.png" />
-    <id>https://doi.org/10.5555/yjyra-pvq62</id>
+    <id>https://doi.org/10.63517/yjyra-pvq62</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/KTH_Data_Repository.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;KTH Data Repository - we added &lt;a href=&quot;https://docs.datarepository.kth.se/&quot;&gt;user guides&lt;/a&gt; and updated the &lt;a href=&quot;https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/forskningsdata-1.1002828&quot;&gt;KTH web-pages on research data management&lt;/a&gt; when the new repository was launched.&lt;/p&gt;
 &lt;p&gt;On the 29th of January 2025, the &lt;a href=&quot;https://datarepository.kth.se/&quot;&gt;KTH Data Repository&lt;/a&gt; was launched through a team effort supported by management and policies at the KTH Royal Institute of Technology, and by partnering up with the InvenioRDM community.&lt;/p&gt;
@@ -328,7 +328,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     <category term="InvenioRDM" />
     <category term="Showcase" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/ComputerCenter_UniversityFreiburg.jpg" />
-    <id>https://doi.org/10.5555/xzzzj-hk022</id>
+    <id>https://doi.org/10.63517/xzzzj-hk022</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/ComputerCenter_UniversityFreiburg.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Image by Sandra Meyndt/University of Freiburg&lt;/p&gt;
 &lt;p&gt;When InvenioRDM launched on 27th of October 2023 at the University of Freiburg under the label &lt;a href=&quot;https://freidata.uni-freiburg.de/&quot;&gt;FreiData&lt;/a&gt;, campus storage options which minted DOIs for publications already existed. For over a decade, Freiburg has hosted an institutional repository called &amp;quot;FreiDok“, which is also used as a documentation system for the university&#39;s publication activity. In its policies for handling research data and for Open Science, the university recommends that researchers prioritize visibility to their key target audience as the most important criterion when publishing research data. This often leads researchers to choose externally operated repositories.&lt;/p&gt;
@@ -359,7 +359,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     </author>
     <category term="InvenioRDM" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/MerchandiseMart.jpg" />
-    <id>https://doi.org/10.5555/dhc4s-nx507</id>
+    <id>https://doi.org/10.63517/dhc4s-nx507</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/MerchandiseMart.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Merchandise_Mart,_River_North,_Chicago,_IL.jpg&quot;&gt;Merchandise Mart, River North, Chicago, IL&lt;/a&gt; by w_lemay, CC &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/2.0&quot;&gt;BY-SA 2.0&lt;/a&gt; via Wikimedia Commons&lt;/p&gt;
 &lt;p&gt;On September 19-20, 2024, members from the seven participating repositories in the &lt;a href=&quot;https://datascience.nih.gov/data-ecosystem/generalist-repository-ecosystem-initiative&quot;&gt;Generalist Repository Ecosystem Initiative (GREI)&lt;/a&gt; met in Chicago for the GREI Year 3 Annual Meeting to celebrate the achievements of Year 3 of the National Institutes of Health (NIH)-funded, data sharing and open science-focused, four-year initiative. The event was held at Chicago’s historic Merchandise Mart at &lt;a href=&quot;https://matter.health/&quot;&gt;MATTER&lt;/a&gt;, a global healthcare startup incubator, community nexus, and corporate innovation accelerator.&lt;/p&gt;
@@ -419,7 +419,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     </author>
     <category term="InvenioRDM" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-v12.0-screenshot.png" />
-    <id>https://doi.org/10.5555/6ffws-cwp93</id>
+    <id>https://doi.org/10.63517/6ffws-cwp93</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-v12.0-screenshot.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;We are happy to announce the release of InvenioRDM &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v12/version-v12.0.0/&quot;&gt;v12.0&lt;/a&gt;! Released on August 1, 2024, it is the first InvenioRDM release since &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v11/version-v11.0.0/&quot;&gt;v11.0&lt;/a&gt; was released on January 23, 2023, and it includes not only many bug fixes and small improvements but also several major new features listed below.&lt;/p&gt;
 &lt;p&gt;Since the v11.0 release several &lt;a href=&quot;https://inveniosoftware.org/products/rdm/&quot;&gt;InvenioRDM partners&lt;/a&gt; have launched InvenioRDM instances in production, including &lt;a href=&quot;https://blog.zenodo.org/2023/10/13/2023-10-13-zenodo-rdm/&quot;&gt;Zenodo, which migrated to InvenioRDM in October 2023&lt;/a&gt;. A number of these partners have migrated already to InvenioRDM v12.0 or plan to do so in the coming months.&lt;/p&gt;
@@ -499,7 +499,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     <category term="InvenioRDM" />
     <category term="Open Repositories" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/GoteborgCanal.png" />
-    <id>https://doi.org/10.5555/mrw8a-m5076</id>
+    <id>https://doi.org/10.63517/mrw8a-m5076</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/GoteborgCanal.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;The 19th annual &lt;a href=&quot;https://or2024.openrepositories.org/&quot;&gt;Open Repositories conference&lt;/a&gt; took place June 3 - 6, 2024 in Göteborg, Sweden. Attendees benefitted from hundreds of &lt;a href=&quot;https://zenodo.org/communities/openrepos/records?q=&amp;amp;f=subject%3AOR2024&amp;amp;l=list&amp;amp;p=1&amp;amp;s=10&amp;amp;sort=newest&quot;&gt;presentations&lt;/a&gt; on innovations in the world of digital repositories, all focused around this year&#39;s conference themes of Community, Transparency, and Sustainability. In addition, ten workshops were presented on June 3rd, the InvenioRDM Workshop being one of only two to receive a full-day allotment.&lt;/p&gt;
 &lt;p&gt;At our third annual OR &lt;a href=&quot;https://zenodo.org/communities/inveniordm-workshop-2024&quot;&gt;InvenioRDM Workshop&lt;/a&gt;, over a dozen of our community members collaborated to present and discuss the software, and to showcase features and customizations currently in place at our own institutions. These include:&lt;/p&gt;
@@ -541,7 +541,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     </author>
     <category term="InvenioRDM" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/20_workgroup_structure_governance_image01.jpg" />
-    <id>https://doi.org/10.5555/kqa6g-xgj57</id>
+    <id>https://doi.org/10.63517/kqa6g-xgj57</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/20_workgroup_structure_governance_image01.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;From March 18 - 22 the InvenioRDM partner community met in Münster, Germany, to discuss current challenges and plans for the future of the project. While many smaller questions and issues were addressed immediately on-site, e.g. during one of the “merge parties” or in work sessions resulting from and building upon previous discussions, many sessions ended with clear lists of planned actions for the coming weeks and months.&lt;/p&gt;
 &lt;p&gt;To showcase the kinds of actions we decided on, and to have something to measure our success by at the next developer workshop, we&#39;re sharing here our full list of action items. In the fall, approximately at the half-way-point between the last and the next workshop, the community will meet at a themed Telecon to evaluate this list and see what the status on these plans is.&lt;/p&gt;
@@ -738,7 +738,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     </author>
     <category term="InvenioRDM" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/2024-03-18-22_InvenioRDM-Workshop_1.jpg" />
-    <id>https://doi.org/10.5555/2wxr8-59z67</id>
+    <id>https://doi.org/10.63517/2wxr8-59z67</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/2024-03-18-22_InvenioRDM-Workshop_1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;The InvenioRDM partner community met in Münster, Germany from March 18 - 22, 2024, for our first in-person annual meeting in over four years. Forty-six attendees from over fifteen institutions spent the five days making connections, planning, and diligently working on all things InvenioRDM.&lt;/p&gt;
 &lt;p&gt;Organizer Sarah Wiechers, software developer and research data manager for the Service Center for Data Management, ULB Münster, proposed the use of &lt;a href=&quot;https://en.wikipedia.org/wiki/Open_space_technology&quot;&gt;Open Space Technology&lt;/a&gt;, a meeting organization methodology in which the agenda and topics discussed are voted upon and implemented by the meeting’s attendees on the meeting date. This methodology was highly effective, allowing all community members the opportunity to pitch ideas and vote on their favorites for discussion.&lt;/p&gt;
@@ -762,7 +762,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     <category term="InvenioRDM" />
     <category term="Showcase" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/PrismAnnoucementHeader.png" />
-    <id>https://doi.org/10.5555/bn0yr-avy74</id>
+    <id>https://doi.org/10.63517/bn0yr-avy74</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/PrismAnnoucementHeader.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;The Prism institutional repository has launched at Northwestern University. Prism preserves and makes available articles, conference presentations, preprints, datasets, and other items created by faculty, staff, and students. Prism helps openness, maximizes reproducibility, and enhances research connections within Feinberg School of Medicine and across the globe.&lt;/p&gt;
 &lt;p&gt;Prism replaces the former DigitalHub and includes many much-anticipated features, such as the ability to create metadata-only records for offsite datasets, set embargo dates for releasing content to the public, create and curate communities of practice, and share private links to view and edit with colleagues. These new features complement existing features such as the ability to assign Digital Object Identifiers that make records citable, indexing by Google to make research widely discoverable, and a responsive staff at Galter Library to answer questions and provide support.&lt;/p&gt;
@@ -783,7 +783,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     <category term="InvenioRDM" />
     <category term="Open Repositories" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/InvenioRDM_Delegates2.jpg" />
-    <id>https://doi.org/10.5555/26kt1-wjy94</id>
+    <id>https://doi.org/10.63517/26kt1-wjy94</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/InvenioRDM_Delegates2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Last month InvenioRDM project partners convened in Stellenbosch and Cape Town, South Africa for the 18th International &lt;a href=&quot;https://www.conftool.net/or2023/sessions.php&quot;&gt;Open Repositories Conference&lt;/a&gt; (OR2023). We were thrilled to offer our second InvenioRDM workshop on the 12th of June (see our wrap-up of the first workshop: &lt;a href=&quot;https://inveniosoftware.org/blog/2022-07-06-OR2022-spotlight/&quot;&gt;OR2022 workshop&lt;/a&gt;). During three eventful hours we spoke with librarians, data managers, administrators, and developers about the basics of joining the InvenioRDM project and standing up an instance. We also shared information on customizations and add-ons for those interested in the platform’s advanced capabilities.&lt;/p&gt;
 &lt;p&gt;Following Nicola Tarocco’s introduction and demo of key InvenioRDM functions and features, our sessions included:&lt;/p&gt;
@@ -813,7 +813,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     </author>
     <category term="InvenioRDM" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/CaltechDATA.jpg" />
-    <id>https://doi.org/10.5555/pdh57-y9508</id>
+    <id>https://doi.org/10.63517/pdh57-y9508</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/CaltechDATA.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;The InvenioRDM GitHub Archiver (IGA) is a new software tool created by the Caltech Library. &lt;a href=&quot;https://inveniosoftware.org/products/rdm/&quot;&gt;InvenioRDM&lt;/a&gt; is the basis for many institutional repositories, such as &lt;a href=&quot;https://data.caltech.edu/&quot;&gt;CaltechDATA&lt;/a&gt;, that enable users to preserve software and data sets in a long-term archive. The metadata contained in the record of a deposit is critical to making the record widely discoverable by other people. However, creating detailed records and uploading assets can be a tedious and error-prone process if done manually. This is where our new tool comes in.&lt;/p&gt;
 &lt;p&gt;IGA creates metadata records and sends releases automatically from GitHub to an InvenioRDM-based repository server. It constructs a metadata record using information it gathers from the software release, the GitHub repository, the GitHub API, and various other APIs as needed. Here are some of IGA’s other notable features:&lt;/p&gt;
@@ -844,7 +844,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
       <name>Matt Carson</name>
     </author>
     <category term="InvenioRDM" />
-    <id>https://inveniosoftware.org/blog/2023-05-30-may-curation-validation/</id>
+    <id>https://doi.org/10.63517/ky8g9-yy834</id>
     <content type="html">&lt;p&gt;With mandates and directives such as the European Union’s &lt;a href=&quot;https://web.archive.org/web/20180904122211/https://www.scienceeurope.org/wp-content/uploads/2018/09/Plan_S.pdf&quot;&gt;Plan S&lt;/a&gt;, the recently-introduced National Institutes of Health &lt;a href=&quot;https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html&quot;&gt;Policy for Data Management and Sharing&lt;/a&gt; in the United States, and the &lt;a href=&quot;https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf&quot;&gt;White House Office of Science and Technology Policy Memo&lt;/a&gt; requiring free and immediate access to federally funded research in the U.S. by the end of 2025, increased emphasis is being placed on curation, validation, and preservation of research output. In addition, efforts such as the &lt;a href=&quot;https://datascience.nih.gov/data-ecosystem/generalist-repository-ecosystem-initiative&quot;&gt;Generalist Repositories Ecosystem Initiative (GREI)&lt;/a&gt; aim to bring next-generation generalist repositories into alignment on key features required for discovery and reuse of research outputs. Zenodo has joined this initiative and will migrate to the InvenioRDM platform later this year, which will play a crucial role in helping to support best practices in research data management for this popular service.&lt;/p&gt;
 &lt;p&gt;From ensuring deposited records abide by FAIR principles, to granular access control, InvenioRDM supports resource curation and validation with a variety of functionalities. Below are some of the key features that make the platform a great option for sharing and preserving your work:&lt;/p&gt;
 &lt;h2&gt;Deposits:&lt;/h2&gt;
@@ -937,7 +937,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     </author>
     <category term="InvenioRDM" />
     <category term="Showcase" />
-    <id>https://doi.org/10.5555/sa00p-q9217</id>
+    <id>https://doi.org/10.63517/sa00p-q9217</id>
     <content type="html">&lt;p&gt;Caltech Library is pleased to announce that CaltechDATA, our institutional data and software repository, launched a major upgrade on Wednesday September 21, 2022.&lt;/p&gt;
 &lt;p&gt;CaltechDATA has served as critical research infrastructure for campus since 2017, and it hosts over 20,000 records containing datasets and software for a wide variety of disciplines. With this launch, CaltechDATA now runs on the open-source InvenioRDM platform and brings many new features that Caltech researchers have requested:&lt;/p&gt;
 &lt;ul&gt;
@@ -960,7 +960,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     </author>
     <category term="InvenioRDM" />
     <category term="Open Repositories" />
-    <id>https://doi.org/10.5555/9wry5-smg15</id>
+    <id>https://doi.org/10.63517/9wry5-smg15</id>
     <content type="html">&lt;p&gt;On June 6, 2022 InvenioRDM partners from CERN, Northwestern University, TU Wien, NYU Libraries, and Cottage Labs assembled to present the InvenioRDM Workshop Day at Open Repositories 2022 (OR2022). At this first in-person meet-up in over two years, the team talked InvenioRDM with over 30 workshop attendees.&lt;/p&gt;
 &lt;p&gt;In the morning, participants were treated to Introduction and Installation presentations, followed by hands-on assistance with running InvenioRDM on their own machines. Attendees appreciated the one-on-one help and feedback and came away with a greater understanding of how to support the repository at their own institutions.&lt;/p&gt;
 &lt;p&gt;In the afternoon, participants were treated to show-and-tell sessions on local customizations at both TU Wien and Northwestern, followed by an introductory session on partner benefits and how to join the community. Next followed fascinating in-depth presentations on increasing accessibility in InvenioRDM, building off the robust work in this field undertaken by NYU Libraries and Northwestern. A case study in data migration followed, and the afternoon wrapped with a presentation on local implementation and adoption approaches at NYU libraries, which incorporated feature and sprint-based development of repository policies. In addition, the InvenioRDM-based COVID-19 SSH Data Portal of the European University Institute was demoed by Cottage Labs.&lt;/p&gt;
@@ -978,7 +978,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/vnr53-pf524</id>
+    <id>https://doi.org/10.63517/vnr53-pf524</id>
     <content type="html">&lt;p&gt;On September 28-29 the InvenioRDM project team gathered again (though sadly, again, without fondue) for the Virtual Project meeting. Over 50 partners and team members were present and a great deal of helpful feedback was shared as we worked to develop the roadmap for the next stage of the project. Thanks to everyone for your contributions to the discussion, they are much appreciated!&lt;/p&gt;
 &lt;p&gt;The InvenioRDM project team would not be so robust without the thoughtful contribution of each of its members. Thank you to all of you who were able to commit the requested 1.5 person months to the project for the next year, in some cases more. The work of each partner site results in unique and valuable contributions to the team. We’d like to use this post to highlight, in a summarized format, the contributions that each project partner highlighted for us at the meeting. Here’s the amazing compendium of work that you have contributed over the past year:&lt;/p&gt;
 &lt;ul&gt;
@@ -1052,10 +1052,10 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     <updated>2021-08-05T00:00:00Z</updated>
     <published>2021-08-05T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/ep4p0-vnx69</id>
+    <id>https://doi.org/10.63517/ep4p0-vnx69</id>
     <content type="html">&lt;p&gt;&lt;strong&gt;We&#39;re very happy to announce that InvenioRDM v6.0 LTS has been released!!!&lt;/strong&gt;&lt;/p&gt;
 &lt;h3&gt;Try It&lt;/h3&gt;
 &lt;p&gt;Want to try InvenioRDM? Just head over to our demo site: https://inveniordm.web.cern.ch&lt;/p&gt;
@@ -1238,7 +1238,7 @@ heavy production loads.&lt;/p&gt;
     <category term="InvenioRDM" />
     <category term="Open Repositories" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/Summer.jpg" />
-    <id>https://doi.org/10.5555/sn6t1-9rq67</id>
+    <id>https://doi.org/10.63517/sn6t1-9rq67</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/Summer.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Summer 2021 is an exciting time in the development of InvenioRDM, as the team works towards the Long-Term Support (LTS) version. Here are just a few updates we have to share about recent work:&lt;/p&gt;
 &lt;h2&gt;Contributions from the community&lt;/h2&gt;
@@ -1256,19 +1256,19 @@ heavy production loads.&lt;/p&gt;
     <updated>2021-03-26T00:00:00Z</updated>
     <published>2021-03-26T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <author>
-      <name>fenokku</name>
+      <name>Guillaume Viger</name>
     </author>
     <author>
       <name>Max Moser</name>
     </author>
     <author>
-      <name>zacharias</name>
+      <name>Zacharias Zacharodimos</name>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/m3ze1-crc45</id>
+    <id>https://doi.org/10.63517/m3ze1-crc45</id>
     <content type="html">&lt;h1&gt;InvenioRDM v2.0&lt;/h1&gt;
 &lt;p&gt;We&#39;re happy to announce InvenioRDM v2.0!&lt;/p&gt;
 &lt;h2&gt;Try it&lt;/h2&gt;
@@ -1436,16 +1436,16 @@ heavy production loads.&lt;/p&gt;
     <updated>2021-02-26T00:00:00Z</updated>
     <published>2021-02-26T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <author>
-      <name>fenokku</name>
+      <name>Guillaume Viger</name>
     </author>
     <author>
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/wysw5-3f019</id>
+    <id>https://doi.org/10.63517/wysw5-3f019</id>
     <content type="html">&lt;p&gt;We&#39;re happy to announce InvenioRDM v1.0!&lt;/p&gt;
 &lt;p&gt;VERY IMPORTANT, read the full release notes before you install and run the system! The v1.0 label &lt;strong&gt;does not&lt;/strong&gt; mean the system is suitable for &lt;strong&gt;production&lt;/strong&gt; use!&lt;/p&gt;
 &lt;h1&gt;FAQ (do not skip!)&lt;/h1&gt;
@@ -1632,7 +1632,7 @@ invenio-cli destroy
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/7rnb5-hmh22</id>
+    <id>https://doi.org/10.63517/7rnb5-hmh22</id>
     <content type="html">&lt;p&gt;Congratulations! Your team has just joined the InvenioRDM open source project and is eager to contribute as much as possible. With a mixture of dedicated developers, resource curators, subject matter experts, and various leadership stakeholders, your team simply needs to know about the available resources and how to get started. Read on!&lt;/p&gt;
 &lt;h3&gt;Developers&lt;/h3&gt;
 &lt;p&gt;Whether you would like to install and customize InvenioRDM, contribute on the main project sprints, or take on development of a module locally to contribute back to the project, there are a few important points of entry to participation:&lt;/p&gt;
@@ -1714,16 +1714,16 @@ invenio-cli destroy
     <updated>2021-02-01T00:00:00Z</updated>
     <published>2021-02-01T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <author>
-      <name>fenokku</name>
+      <name>Guillaume Viger</name>
     </author>
     <author>
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/5fac3-kaj27</id>
+    <id>https://doi.org/10.63517/5fac3-kaj27</id>
     <content type="html">&lt;p&gt;2020 didn&#39;t stop us from shipping new releases. 2021 won&#39;t either. We’re excited to announce the InvenioRDM Alpha 15 (January release)! Thank you to our team members for their efforts on this release.&lt;/p&gt;
 &lt;h2&gt;What’s new?&lt;/h2&gt;
 &lt;p&gt;This month was primarily dedicated to improving the user experience of the deposit form.&lt;/p&gt;
@@ -1847,16 +1847,16 @@ invenio-cli destroy
       <name>Pablo Panero</name>
     </author>
     <author>
-      <name>fenokku</name>
+      <name>Guillaume Viger</name>
     </author>
     <author>
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/3kjfv-mfr98</id>
+    <id>https://doi.org/10.63517/3kjfv-mfr98</id>
     <content type="html">&lt;p&gt;We’re excited to announce the InvenioRDM Alpha 14 (December release)! Thank you to our team members for their efforts on this release.&lt;/p&gt;
 &lt;h2&gt;What’s new?&lt;/h2&gt;
 &lt;h3&gt;Vocabularies support&lt;/h3&gt;
@@ -1932,10 +1932,10 @@ $ invenio-cli run
     <updated>2020-12-17T00:00:00Z</updated>
     <published>2020-12-17T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/qbar2-04k33</id>
+    <id>https://doi.org/10.63517/qbar2-04k33</id>
     <content type="html">&lt;p&gt;We are proud to announce the release of Invenio v3.4.0.&lt;/p&gt;
 &lt;p&gt;Head over to our &lt;a href=&quot;https://inveniosoftware.org/products/framework/&quot;&gt;Getting started&lt;/a&gt; to see it in action.&lt;/p&gt;
 &lt;p&gt;Read the full &lt;a href=&quot;https://invenio.readthedocs.io/en/latest/releases/releases/v3.4.0.html&quot;&gt;release notes&lt;/a&gt;.&lt;/p&gt;
@@ -2054,7 +2054,7 @@ $ invenio-cli run
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/by884-qz027</id>
+    <id>https://doi.org/10.63517/by884-qz027</id>
     <content type="html">&lt;p&gt;On 17 and 24 November 2020 the InvenioRDM project partners met in two telecons to discuss the &lt;a href=&quot;https://inveniordm.docs.cern.ch/reference/metadata/&quot;&gt;Metadata Reference&lt;/a&gt; document.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/metadata_reference.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;These conversations were a follow-up to the community&#39;s review of the document. Feedback and questions were collected in a &lt;a href=&quot;https://docs.google.com/document/d/1djBrPMaeVH4IlpFADMJSpgd5JJ1xIiPY5GwLs87Wwjw/edit?usp=sharing&quot;&gt;Google Doc&lt;/a&gt; prior to the conversations. The conversations helped to confirm many answers to questions about the data model that had been posed in the Doc, such as: whether ‘role’ is required for Creators (no - only for Contributors), are Resource Types customizable (yes), and which file is shown in the previewer when a record has multiple files (the first, unless otherwise specified). See the Doc for responses to additional questions.&lt;/p&gt;
@@ -2086,10 +2086,10 @@ $ invenio-cli run
       <name>Alex Ioannidis</name><uri>https://orcid.org/0000-0002-5082-6404</uri>
     </author>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/q68ac-02k45</id>
+    <id>https://doi.org/10.63517/q68ac-02k45</id>
     <content type="html">&lt;p&gt;We’re excited to announce the InvenioRDM Alpha 13 (November release)!&lt;/p&gt;
 &lt;h2&gt;What’s new?&lt;/h2&gt;
 &lt;h3&gt;Files support&lt;/h3&gt;
@@ -2132,13 +2132,13 @@ $ invenio-cli run
     <updated>2020-11-11T00:00:00Z</updated>
     <published>2020-11-11T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <author>
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/wbm60-xha84</id>
+    <id>https://doi.org/10.63517/wbm60-xha84</id>
     <content type="html">&lt;p&gt;We&#39;re happy to announce the InvenioRDM October release. Thank you to our team members for their efforts on this release.&lt;/p&gt;
 &lt;p&gt;In early October we held a virtual project workshop. As part of the workshop we have updated the roadmap. The roadmap is now publicly available in two versions, one simplified and one for project tracking. See below:&lt;/p&gt;
 &lt;p&gt;1- &lt;a href=&quot;https://inveniosoftware.org/products/rdm/roadmap/&quot;&gt;Simplified&lt;/a&gt;&lt;/p&gt;
@@ -2235,16 +2235,16 @@ invenio-cli destroy
     <updated>2020-10-12T00:00:00Z</updated>
     <published>2020-10-12T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <author>
-      <name>fenokku</name>
+      <name>Guillaume Viger</name>
     </author>
     <author>
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/vt3t9-kky55</id>
+    <id>https://doi.org/10.63517/vt3t9-kky55</id>
     <content type="html">&lt;p&gt;We are glad to announce InvenioRDM Alpha 11 (September release)!&lt;/p&gt;
 &lt;h3&gt;What&#39;s new?&lt;/h3&gt;
 &lt;p&gt;We now have support for drafts, meaning you can now start a deposit, save it, and come back many days later to publish it.&lt;/p&gt;
@@ -2284,13 +2284,13 @@ invenio-cli destroy
     <updated>2020-09-01T00:00:00Z</updated>
     <published>2020-09-01T00:00:00Z</published>
     <author>
-      <name>fenokku</name>
+      <name>Guillaume Viger</name>
     </author>
     <author>
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/g55sr-bgn51</id>
+    <id>https://doi.org/10.63517/g55sr-bgn51</id>
     <content type="html">&lt;p&gt;We are happy to announce InvenioRDM Alpha 10 (August release)! Thank you to our team members for their efforts on this release.&lt;/p&gt;
 &lt;h3&gt;What&#39;s new?&lt;/h3&gt;
 &lt;p&gt;We made some limited changes this month. However, three key areas &lt;em&gt;were&lt;/em&gt; tackled.&lt;/p&gt;
@@ -2375,10 +2375,10 @@ docker-compose -f docker-compose.full.yml down
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <author>
-      <name>fenokku</name>
+      <name>Guillaume Viger</name>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/ap3nt-jh372</id>
+    <id>https://doi.org/10.63517/ap3nt-jh372</id>
     <content type="html">&lt;p&gt;We are happy to announce InvenioRDM Alpha 9 (July release)! Thank you to our team members for their efforts on this release.&lt;/p&gt;
 &lt;h3&gt;What&#39;s new?&lt;/h3&gt;
 &lt;p&gt;The July release adds translation support and starts integrating the &lt;a href=&quot;https://invenio-talk.web.cern.ch/t/inveniordm-alpha-8-june-release/115&quot;&gt;major backend development of last release&lt;/a&gt; into InvenioRDM. In particular, draft functionality has been added at the API level and is used under the hood for deposits. To achieve this integration, the hard problems like responsibility separation, error handling, pagination, linking, and internal PID management were solved. Other improvements and more details follow.&lt;/p&gt;
@@ -2442,7 +2442,7 @@ docker-compose -f docker-compose.full.yml down
       <name>Pablo Panero</name>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/ddtx7-4cg23</id>
+    <id>https://doi.org/10.63517/ddtx7-4cg23</id>
     <content type="html">&lt;p&gt;We are happy to announce InvenioRDM Alpha 8 (June release). Thank you to our team members for their efforts on this release.&lt;/p&gt;
 &lt;h3&gt;What&#39;s new?&lt;/h3&gt;
 &lt;p&gt;The June release is a major backend development release. We developed three new modules that lay the foundation for the new core data flow of Invenio(RDM). Our work goes far to provide a better developer experience. You will be able to work on and customize Invenio(RDM) in an easier and cleaner way.&lt;/p&gt;
@@ -2509,16 +2509,16 @@ docker-compose -f docker-compose.full.yml down
     <updated>2020-06-05T00:00:00Z</updated>
     <published>2020-06-05T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <author>
       <name>Lisa O&#39;Keefe</name>
     </author>
     <author>
-      <name>zzacharodimos</name>
+      <name>Zacharias Zacharodimos</name>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/cc4wx-7t933</id>
+    <id>https://doi.org/10.63517/cc4wx-7t933</id>
     <content type="html">&lt;p&gt;We are happy to announce InvenioRDM Alpha 7 (May release). Thank you to our team members for their efforts on this significant release.&lt;/p&gt;
 &lt;h3&gt;What&#39;s new?&lt;/h3&gt;
 &lt;p&gt;The May release is a major integration release, with a few rough edges that still need polishing.
@@ -2590,7 +2590,7 @@ step-by-step install and usage of InvenioRDM.&lt;/p&gt;
       <name>Pablo Panero</name>
     </author>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/zjpvb-xfs59</id>
+    <id>https://doi.org/10.63517/zjpvb-xfs59</id>
     <content type="html">&lt;p&gt;We are proud to announce the release of Invenio v3.3.0. With this release,
 Invenio v3.1.x reaches end of life, and will no longer be maintained.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Python compatibility&lt;/strong&gt;&lt;/p&gt;
@@ -2649,7 +2649,7 @@ Invenio v3.5 and minimum until 2021-05-18.&lt;/p&gt;
     <updated>2020-05-05T00:00:00Z</updated>
     <published>2020-05-05T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <author>
       <name>Lisa O&#39;Keefe</name>
@@ -2658,7 +2658,7 @@ Invenio v3.5 and minimum until 2021-05-18.&lt;/p&gt;
       <name>Guillaume Viger</name>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/mcw20-dng91</id>
+    <id>https://doi.org/10.63517/mcw20-dng91</id>
     <content type="html">&lt;p&gt;We are pleased to announce the InvenioRDM April release. The Deposit page has been our focus and that meant designing the frontend and the backend based on lessons learned from the beta invenio-deposit python module and from the invenio-records-js and invenio-files-js previous angularjs modules. We will be implementing most of these designs in May.&lt;/p&gt;
 &lt;p&gt;Thank you all for testing the last release and for your many contributions.&lt;/p&gt;
 &lt;h3&gt;Some Highlights include:&lt;/h3&gt;
@@ -2694,7 +2694,7 @@ Invenio v3.5 and minimum until 2021-05-18.&lt;/p&gt;
     <updated>2019-12-20T00:00:00Z</updated>
     <published>2019-12-20T00:00:00Z</published>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/pt6rt-6mz56</id>
+    <id>https://doi.org/10.63517/pt6rt-6mz56</id>
     <content type="html">&lt;p&gt;We are proud to announce the release of Invenio v3.2.0. With this release,
 Invenio v3.0.x reaches end of life, and will no longer be maintained.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Python compatibility&lt;/strong&gt;&lt;/p&gt;
@@ -2779,12 +2779,12 @@ and index migration).&lt;/li&gt;
     <updated>2019-10-15T00:00:00Z</updated>
     <published>2019-10-15T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="InvenioRDM" />
     <category term="InvenioILS" />
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/4qqbt-95f30</id>
+    <id>https://doi.org/10.63517/4qqbt-95f30</id>
     <content type="html">&lt;p&gt;We&#39;re happy to announce a major overhaul of inveniosoftware.org. Some of the
 highlights of the new website include:&lt;/p&gt;
 &lt;ul&gt;
@@ -2830,10 +2830,10 @@ SVG versions of all logos.&lt;/h2&gt;
     <updated>2019-08-07T00:00:00Z</updated>
     <published>2019-08-07T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/afep7-29828</id>
+    <id>https://doi.org/10.63517/afep7-29828</id>
     <content type="html">&lt;p&gt;Two CERN sprint teams with a total of 14 developers have just each finished a two-week sprint:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Sprint team 1: Focused on the Invenio v3.2 release which will include the new  Files bundle.&lt;/li&gt;
@@ -2999,7 +2999,7 @@ SVG versions of all logos.&lt;/h2&gt;
     <updated>2019-07-15T00:00:00Z</updated>
     <published>2019-07-15T00:00:00Z</published>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/afep7-29828</id>
+    <id>https://doi.org/10.63517/afep7-29828</id>
     <content type="html">&lt;p&gt;Two vulnerabilities have been identified in &lt;em&gt;supported&lt;/em&gt; Invenio modules.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Invenio-Records&lt;/strong&gt; (&lt;a href=&quot;https://github.com/inveniosoftware/invenio-records/security/advisories/GHSA-vxh3-mvv7-265j&quot;&gt;security advisory&lt;/a&gt;): A Cross-Site Scripting (XSS) vulnerability has been identified in Invenio-Records in the administration interface.&lt;/li&gt;
@@ -3044,10 +3044,10 @@ SVG versions of all logos.&lt;/h2&gt;
       <name>Alex Ioannidis</name><uri>https://orcid.org/0000-0002-5082-6404</uri>
     </author>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/rc0v6-nfa03</id>
+    <id>https://doi.org/10.63517/rc0v6-nfa03</id>
     <content type="html">&lt;p&gt;&lt;strong&gt;In our latest Invenio sprint from May 13-24 we&#39;ve been working on making Elasticsearch upgrades, migration and reindexing simpler and with near zero downtime. Read on, to learn more about how you keep up with Elasticsearch rapid release and deprecation cycles with Invenio and for a preview of what will come of new features in Invenio v3.2.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;End of life&lt;/h2&gt;
 &lt;p&gt;Once you start running a production Invenio instance, you&#39;ll quickly notice that your Elasticsearch cluster will become outdated pretty fast, due to Elasticsearch&#39;s rapid release and deprecation cycle. Invenio v3 development was started in 2016 against the newly released Elasticsearch v2. When Invenio v3 was finally released in June 2018, Elasticsearch has had two major releases (v5 and v6) and v2 had already reached end of life. As can be seen from &lt;a href=&quot;https://www.elastic.co/support/eol&quot;&gt;Elastic Product End of Life Dates&lt;/a&gt;, you can expect a major Elasticsearch version to be supported for a maximum of 2-3 years. Thus, you should plan to regularly upgrade your Elasticsearch cluster in order to not run on unmaintained software.&lt;/p&gt;
@@ -3106,11 +3106,11 @@ SVG versions of all logos.&lt;/h2&gt;
     <updated>2019-05-03T00:00:00Z</updated>
     <published>2019-05-03T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="Invenio" />
     <category term="Open Repositories" />
-    <id>https://doi.org/10.5555/jcxpe-v2613</id>
+    <id>https://doi.org/10.63517/jcxpe-v2613</id>
     <content type="html">&lt;p&gt;We would like to announce the 5th Invenio User Group Workshop, IUGW2019, to be held as part of Open Repositories 2019 (OR2019) on Monday, June 10th from 09:00-17:00 at the University of Hamburg (main building).&lt;/p&gt;
 &lt;h2&gt;Registration (mandatory)&lt;/h2&gt;
 &lt;ol&gt;
@@ -3203,10 +3203,10 @@ SVG versions of all logos.&lt;/h2&gt;
     <updated>2019-04-29T00:00:00Z</updated>
     <published>2019-04-29T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.5555/jxhdr-c2050</id>
+    <id>https://doi.org/10.63517/jxhdr-c2050</id>
     <content type="html">&lt;p&gt;&lt;strong&gt;CERN has partnered with 10 multidisciplinary institutions and companies to build a turn-key open source research data management platform called InvenioRDM, and grow a diverse community to sustain the platform.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The InvenioRDM project is funded by the &lt;a href=&quot;https://kt.cern&quot;&gt;CERN Knowledge Transfer Fund&lt;/a&gt;, as well as all the participating partners,  including:&lt;/p&gt;
 &lt;ul&gt;
@@ -3308,7 +3308,7 @@ SVG versions of all logos.&lt;/h2&gt;
     </author>
     <category term="Invenio" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/bootcamp-group-photo.jpg" />
-    <id>https://doi.org/10.5555/zrgdw-y5e72</id>
+    <id>https://doi.org/10.63517/zrgdw-y5e72</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/bootcamp-group-photo.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;The Invenio v3 Bootcamp was held from the 19th to the 21st of March, 2019 at CERN. The event reached the maximum number of 30 participants with attendees from all over the world (Czech Republic, Danmark, Germany, Finland, France, Japan, Norway, Spain, Switzerland, UK and USA).
 The bootcamp was targeting developers wanting to learn more about Invenio and to understand how to create or customize an Invenio repository.&lt;/p&gt;
@@ -3348,7 +3348,7 @@ The bootcamp was targeting developers wanting to learn more about Invenio and to
     <updated>2019-03-11T00:00:00Z</updated>
     <published>2019-03-11T00:00:00Z</published>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/cx376-czz04</id>
+    <id>https://doi.org/10.63517/cx376-czz04</id>
     <content type="html">&lt;p&gt;We are proud to announce the release of Invenio v3.1.0.&lt;/p&gt;
 &lt;p&gt;Head over to our &lt;a href=&quot;https://inveniosoftware.org/gettingstarted/&quot;&gt;Getting started&lt;/a&gt; to see it in action.&lt;/p&gt;
 &lt;h3&gt;Python compatibility&lt;/h3&gt;
@@ -3517,10 +3517,10 @@ files.&lt;/li&gt;
     <updated>2018-12-21T00:00:00Z</updated>
     <published>2018-12-21T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/dbtsc-h2t66</id>
+    <id>https://doi.org/10.63517/dbtsc-h2t66</id>
     <content type="html">&lt;p&gt;We are pleased to announce the first Invenio v3 Bootcamp taking place at CERN, 19-21 March 2019. The Bootcamp is intended as an introduction to &lt;em&gt;developing&lt;/em&gt; digital repositories with the Invenio v3 framework.&lt;/p&gt;
 &lt;h3&gt;Website&lt;/h3&gt;
 &lt;p&gt;https://indico.cern.ch/e/invenio-bootcamp/&lt;/p&gt;
@@ -3567,10 +3567,10 @@ files.&lt;/li&gt;
     <updated>2018-06-07T00:00:00Z</updated>
     <published>2018-06-07T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/xkf7p-89h55</id>
+    <id>https://doi.org/10.63517/xkf7p-89h55</id>
     <content type="html">&lt;p&gt;Welcome to Invenio 3!&lt;/p&gt;
 &lt;p&gt;We are proud to announce the release of Invenio v3.0.0. Invenio has been completely rewritten from scratch with a radically  improved architecture and technical implementation. Invenio 3 is now a framework, like a Swiss Army knife, complete with battle-tested, safe and secure modules providing all the features you need to build and run a trusted digital repository.&lt;/p&gt;
 &lt;p&gt;Whilst Invenio 3 is officially released to the world today, in reality it has already been relied upon in large-scale production systems for more than 1.5 years on sites such as:&lt;/p&gt;
@@ -3672,10 +3672,10 @@ as in most cases only new features are added.&lt;/p&gt;
     <updated>2018-05-28T00:00:00Z</updated>
     <published>2018-05-28T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/vwjbt-zez56</id>
+    <id>https://doi.org/10.63517/vwjbt-zez56</id>
     <content type="html">&lt;p&gt;This sprint (May 14-25) was focused on preparing Invenio for the final v3.0.0
 release so it is ready for launch at the Open Repositories 2018 Conference,
 June 4th-7th in Bozeman, Montana.&lt;/p&gt;
@@ -3818,10 +3818,10 @@ record endpoints.&lt;/li&gt;
     <updated>2018-03-23T00:00:00Z</updated>
     <published>2018-03-23T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/vbfec-bnb47</id>
+    <id>https://doi.org/10.63517/vbfec-bnb47</id>
     <content type="html">&lt;p&gt;This sprint was focused on releasing the Invenio v3.0.0 Release Candidate 1.&lt;/p&gt;
 &lt;p&gt;As a result of 95 developer days, 485 commits and 88k lines touched (33k additions and 55k deletions):&lt;/p&gt;
 &lt;ul&gt;
@@ -4008,10 +4008,10 @@ record endpoints.&lt;/li&gt;
     <updated>2017-12-01T00:00:00Z</updated>
     <published>2017-12-01T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/t6dvz-0jh43</id>
+    <id>https://doi.org/10.63517/t6dvz-0jh43</id>
     <content type="html">&lt;p&gt;This sprint was focused on:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Elasticsearch v5 support&lt;/li&gt;
@@ -4194,10 +4194,10 @@ with Elasticsearch v2 support and be maintained until v3.0 end of life
     <updated>2017-10-20T00:00:00Z</updated>
     <published>2017-10-20T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/g0q4y-02859</id>
+    <id>https://doi.org/10.63517/g0q4y-02859</id>
     <content type="html">&lt;p&gt;This sprint was focused on:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Metadata bundle: Finalize Invenio-Records, Invenio-Search, Invenio-JSONSchemas.&lt;/li&gt;
@@ -4277,10 +4277,10 @@ with Elasticsearch v2 support and be maintained until v3.0 end of life
     <updated>2017-08-11T00:00:00Z</updated>
     <published>2017-08-11T00:00:00Z</published>
     <author>
-      <name>Lars Holm Nielsen</name><uri>https://orcid.org/0000-0001-8135-3489</uri>
+      <name>Lars Holm Nielsen</name>
     </author>
     <category term="Invenio" />
-    <id>https://doi.org/10.5555/21bf8-cds33</id>
+    <id>https://doi.org/10.63517/21bf8-cds33</id>
     <content type="html">&lt;p&gt;This sprint was focused on:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Data model issues (in Invenio-Access and Invenio-OAIServer).&lt;/li&gt;
