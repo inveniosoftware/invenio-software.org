@@ -214,6 +214,234 @@
   <header class="blog-list-item-header">
     <h3>
       
+        <a href="/blog/2024-04-25-project-meeting-actions/">InvenioRDM Partner Meeting / Developer Workshop: Action Items</a>
+      
+    </h3>
+    <div class="blog-list-item-meta">
+      <div class="pt-4"> 
+        <i class="fa fa-external-link text-muted"></i>
+        <a href="https://doi.org/10.63517/kqa6g-xgj57" target="_blank" rel="noopener noreferrer">https://doi.org/10.63517/kqa6g-xgj57</a>
+      </div>
+      <i class="fa fa-users text-muted"></i>
+      <span class="author">
+        Sarah Wiechers
+      </span>
+      <i class="fa fa-calendar text-muted"></i>
+      <span>Apr 24, 2024</span>
+      <div>
+        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span></div>
+    </div>
+  </header>
+  <div class="blog-list-item-content">
+    <p><img src="/assets/images/20_workgroup_structure_governance_image01.jpg" alt=""></p>
+<p>From March 18 - 22 the InvenioRDM partner community met in Münster, Germany, to discuss current challenges and plans for the future of the project. While many smaller questions and issues were addressed immediately on-site, e.g. during one of the “merge parties” or in work sessions resulting from and building upon previous discussions, many sessions ended with clear lists of planned actions for the coming weeks and months.</p>
+<p>To showcase the kinds of actions we decided on, and to have something to measure our success by at the next developer workshop, we're sharing here our full list of action items. In the fall, approximately at the half-way-point between the last and the next workshop, the community will meet at a themed Telecon to evaluate this list and see what the status on these plans is.</p>
+<p>In the following you can find a list of all sessions and the actions decided upon by the participants. Some of the plans mentioned were already set into action - a huge thank you goes to the motivated community members working on all these actions!</p>
+<h2><strong>Community engagement and handling pull requests</strong></h2>
+<ul>
+<li>document this process in invenio-docs (curator role, responsibilities, templates, schedule, reviewer guide)</li>
+<li>make PR checklist more extensive (criticality, bug/feature, packages impacted, target release (old, current, new brach))</li>
+<li>merge party this afternoon and on a regular basis</li>
+<li>dream parties (form pitch to architecture proposal, mockups)</li>
+<li>demo parties</li>
+<li>public documentation of people to talk to for packages and features (e.g. list of module maintainers)</li>
+<li>dedicated role for community contribution management</li>
+<li>identify people involved from the community and their involvement (e.g. searchable expertise board)</li>
+</ul>
+<h2><strong>Translations / i18n, i10n</strong></h2>
+<ul>
+<li>test if yaml-files can have four letter codes</li>
+<li>group tests Münster approach way of overwriting python strings, java-script</li>
+<li>Zack and David try to implement the Münster approach into the official cookiecutter so its easier to use and has a global storage of frontend translations</li>
+</ul>
+<h2><strong>Large file management</strong></h2>
+<ul>
+<li><strong>Multipart uploader</strong>
+<ul>
+<li><a href="https://github.com/inveniosoftware/invenio-app-rdm/issues/2612">Issue 2612</a></li>
+</ul>
+</li>
+<li><strong>File linking API</strong>
+<ul>
+<li><a href="https://github.com/inveniosoftware/invenio-app-rdm/issues/2613">Issue 2613</a></li>
+</ul>
+</li>
+<li><strong>File metadata</strong>
+<ul>
+<li><a href="https://github.com/inveniosoftware/invenio-app-rdm/issues/2614">Issue 2614</a></li>
+</ul>
+</li>
+</ul>
+<h2><strong>Invenio RDM Version 12</strong></h2>
+<ul>
+<li>fix the blockers until end of April</li>
+<li>document features</li>
+<li>translate in May</li>
+<li>going forward and release v12 before open repositories</li>
+</ul>
+<h2><strong>Invenio CRIS</strong></h2>
+<ul>
+<li>further call for interest in InvenioRDM visio conferences (presentation)</li>
+<li>Created a GitHub Discussion to gather more use cases and interest from the community <a href="https://github.com/inveniosoftware/product-rdm/discussions/153">inveniosoftware/product-rdm#153</a></li>
+<li>decide between specific in communities and more ambitious in a specific module based on traction</li>
+<li>If invenio-communities is the way to go, try to put specific fields in community data model in a bucketed way</li>
+<li>deepen code review</li>
+</ul>
+<h2><strong>Customising Schema</strong></h2>
+<ul>
+<li>Write a feature request for overlay config for required fields per instance / community.</li>
+<li>Improve docs on Custom Fields - checklist on when they're useful, community examples.</li>
+<li>Case studies / knowledge sharing of the 'hard way' customisations that have been achieved.</li>
+</ul>
+<h2><strong>Deployment</strong></h2>
+<ul>
+<li>do a Session on small one VM deployments</li>
+<li>do a Session on Helm charts</li>
+<li>update deployment documentation</li>
+</ul>
+<h2><strong>Digital Preservation</strong></h2>
+<ul>
+<li>Brush up Invenio-SIPStore (Max) Check out Invenio-Archivematica, or look at the AM Python client (Max) Check if an AM plugin for Invenio is needed (Panna?)</li>
+</ul>
+<h2><strong>Workflow to keep internal roadmap updated</strong></h2>
+<ol>
+<li><a href="https://github.com/inveniosoftware/product-rdm/discussions/new?category=ideas">GitHub Discussions</a> implemented for feature request forum</li>
+<li>CERN will do quarterly cleaning &amp; updates of roadmap items (Jan, Apr, Jul, and Oct) and will host talks about issues at corresponding Telecons</li>
+</ol>
+<h2><strong>RDM Curation Workflow</strong></h2>
+<ul>
+<li>open question is if/how this could go into the core or if it should remain an extra package maintained by TU Graz</li>
+<li>ensure possibility to configure aspects in order to meet discussed requirements, use cases, and user stories</li>
+<li>upload package to GitHub for future collaboration</li>
+<li>after follow-up discussion, one idea is to extend the functionality of the requests in the core and build the curation on top of these changes
+<ul>
+<li><a href="https://codimd.web.cern.ch/_pB2IO2sTy2U6MB67ExW2w#">more details</a></li>
+<li>Split approval and acceptance of requests</li>
+<li>Requests can be extended with requirements/checks. These have to be fulfilled before a request can be accepted.
+<ul>
+<li>Can be specified per request type</li>
+<li>Repository wide requirements are applied to all request types</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2><strong>Harvesting vocabularies</strong></h2>
+<ul>
+<li>Start a coordinated sprint in May (CERN and Uni Münster).</li>
+</ul>
+<h2><strong>Creating a place to collect Invenio modules etc.</strong></h2>
+<ul>
+<li><a href="https://inveniosoftware.github.io/awesome-invenio/">Awesome Invenio</a> - links to the actual GitHub Repository where everyone with a GitHub account can add their or other projects and create a PR for it. It's mainly curated by @egabancho for the time being.</li>
+</ul>
+<h2><strong>Community workflow improvements</strong></h2>
+<ul>
+<li>Pitch governance documentation update</li>
+<li>Propose group structure (InvenioRDM Interest and Task Groups)</li>
+<li>Propose new/additional way of subscribing to the list-serv</li>
+<li>Pin and list welcome message and resource list to the welcome channel in Discord</li>
+</ul>
+<h2><strong>Developing with Devbox</strong></h2>
+<ul>
+<li>share repository with all used scripts with community</li>
+</ul>
+<h2>Repeatable installs</h2>
+<ul>
+<li>always copy <code>package-lock.json</code> from <code>../var/instance/assets/</code> to <code>my-site/</code>. Make sure that <code>git</code> ignores the creation/modification file dates if the file content didn't change</li>
+<li>have an extra CLI param in <code>invenio-cli</code> that will:
+<ul>
+<li>copy the <code>package-lock.json</code> from <code>my-site</code> to <code>../var/instance/assets/</code></li>
+<li>if the <code>my-site/pipfile.lock</code> is newer than <code>my-site/package-lock.json</code>, then overwrite or fail (some python deps might have changed)</li>
+<li>run <code>npm ci</code> instead of <code>npm install</code></li>
+</ul>
+</li>
+<li>the development workflow with linked editable (watched) modules should be tested, to ensure nothing breaks</li>
+<li>when in <code>NODE_ENV=production</code>, the above should always happen. When in <code>NODE_ENV=dev</code>, then I can use a new param <code>invenio-cli install --keep-deps</code></li>
+<li>New issue tracked here: <a href="https://github.com/inveniosoftware/product-rdm/issues/179">inveniosoftware/product-rdm#179</a></li>
+</ul>
+<h2><strong>One VM Deployment</strong></h2>
+<ul>
+<li>improve documentation with the deployment
+<ul>
+<li><a href="https://pad.gwdg.de/hEje65dOTIWuejjf2r30RA#">Docu PR work in progress</a></li>
+</ul>
+</li>
+<li>cookiecutter issue: <a href="https://github.com/inveniosoftware/cookiecutter-invenio-rdm/issues/278">inveniosoftware/cookiecutter-invenio-rdm#278</a>
+<ul>
+<li>have a finished docker-compose without dev container</li>
+<li>improve secrets by default</li>
+</ul>
+</li>
+</ul>
+<h2><strong>Preservation of workshop outcomes</strong></h2>
+<ul>
+<li>Create a Google form for filling in session information (→ Steve)</li>
+<li>Process information from the Google form entries (→ Markus)</li>
+<li>Create a repo in the inveniosoftware namespace (→ someone from CERN)</li>
+</ul>
+<h2><strong>Kubernetes Helm-charts requirements</strong></h2>
+<ul>
+<li>Issues on the <code>[helm-invenio</code> Github repo](https://github.com/inveniosoftware/helm-invenio/issues)
+<ul>
+<li><a href="https://github.com/inveniosoftware/helm-invenio/issues/109">Configurable resources for deployments</a></li>
+<li><a href="https://github.com/inveniosoftware/helm-invenio/issues/110">Configurable {liveness,readiness,startup}Probes</a></li>
+<li><a href="https://github.com/inveniosoftware/helm-invenio/issues/111">Init and Sidecar containers config for web/worker deployments</a></li>
+<li><a href="https://github.com/inveniosoftware/helm-invenio/issues/112">Granular env-based solution for &quot;connection string&quot;-like config</a></li>
+</ul>
+</li>
+<li>Share of current community charts:
+<ul>
+<li>University of Münster: <code>helm pull oci://harbor.uni-muenster.de/ulb/invenio --version 0.4.0</code></li>
+</ul>
+</li>
+</ul>
+<h2><strong>Workgroup structure - Governance</strong></h2>
+<ul>
+<li>please contact Lars if you know a good mailing list software! - in progress</li>
+</ul>
+<h2><strong>InvenioRDM feature request form</strong></h2>
+<ul>
+<li><a href="https://github.com/inveniosoftware/product-rdm/discussions/new?category=ideas">GitHub Discussions</a> feature request forum implemented</li>
+</ul>
+<h2><strong>Usage statistics</strong></h2>
+<ul>
+<li>Created discussions
+<ul>
+<li><a href="https://github.com/inveniosoftware/product-rdm/discussions/181">inveniosoftware/product-rdm#181</a><a href="https://github.com/inveniosoftware/product-rdm/discussions/182">inveniosoftware/product-rdm#182</a></li>
+</ul>
+</li>
+</ul>
+<h2><strong>Evaluate proposed strategies for handling PRs</strong></h2>
+<ul>
+<li>regular merge parties right after Telecons (cut Telecons to 30 minutes) (Sara)</li>
+<li>train more people as maintainers with merge rights (in on-site meetings) (CERN)</li>
+<li>figure out a clear labeling system (Karolina)</li>
+</ul>
+
+  </div>
+  <div class="blog-list-item-more-link">
+    
+      <a href="/blog/2024-04-25-project-meeting-actions/">Read More</a>
+    
+  </div>
+</div>
+
+            </div>
+            
+          
+            
+            <div class="blog-list-item col-xs-12 col-md-4">
+              
+              
+              
+              
+              
+              
+              
+              <div class="blog-list-item blog-list-item-frame">
+  <header class="blog-list-item-header">
+    <h3>
+      
         <a href="/blog/2024-04-23-april-project-meeting-update/">InvenioRDM Partner Meeting Summary, March 2024</a>
       
     </h3>
@@ -757,219 +985,6 @@
   <div class="blog-list-item-more-link">
     
       <a href="/blog/2021-10-12-projectmeeting-update/">Read More</a>
-    
-  </div>
-</div>
-
-            </div>
-            
-          
-            
-            <div class="blog-list-item col-xs-12 col-md-4">
-              
-              
-              
-              
-              
-              
-              
-              <div class="blog-list-item blog-list-item-frame">
-  <header class="blog-list-item-header">
-    <h3>
-      
-        <a href="/blog/2021-08-05-inveniordm-lts/">InvenioRDM reaches major milestone - v6.0 released</a>
-      
-    </h3>
-    <div class="blog-list-item-meta">
-      <div class="pt-4"> 
-        <i class="fa fa-external-link text-muted"></i>
-        <a href="https://doi.org/10.63517/ep4p0-vnx69" target="_blank" rel="noopener noreferrer">https://doi.org/10.63517/ep4p0-vnx69</a>
-      </div>
-      <i class="fa fa-users text-muted"></i>
-      <span class="author">
-        Lars Holm Nielsen
-      </span>
-      <i class="fa fa-calendar text-muted"></i>
-      <span>Aug 5, 2021</span>
-      <div>
-        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span></div>
-    </div>
-  </header>
-  <div class="blog-list-item-content">
-    <p><strong>We're very happy to announce that InvenioRDM v6.0 LTS has been released!!!</strong></p>
-<h3>Try It</h3>
-<p>Want to try InvenioRDM? Just head over to our demo site: https://inveniordm.web.cern.ch</p>
-<p>If you want to install it, follow the installation instructions on https://inveniordm.docs.cern.ch/install/</p>
-<h3>Production ready</h3>
-<p>InvenioRDM v6.0 is the first release to be suitable for production services,
-and therefore the first to receive the Long-Term Support release label. This
-marks the achievement a major milestone for the InvenioRDM.</p>
-<h3>Features</h3>
-<p>Following is a high-level overview of features currently supported by InvenioRDM.
-This is just the beginning as we have a packed road map with exciting features
-ahead of us.</p>
-<h4>Records</h4>
-<ul>
-<li>
-<p><strong>Any resource type</strong> InvenioRDM allows you to store publications, datasets,
-software, images, videos or any other resource type you may have thus can
-serve as a single repository for all your records.</p>
-</li>
-<li>
-<p><strong>Any file format/size</strong> InvenioRDM accepts any file format in any size given
-that your underlying infrastructure can support it.</p>
-</li>
-<li>
-<p><strong>Versioning support</strong> Records and files are all versioned with optimized
-storage for large files.</p>
-</li>
-<li>
-<p><strong>DOI registration via DataCite</strong> InvenioRDM can register DOIs with DataCite
-for all records, and allows you to write plugins for other identifier schemes.</p>
-</li>
-<li>
-<p><strong>DataCite-based metadata</strong> InvenioRDMs internal metadata is based on the
-DataCite Metadata Schema which is a simple yet powerful format for describing
-nearly any research output (paper, data, software, ...).</p>
-</li>
-<li>
-<p><strong>Strong support for persistent identifiers</strong> Authors, affiliations, licenses,
-related papers/datasets etc can all be identified via persistent identifiers
-such as ORCID and RORs.</p>
-</li>
-<li>
-<p><strong>Extended Date Time Format (EDTF) support</strong> Publication dates and other dates
-support the EDTF format for recording imprecise dates and date ranges such
-as <code>1939/1945</code>.</p>
-</li>
-<li>
-<p><strong>Previewers</strong> InvenioRDM comes with previewers for common files formats such
-as PDFs, images, CSV, Markdown, XML and JSON.</p>
-</li>
-<li>
-<p><strong>Citation formatting</strong>. InvenioRDM can generate citations strings for your
-records using the Citation Style Language with support for more than 800+
-journal citation styles.</p>
-</li>
-<li>
-<p><strong>Record preview</strong>. Before you publish your record, you can see a preview of
-how it looks like.</p>
-</li>
-<li>
-<p><strong>Metadata-only records</strong> Both records with or without associated files are
-supported.</p>
-</li>
-<li>
-<p><strong>Identifier detection and validation</strong>. InvenioRDM comes with support for
-automatic detection and validation for a large number of persistent identifier
-schemes (i.e. less typing and clicking for end-users).</p>
-</li>
-</ul>
-<h4>Search</h4>
-<ul>
-<li>
-<p><strong>Faceted search</strong>. InvenioRDM supports fully customizable faceted search.</p>
-</li>
-<li>
-<p><strong>Advanced query syntax</strong>. InvenioRDM has support for advanced querying via
-simple term search, phrase search, range search, regular expressions and
-custom ranking/sorting/</p>
-</li>
-<li>
-<p><strong>Auto-complete as you type</strong>. InvenioRDM exposed advanced APIs for
-search-as-you-type scenarios.</p>
-</li>
-</ul>
-<h4>Auth, permissions and security</h4>
-<ul>
-<li>
-<p><strong>Login via institutional account</strong>. InvenioRDM makes it easy to integrate your
-institutional authentication provider such as e.g. Keycloak, OAuth or alternative
-use e.g. ORCID for login.</p>
-</li>
-<li>
-<p><strong>Restricted records</strong>. InvenioRDM supports restricting access to files only
-or to the entire record.</p>
-</li>
-<li>
-<p><strong>Share by link</strong>. Restricted records can be shared with peer-reviewers or
-your colleagues via secret links.</p>
-</li>
-<li>
-<p><strong>Embargo support</strong> Restricted records can be embargoed so that they are
-automatically made publicly on a specific date so that you can comply with
-e.g. funders' Open Access mandates.</p>
-</li>
-<li>
-<p><strong>Logged in devices</strong>. InvenioRDM allows users to see a list of currently
-logged in devices on their account.</p>
-</li>
-</ul>
-<h4>Customizations</h4>
-<ul>
-<li>
-<p><strong>Styling and theming</strong> InvenioRDM can be styled and themed to fit into your
-institutional visual identity.</p>
-</li>
-<li>
-<p><strong>Custom vocabularies</strong> All vocabularies such as types for resources, dates,
-roles, relations, affiliations etc can be customized to your local instance.</p>
-</li>
-<li>
-<p><strong>Subjects</strong> InvenioRDM can load external subjects vocabularies used for
-classifications such as Medial Subject Headings (MeSH) and many others.</p>
-</li>
-<li>
-<p><strong>Permission system</strong> InvenioRDM supports advanced customizations to the
-permission system for e.g. IP-based access control.</p>
-</li>
-</ul>
-<h4>APIs and interoperability</h4>
-<ul>
-<li>
-<p><strong>REST API</strong> InvenioRDM exposes a strong versioned REST API for all operations
-on the repository, that allows you to build your own integrations on top of
-InvenioRDM.</p>
-</li>
-<li>
-<p><strong>Export formats</strong> InvenioRDM supports exporting records metadata in multiple
-formats such as JSON, Citation Style Language JSON, DataCite JSON/XML, Dublin
-Core.</p>
-</li>
-</ul>
-<h4>Infrastructure</h4>
-<ul>
-<li>
-<p><strong>Large file support</strong> InvenioRDM supports uploading and handling TB-sized
-files and can manage from MBs to PBs of data as long as your underlying
-storage systems supports it.</p>
-</li>
-<li>
-<p><strong>Multi-storage systems</strong> InvenioRDM allows you to integrate backend multiple
-storage systems in the same instance such as S3, XRootD and more.</p>
-</li>
-<li>
-<p><strong>Deploy anywhere</strong> InvenioRDM is a Python application and you can deploy
-into your institutional infrastructure wheather it is on bare metal, VMs,
-containers, Kubernetes or OpenShift.</p>
-</li>
-</ul>
-<h3>Partners</h3>
-<p>The development of InvenioRDM is the result of an Open Source project kicked
-of 2 years ago with a diverse set of partners from all over academia and
-research. Most of the development and testing work has been conducted during
-the pandemic making it extra challenging for the people involved but also
-in a fully online environment.</p>
-<h3>Just the start</h3>
-<p>This release is just the start. Our next major milestone is to bring Zenodo.org
-on top of InvenioRDM, which means that most larger features have been shipped
-along the way, and that the system have been fully tested against large-scale
-heavy production loads.</p>
-
-  </div>
-  <div class="blog-list-item-more-link">
-    
-      <a href="/blog/2021-08-05-inveniordm-lts/">Read More</a>
     
   </div>
 </div>

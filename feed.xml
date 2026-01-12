@@ -4,11 +4,58 @@
   <subtitle>Follow news and updates from the Invenio community</subtitle>
   <link href="https://inveniosoftware.org/feed.xml" rel="self" />
   <link href="https://inveniosoftware.org/blog/" />
-  <updated>2025-10-15T00:00:00Z</updated>
+  <updated>2026-01-01T00:00:00Z</updated>
   <id>https://inveniosoftware.org/blog/</id>
   <author>
     <name>Invenio Software</name>
   </author>
+  <entry>
+    <title>Repositories and libraries: Invenio features InvenioILS!</title>
+    <link href="https://inveniosoftware.org/blog/2025-12-04-invenioils-product.md/" />
+    <updated>2026-01-01T00:00:00Z</updated>
+    <published>2026-01-01T00:00:00Z</published>
+    <author>
+      <name>Karolina Przerwa</name>
+    </author>
+    <category term="InvenioILS" />
+    <category term="Showcase" />
+    <id>https://inveniosoftware.org/blog/2025-12-04-invenioils-product.md/</id>
+    <content type="html">&lt;p&gt;For years, the Invenio community has been known for powerful open-source repository solutions - especially InvenioRDM. But many institutions need more than a repository: they need a modern, flexible platform that also supports collections, loans, acquisitions, and patron services.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;InvenioILS brings these capabilities into the Invenio family&lt;/strong&gt;, offering a fully open, customizable &lt;strong&gt;Integrated Library System&lt;/strong&gt; built on the same modular framework as InvenioRDM.&lt;/p&gt;
+&lt;h2&gt;A modern, feature-rich ILS (Integrated Library System)&lt;/h2&gt;
+&lt;p&gt;InvenioILS delivers the essential tools libraries rely on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Circulation &amp;amp; patron services&lt;/strong&gt;: loans, renewals, requests, notifications, and configurable policies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cataloguing &amp;amp; metadata&lt;/strong&gt;: flexible JSONSchema-based records, holdings, items, and fast discovery powered by Elasticsearch/OpenSearch.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Acquisitions &amp;amp; ILL&lt;/strong&gt;: vendor management, orders, budgets, document delivery, and interlibrary loan workflows.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clean, responsive UI&lt;/strong&gt;: a modern interface designed for both librarians and patrons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Flexible and extensible by design&lt;/h2&gt;
+&lt;p&gt;InvenioILS is highly modular and, like InvenioRDM, based on Invenio Framework. It becomes easier to share the expertise between these two products.
+Institutions can customize metadata, circulation rules, UI components, and system behaviour - or integrate with external services through the REST API. This flexibility allows libraries to adopt InvenioILS “as is” or tailor it into a specialized solution that fits their workflows and identity.&lt;/p&gt;
+&lt;h2&gt;CERN: A Showcase Installation&lt;/h2&gt;
+&lt;p&gt;An example of an advance deployment of InvenioILS is at &lt;strong&gt;CERN&lt;/strong&gt; - &lt;a href=&quot;https://catalogue.library.cern&quot;&gt;CERN Library Catalogue&lt;/a&gt;, where the platform powers daily library operations and serves thousands of users.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/2025-12-04-invenioils-product/clc.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Smooth SSO integration&lt;/h3&gt;
+&lt;p&gt;InvenioILS connects seamlessly to CERN’s institutional Single Sign-On, providing automatic user provisioning, role synchronization, and a unified login experience across CERN services.&lt;/p&gt;
+&lt;h3&gt;Bulk e-book importer (CERN customisation)&lt;/h3&gt;
+&lt;p&gt;CERN uses an automated bulk importer to process large vendor MARC packages. Metadata is transformed, validated, and ingested with minimal staff intervention - turning what once took days into an efficient, scalable workflow.&lt;/p&gt;
+&lt;h3&gt;Mobile self-checkout &amp;amp; campus navigation (CERN customisation)&lt;/h3&gt;
+&lt;p&gt;CERN’s library offers mobile self-checkout, enabling patrons to borrow items directly from their phones. Through InvenioILS APIs, the system also integrates with CERN’s internal navigation app, guiding users to shelf locations and showing real-time item availability.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/2025-12-04-invenioils-product/clc_maps.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/2025-12-04-invenioils-product/clc_self-checkout.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Reliable at scale&lt;/h3&gt;
+&lt;p&gt;The CERN installation demonstrates how InvenioILS can support large user bases, extensive collections, and demanding operational environments - all while integrating with CERN Institutional repository, based on InvenioRDM.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/2025-12-04-invenioils-product/clc_search.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Part of a product family&lt;/h2&gt;
+&lt;p&gt;InvenioILS complements InvenioRDM and the broader Invenio framework, providing a cohesive platform for managing both library collections and research outputs. With shared components and infrastructure, institutions benefit from consistent authentication, indexing, APIs, and development practices across products.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Invenio does not only power repositories.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It powers libraries as well - with power of Free Open-Source Software&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Join the Invenio community&lt;/h2&gt;
+&lt;p&gt;InvenioILS and InvenioRDM thrive thanks to a global community of libraries, research organizations, developers, and service providers. Whether you’re evaluating Invenio, looking to contribute, or simply curious, you’re warmly invited to join. The InvenioRDM community meets regularly to discuss features, share insights, and collaborate on the future of open knowledge systems - we would like to recreate this approach for InvenioILS and hear your feedback.
+Your voice is welcome - &lt;a href=&quot;https://inveniosoftware.org/getinvolved/&quot;&gt;come help&lt;/a&gt;, shape what’s next.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>datasafe: Implementing a Dark Archive with InvenioRDM</title>
     <link href="https://inveniosoftware.org/blog/2025-10-15-datasafe-uni-muenster.md/" />
