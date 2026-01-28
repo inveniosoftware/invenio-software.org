@@ -19,7 +19,7 @@
     </author>
     <category term="InvenioILS" />
     <category term="Showcase" />
-    <id>https://inveniosoftware.org/blog/2025-12-04-invenioils-product.md/</id>
+    <id>https://doi.org/10.63517/hwttq-f5r06</id>
     <content type="html">&lt;p&gt;For years, the Invenio community has been known for powerful open-source repository solutions - especially InvenioRDM. But many institutions need more than a repository: they need a modern, flexible platform that also supports collections, loans, acquisitions, and patron services.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;InvenioILS brings these capabilities into the Invenio family&lt;/strong&gt;, offering a fully open, customizable &lt;strong&gt;Integrated Library System&lt;/strong&gt; built on the same modular framework as InvenioRDM.&lt;/p&gt;
 &lt;h2&gt;A modern, feature-rich ILS (Integrated Library System)&lt;/h2&gt;
@@ -2740,6 +2740,9 @@ Invenio v3.5 and minimum until 2021-05-18.&lt;/p&gt;
     <link href="https://inveniosoftware.org/blog/invenio-v32-released/" />
     <updated>2019-12-20T00:00:00Z</updated>
     <published>2019-12-20T00:00:00Z</published>
+    <author>
+      <name>Lars Holm Nielsen</name>
+    </author>
     <category term="Invenio" />
     <id>https://doi.org/10.63517/pt6rt-6mz56</id>
     <content type="html">&lt;p&gt;We are proud to announce the release of Invenio v3.2.0. With this release,
@@ -3045,6 +3048,9 @@ SVG versions of all logos.&lt;/h2&gt;
     <link href="https://inveniosoftware.org/blog/security-advisor-20190715/" />
     <updated>2019-07-15T00:00:00Z</updated>
     <published>2019-07-15T00:00:00Z</published>
+    <author>
+      <name>Lars Holm Nielsen</name>
+    </author>
     <category term="Invenio" />
     <id>https://doi.org/10.63517/afep7-29828</id>
     <content type="html">&lt;p&gt;Two vulnerabilities have been identified in &lt;em&gt;supported&lt;/em&gt; Invenio modules.&lt;/p&gt;
@@ -3394,6 +3400,9 @@ The bootcamp was targeting developers wanting to learn more about Invenio and to
     <link href="https://inveniosoftware.org/blog/invenio-v310-released/" />
     <updated>2019-03-11T00:00:00Z</updated>
     <published>2019-03-11T00:00:00Z</published>
+    <author>
+      <name>Lars Holm Nielsen</name>
+    </author>
     <category term="Invenio" />
     <id>https://doi.org/10.63517/cx376-czz04</id>
     <content type="html">&lt;p&gt;We are proud to announce the release of Invenio v3.1.0.&lt;/p&gt;
