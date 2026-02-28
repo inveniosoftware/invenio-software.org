@@ -482,9 +482,9 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
 &lt;h3&gt;Record inclusion in multiple communities&lt;/h3&gt;
 &lt;p&gt;A record can now belong to multiple communities. Including a record in multiple communities will let different curators change the files or metadata of the record.&lt;/p&gt;
 &lt;h3&gt;Powerful and reliable record access&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://inveniordm.docs.cern.ch/features/features-walk-through/access_requests/&quot;&gt;Giving and requesting access&lt;/a&gt; to records have seen a complete overhaul in this release. Record owners or curators can share them directly with other users or with groups, as well as control whether, with whom, and how access can be demanded.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://inveniordm.docs.cern.ch/use/records/record/#request-access-to-restricted-files&quot;&gt;Giving and requesting access&lt;/a&gt; to records have seen a complete overhaul in this release. Record owners or curators can share them directly with other users or with groups, as well as control whether, with whom, and how access can be demanded.&lt;/p&gt;
 &lt;h3&gt;Notifications&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://inveniordm.docs.cern.ch/features/features-walk-through/notifications/&quot;&gt;A notification system&lt;/a&gt; has been introduced. Users can now receive email notifications depending on their preferences when they are involved in certain activities.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://inveniordm.docs.cern.ch/use/notifications/&quot;&gt;A notification system&lt;/a&gt; has been introduced. Users can now receive email notifications depending on their preferences when they are involved in certain activities.&lt;/p&gt;
 &lt;h3&gt;Moderation of users and records&lt;/h3&gt;
 &lt;p&gt;The administration panel now includes a &amp;quot;User Management&amp;quot; section to suspend, block and delete users, and undo all those actions. Records can also be deleted (with a grace period for appeal or undoing), which empowers administrators to enforce institutional policies and fight spam.&lt;/p&gt;
 &lt;h3&gt;DOIs for concept records and no DOIs for restricted records&lt;/h3&gt;
