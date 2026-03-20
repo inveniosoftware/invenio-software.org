@@ -4,14 +4,59 @@
   <subtitle>Follow news and updates from the Invenio community</subtitle>
   <link href="https://inveniosoftware.org/feed.xml" rel="self" />
   <link href="https://inveniosoftware.org/blog/" />
-  <updated>2026-01-01T00:00:00Z</updated>
+  <updated>2026-03-20T00:00:00Z</updated>
   <id>https://inveniosoftware.org/blog/</id>
   <author>
     <name>Invenio Software</name>
   </author>
   <entry>
+    <title>Whoops! The Better-Late-Than-Never March 2025 InvenioRDM Partner Meeting Summary</title>
+    <link href="https://inveniosoftware.org/blog/2026-03-20-inveniordm-partner-meeting-hamburg/" />
+    <updated>2026-03-20T00:00:00Z</updated>
+    <published>2026-03-20T00:00:00Z</published>
+    <author>
+      <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
+    </author>
+    <category term="InvenioRDM" />
+    <id>https://doi.org/10.63517/9kx4f-al6nc</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/2026-03-20_group_picture.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;As the InvenioRDM partners were making their way back home from 2026&#39;s annual partner meeting, we suddenly realized we had not published a blog post summarizing 2025&#39;s partner meeting. Whoops! Turns out, we were so busy building and improving InvenioRDM for you that it completely slipped our minds. Before we catch you all up on the most recent meeting, here is a summary of the great things that the InvenioRDM partners accomplished in 2025.&lt;/p&gt;
+&lt;h2&gt;Meeting highlights&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kai Wörner&lt;/strong&gt;, Deputy Head of the Center for Sustainable Research Data Management at &lt;strong&gt;Universität Hamburg&lt;/strong&gt;, and his team, hosted the InvenioRDM community for &lt;strong&gt;five days from March 24 - 28, 2025&lt;/strong&gt;. In addition to the local team&#39;s hospitality, participants experienced the university&#39;s cutting-edge research and the city&#39;s rich maritime heritage, cultural diversity, and the enchanting Miniatur Wunderland. Meanwhile remote participants enjoyed a seamless experience through a Zoom/Owl setup provided and maintained by Steve Diggs, an InvenioRDM collaborator currently with the Scripps Institution of Oceanography.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/2026-03-20_miniatur.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Instance rodeo &amp;amp; Open space technology&lt;/h2&gt;
+&lt;p&gt;The first day was devoted to an &lt;strong&gt;&amp;quot;InvenioRDM-Instance-Rodeo,&amp;quot;&lt;/strong&gt; in which maintainers of local instances showcased their implementations, sharing their local innovations and customizations.&lt;/p&gt;
+&lt;p&gt;Next, utilizing proven methodology, &lt;a href=&quot;https://en.wikipedia.org/wiki/Open_space_technology&quot;&gt;Open space technology&lt;/a&gt; was used to enable participants to propose and vote upon topics for discussion. The topics included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Glacier/cold storage handling&lt;/li&gt;
+&lt;li&gt;Full-text search&lt;/li&gt;
+&lt;li&gt;Automated metadata extraction from files&lt;/li&gt;
+&lt;li&gt;User experience on the deposit form&lt;/li&gt;
+&lt;li&gt;EduGAIN interfederation&lt;/li&gt;
+&lt;li&gt;Accessibility issues&lt;/li&gt;
+&lt;li&gt;Self-contained HTML reports&lt;/li&gt;
+&lt;li&gt;RO Crate previews&lt;/li&gt;
+&lt;li&gt;Invenio-stats&lt;/li&gt;
+&lt;li&gt;Translations&lt;/li&gt;
+&lt;li&gt;Thesis Fields&lt;/li&gt;
+&lt;li&gt;Scope of the Partner Meeting and Community topics&lt;/li&gt;
+&lt;li&gt;Maintainers playbook&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Tangible outcomes&lt;/h2&gt;
+&lt;p&gt;A few of these topics have had concrete effects visible today, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;deposit form&lt;/strong&gt; now offers &lt;a href=&quot;https://inveniordm.docs.cern.ch/operate/customize/look-and-feel/override_components/#find-the-react-overridable-id&quot;&gt;enhanced customizability&lt;/a&gt;, allowing users to hide or show fields, reorder components, and easily locate elements for override.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Available metadata fields&lt;/strong&gt; have been expanded to include new optional fields, such as &lt;a href=&quot;https://inveniordm.docs.cern.ch/operate/customize/metadata/optional_fields/&quot;&gt;thesis&lt;/a&gt;, improving content description and FAIR compliance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Joining the maintainers team&lt;/strong&gt; is now more accessible with the introduction of the new &lt;a href=&quot;https://inveniosoftware.org/maintainers/&quot;&gt;Maintainers Handbook&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Partner Meeting structure decision&lt;/strong&gt;: maintain the first two days for presentations and general information so those considering the software can attend just the first 1-2 days for a general overview.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Many instance presentations from the Rodeo can be viewed in the &lt;a href=&quot;https://zenodo.org/communities/inveniordm-partners-workshop-2025/records&quot;&gt;InvenioRDM Partners Workshop 2025 Zenodo community&lt;/a&gt;. Many thanks to the local hosts at Universität Hamburg for their hard work and hospitality, and thanks also to Steve Diggs!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Repositories and libraries: Invenio features InvenioILS!</title>
-    <link href="https://inveniosoftware.org/blog/2025-12-04-invenioils-product.md/" />
+    <link href="https://inveniosoftware.org/blog/2025-12-04-invenioils-product/" />
     <updated>2026-01-01T00:00:00Z</updated>
     <published>2026-01-01T00:00:00Z</published>
     <author>
