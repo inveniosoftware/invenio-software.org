@@ -210,17 +210,89 @@
         <div class="blog-top blog-top-frame">
   <header class="blog-top-header">
     <h2>
-      <a href="/blog/2026-03-20-inveniordm-partner-meeting-hamburg/">Whoops! The Better-Late-Than-Never March 2025 InvenioRDM Partner Meeting Summary</a>
+      <a href="/blog/2026-04-14-datastore-uni-muenster.md/">datastore: Relaunch of our research data repository</a>
     </h2>
     <p class="blog-list-item-meta">
       <i class="fa fa-external-link text-muted"></i>
-      <a href="https://doi.org/10.63517/9kx4f-al6nc" target="_blank" rel="noopener noreferrer" class="pr-5">https://doi.org/10.63517/9kx4f-al6nc</a>
+      <a href="https://doi.org/10.63517/312pg-rah44" target="_blank" rel="noopener noreferrer" class="pr-5">https://doi.org/10.63517/312pg-rah44</a>
       <i class="fa fa-user text-muted"></i>
+      <span class="author">
+        Sarah Wiechers
+      </span>
+      <i class="fa fa-calendar text-muted"></i>
+      <span>Apr 14, 2026</span><span class="label label-primary label-tag">InvenioRDM</span><span class="label label-primary label-tag">Showcase</span></p>
+  </header>
+  <div class="blog-list-item-content">
+    <p><img src="/assets/images/blog-posts/datastore.png" alt="datastore landing page"></p>
+<p>We’ve recently completed a major overhaul of <strong>datastore</strong>, the research data repository of the University of Münster. The service has been fully rebuilt and is now running on <strong>InvenioRDM v14.0.0b4</strong>.</p>
+<p>This relaunch also marks a major technology shift: the previous datastore service was based on a <strong>Java/React</strong> stack. Moving to InvenioRDM helps us ensure <strong>sustainable maintenance</strong> and long-term <strong>future viability</strong> by building on a shared, actively developed codebase.</p>
+<p>datastore is available at: <a href="https://datastore.uni-muenster.de/">https://datastore.uni-muenster.de/</a></p>
+<h3>What’s improved</h3>
+<p>The new system brings major improvements, both functionally and in terms of usability:</p>
+<ul>
+<li><strong>Publish datasets up to 5 TB</strong><br>
+Records can now include datasets up to 5 terabytes, better supporting data-intensive projects.</li>
+<li><strong>Modern, streamlined UI</strong><br>
+A clearer interface and updated design make creating and publishing records easier.</li>
+<li><strong>Improved deposit guidance</strong><br>
+More structured submission steps support more consistent documentation.</li>
+<li><strong>Standardized metadata</strong><br>
+Richer, more consistent metadata improves discoverability and supports long-term reuse.</li>
+</ul>
+<h3>CRIS-assisted metadata entry (local integration)</h3>
+<p>To reduce manual entry and improve metadata quality, we implemented a local integration with the University of Münster’s <strong>Current Research Information System (CRIS)</strong>. During deposit, users can retrieve project-related metadata from CRIS and use it as a basis for describing their dataset.</p>
+<h3>Curation workflow with invenio-curations</h3>
+<p>All submissions are curated by the University and State Library (ULB) and the Service Center for Data Management. We use the <strong>invenio-curations module</strong> developed in collaboration by <strong>TU Graz</strong> and <strong>TU Wien</strong> to ensure compliance with our metadata requirements and repository standards, improving the quality and reusability of published datasets.</p>
+<p>We also <strong>extended the module with additional features</strong>, e.g. ensuring that <strong>records remain locked for editing while they are in curation</strong>, which helps avoid conflicting changes and keeps the review process consistent.</p>
+<h3>Access and availability</h3>
+<p>Deposits are available to <strong>University of Münster members</strong>. Published records can generally be <strong>viewed openly</strong>, depending on the access settings chosen for a dataset. The interface is currently <strong>English-only</strong>; a <strong>fully translated German UI is planned for May</strong> using the InvenioRDM translation workflow improved by the new <strong>translation bundle</strong> feature from TU Graz.</p>
+<p>For those interested in learning more about our implementation, you can contact our team at <a href="mailto:forschungsdaten@uni-muenster.de">forschungsdaten@uni-muenster.de</a>.</p>
+
+  </div>
+  <div class="blog-top-more-link">
+    <a href="/blog/2026-04-14-datastore-uni-muenster.md/">Read More</a>
+  </div>`
+</div>
+
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12 col-xs-12 block-center">
+        <div class="blog-post-list">
+          
+            
+          
+            
+            <div class="blog-list-item col-xs-12 col-md-4">
+              
+              
+              
+              
+              
+              
+              
+              <div class="blog-list-item blog-list-item-frame">
+  <header class="blog-list-item-header">
+    <h3>
+      
+        <a href="/blog/2026-03-20-inveniordm-partner-meeting-hamburg/">Whoops! The Better-Late-Than-Never March 2025 InvenioRDM Partner Meeting Summary</a>
+      
+    </h3>
+    <div class="blog-list-item-meta">
+      <div class="pt-4"> 
+        <i class="fa fa-external-link text-muted"></i>
+        <a href="https://doi.org/10.63517/9kx4f-al6nc" target="_blank" rel="noopener noreferrer">https://doi.org/10.63517/9kx4f-al6nc</a>
+      </div>
+      <i class="fa fa-users text-muted"></i>
       <span class="author">
         Sara Gonzales
       </span>
       <i class="fa fa-calendar text-muted"></i>
-      <span>Mar 20, 2026</span><span class="label label-primary label-tag">InvenioRDM</span></p>
+      <span>Mar 20, 2026</span>
+      <div>
+        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span></div>
+    </div>
   </header>
   <div class="blog-list-item-content">
     <p><img src="/assets/images/blog-posts/2026-03-20_group_picture.jpg" alt=""></p>
@@ -258,18 +330,14 @@
 <p>Many instance presentations from the Rodeo can be viewed in the <a href="https://zenodo.org/communities/inveniordm-partners-workshop-2025/records">InvenioRDM Partners Workshop 2025 Zenodo community</a>. Many thanks to the local hosts at Universität Hamburg for their hard work and hospitality, and thanks also to Steve Diggs!</p>
 
   </div>
-  <div class="blog-top-more-link">
-    <a href="/blog/2026-03-20-inveniordm-partner-meeting-hamburg/">Read More</a>
-  </div>`
+  <div class="blog-list-item-more-link">
+    
+      <a href="/blog/2026-03-20-inveniordm-partner-meeting-hamburg/">Read More</a>
+    
+  </div>
 </div>
 
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col-md-12 col-xs-12 block-center">
-        <div class="blog-post-list">
-          
+            </div>
             
           
             
@@ -893,116 +961,6 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
   <div class="blog-list-item-more-link">
     
       <a href="/blog/2024-11-19-november-GREI/">Read More</a>
-    
-  </div>
-</div>
-
-            </div>
-            
-          
-            
-            <div class="blog-list-item col-xs-12 col-md-4">
-              
-              
-              
-              
-              
-              
-              
-              <div class="blog-list-item blog-list-item-frame">
-  <header class="blog-list-item-header">
-    <h3>
-      
-        <a href="/blog/2024-08-20-invenio-rdm-12/">InvenioRDM v12.0 released</a>
-      
-    </h3>
-    <div class="blog-list-item-meta">
-      <div class="pt-4"> 
-        <i class="fa fa-external-link text-muted"></i>
-        <a href="https://doi.org/10.63517/6ffws-cwp93" target="_blank" rel="noopener noreferrer">https://doi.org/10.63517/6ffws-cwp93</a>
-      </div>
-      <i class="fa fa-users text-muted"></i>
-      <span class="author">
-        Martin Fenner, Sara Gonzales, Guillaume Viger
-      </span>
-      <i class="fa fa-calendar text-muted"></i>
-      <span>Aug 20, 2024</span>
-      <div>
-        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span></div>
-    </div>
-  </header>
-  <div class="blog-list-item-content">
-    <p><img src="/assets/images/blog-posts/invenio-rdm-v12.0-screenshot.png" alt=""></p>
-<p>We are happy to announce the release of InvenioRDM <a href="https://inveniordm.docs.cern.ch/releases/v12/version-v12.0.0/">v12.0</a>! Released on August 1, 2024, it is the first InvenioRDM release since <a href="https://inveniordm.docs.cern.ch/releases/v11/version-v11.0.0/">v11.0</a> was released on January 23, 2023, and it includes not only many bug fixes and small improvements but also several major new features listed below.</p>
-<p>Since the v11.0 release several <a href="https://inveniosoftware.org/products/rdm/">InvenioRDM partners</a> have launched InvenioRDM instances in production, including <a href="https://blog.zenodo.org/2023/10/13/2023-10-13-zenodo-rdm/">Zenodo, which migrated to InvenioRDM in October 2023</a>. A number of these partners have migrated already to InvenioRDM v12.0 or plan to do so in the coming months.</p>
-<p>German translations for v12 will be coming in v12.1 targeted for release in October 2024. We hope that other language translations will follow suit. Work on InvenioRDM v13.0 has already started and you can track it <a href="https://github.com/inveniosoftware/invenio-app-rdm">here</a>.</p>
-<h2>Try it</h2>
-<p>Want to try the new features in v12.0? Just head over to the demo site: <a href="https://inveniordm.web.cern.ch">https://inveniordm.web.cern.ch</a>. If you want to install it, follow the installation instructions at <a href="https://inveniordm.docs.cern.ch/install/">https://inveniordm.docs.cern.ch/install/</a>.</p>
-<h2>Release Notes</h2>
-<p>See the full release notes at <a href="https://inveniordm.docs.cern.ch/releases/v12/version-v12.0.0/">https://inveniordm.docs.cern.ch/releases/v12/version-v12.0.0/</a> and the upgrade guide at <a href="https://inveniordm.docs.cern.ch/releases/v12/upgrade-v12.0/">https://inveniordm.docs.cern.ch/releases/v12/upgrade-v12.0/</a>.</p>
-<h2>What’s new?</h2>
-<h3>Usage statistics compliant with MakeDataCount and COUNTER</h3>
-<p>A major new feature in this release is the integration of <a href="https://github.com/inveniosoftware/invenio-stats">invenio-stats</a>, a powerful and flexible extension for measuring usage statistics of InvenioRDM records. Usage statistics are compliant with the <a href="https://makedatacount.org/">MakeDataCount</a> and <a href="https://www.projectcounter.org/">COUNTER</a> standards. Usage statistics are displayed in the record landing page and record search:</p>
-<p><img src="/assets/images/blog-posts/stats-landing-page.png" alt=""></p>
-<h3>Record inclusion in multiple communities</h3>
-<p>A record can now belong to multiple communities. Including a record in multiple communities will let different curators change the files or metadata of the record.</p>
-<h3>Powerful and reliable record access</h3>
-<p><a href="https://inveniordm.docs.cern.ch/use/records/record/#request-access-to-restricted-files">Giving and requesting access</a> to records have seen a complete overhaul in this release. Record owners or curators can share them directly with other users or with groups, as well as control whether, with whom, and how access can be demanded.</p>
-<h3>Notifications</h3>
-<p><a href="https://inveniordm.docs.cern.ch/use/notifications/">A notification system</a> has been introduced. Users can now receive email notifications depending on their preferences when they are involved in certain activities.</p>
-<h3>Moderation of users and records</h3>
-<p>The administration panel now includes a &quot;User Management&quot; section to suspend, block and delete users, and undo all those actions. Records can also be deleted (with a grace period for appeal or undoing), which empowers administrators to enforce institutional policies and fight spam.</p>
-<h3>DOIs for concept records and no DOIs for restricted records</h3>
-<p>InvenioRDM now mints a concept DOI for every record by default, similar to what Zenodo has done for many years. Along with this update, restricted records will now stop minting a DOI upon publication thus keeping private records truly private.</p>
-<p><img src="/assets/images/blog-posts/concept_doi.png" alt=""></p>
-<h3>Even better previewers</h3>
-<p>Audio and video previewers come by default. Tiling support for the International Image Interoperability Framework (IIIF) API standards <a href="https://github.com/inveniosoftware/invenio-rdm-records/tree/master/invenio_rdm_records/records/processors">is available</a>. Text previewing has been made much more resilient.</p>
-<p><img src="/assets/images/blog-posts/video_previewer.png" alt=""></p>
-<h3>External resources integration (e.g. GitHub)</h3>
-<p>The landing page for a record can now provide nicer visuals for configured related works. A configuration variable can be set to highlight some of the referred platforms.</p>
-<p><img src="/assets/images/blog-posts/external_resources.png" alt=""></p>
-<h3>Skippable community submission review</h3>
-<p>With InvenioRDM v12, you can adjust whether a record review is always required for your community, or if curators, managers, and owners can submit a record without the review process.</p>
-<h3>Banners</h3>
-<p>With the addition of <a href="https://github.com/inveniosoftware/invenio-banners">invenio-banners</a>, you can easily add and manage important alerts and messages on your InvenioRDM instance, such as system maintenance notifications or announcements.</p>
-<h3>Static pages - administration panel</h3>
-<p>Another notable addition is the integration of <a href="https://github.com/inveniosoftware/invenio-pages">invenio-pages</a> with the administration panel. It exposes a convenient UI to create and manage static pages.</p>
-<h2>Breaking changes</h2>
-<p>Make sure to read the <a href="https://inveniordm.docs.cern.ch/releases/v12/version-v12.0.0/#breaking-changes">Breaking Changes</a> section in the release notes.</p>
-<h2>Limitations and known issues</h2>
-<ul>
-<li>Translations for v12 will be coming in v12.1 targeted for release in October 2024.</li>
-<li>Sharing a secret link to a restricted record in a restricted community does not provide access to the record yet. Work on this is <a href="https://github.com/inveniosoftware/invenio-app-rdm/issues/2706">tracked here</a>.</li>
-</ul>
-<h2>Requirements</h2>
-<p>InvenioRDM v12 requires:</p>
-<ul>
-<li>Python 3.9, 3.11 or 3.12</li>
-<li>Node.js 18+</li>
-<li>PostgreSQL 12+</li>
-<li>OpenSearch v2</li>
-</ul>
-<p>Support for older versions of Elasticsearch/Opensearch, PostgreSQL and Node.js has been phased out.</p>
-<h2>Questions</h2>
-<p>If you have questions related to the InvenioRDM v12.0 release, don't hesitate to jump on <a href="https://discord.gg/8qatqBC">Discord</a> and ask us!</p>
-<h2>Credit</h2>
-<p>The development work of this impressive release wouldn't have been possible without the help of these great people:</p>
-<ul>
-<li>CERN: Alex, Anna, Antonio, Carlin, Fatimah, Javier, Jenny, Karolina, Lars, Manuel, Nicola, Pablo G., Pablo P., Pablo T., Yash, Zacharias</li>
-<li>Northwestern University: Guillaume</li>
-<li>TU Graz: Christoph, David, Mojib</li>
-<li>TU Wien: Max</li>
-<li>Uni Bamberg: Christina</li>
-<li>Uni Münster: Werner</li>
-<li>Front Matter: Martin</li>
-<li>KTH Royal Institute of Technology: Sam</li>
-<li>Caltech: Tom</li>
-</ul>
-
-  </div>
-  <div class="blog-list-item-more-link">
-    
-      <a href="/blog/2024-08-20-invenio-rdm-12/">Read More</a>
     
   </div>
 </div>

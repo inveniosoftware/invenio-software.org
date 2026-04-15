@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="invenio, library, framework, ils, research, data, multimedia, ir, institutional, repository, cern, foss, open, software, model, search, workflows, marc, marc21, python, api, doi, json, oai-pmh, orcid, openaire, rest, zenodo, cds, flask">
+    <meta name="generator" content="Eleventy v3.1.2">
+    <title>datastore: Relaunch of our research data repository - inveniosoftware.org</title>
+    <meta property="og:title" content="datastore: Relaunch of our research data repository">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="/blog/2026-04-14-datastore-uni-muenster.md/">
+    <meta property="og:site_name" content="Invenio">
+    <meta property="og:description" content="Powering Open Science">
+    <link rel="icon" href="/assets/images/favicon.ico">
+    <link rel="canonical" href="/blog/2026-04-14-datastore-uni-muenster.md/">
+    <link rel="alternate" type="application/atom+xml" title="Invenio Blog Feed" href="/feed.xml">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600|Oswald|Source+Code+Pro:400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    
+<section class="header-section ">
+  <div class="cover-image">
+    
+<header class="header-nav">
+  <nav class="navbar navbar-fixed-top invenio-navbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#inv-navbar-collapse" aria-controls="inv-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="navbar-brand">
+          <img src="/assets/images/logo-invenio-white.svg" alt="Invenio logo" title="Invenio logo" class="icon-contact">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="inv-navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/">Home</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="nav-label">Products</span>
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  
+                    <li><a href="/products/rdm/">InvenioRDM</a></li>
+                  
+                    <li><a href="/products/ils/">InvenioILS</a></li>
+                  
+                    <li><a href="/products/framework/">Invenio Framework</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/showcase/">Showcase</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="nav-label">Community</span>
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  
+                    <li><a href="/getinvolved/">Get Involved</a></li>
+                  
+                    <li><a href="/events/">Events & Training</a></li>
+                  
+                    <li><a href="/support/">Hosting & Support</a></li>
+                  
+                    <li><a href="/governance/">Governance</a></li>
+                  
+                    <li><a href="/maintainers/">Maintainers</a></li>
+                  
+                    <li><a href="/people/">People</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/documentation/">Docs</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a class="active-menu" href="/blog/">Blog</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="https://invenio-talk.web.cern.ch/">Talk</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/about/">About</a></li>
+            
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <div class="container">
+      <div class="row centered">
+        <div class="col-12">
+          
+          <div class="header-section-title">
+            
+            <h1>Invenio Blog</h1>
+            <p class="sub-title">Follow news and updates from the Invenio community</p>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+    <main tabindex="-1" id="main-content">
+    
+<section id="blog-post-content-section" class="section-content-light-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-xs-12 block-center">
+          <div class="blog-back-button">
+  <a href="/blog">Back</a>
+</div>
+<div class="blog-post blog-post-frame">
+  <header class="post-header">
+    <h2 class="post-title">datastore: Relaunch of our research data repository</h2>
+    <div class="post-meta">
+      <i class="fa fa-users text-muted"></i>
+      <span class="author">Sarah Wiechers</span>
+      <i class="fa fa-calendar text-muted"></i>
+      <span>Apr 14, 2026</span>
+      <i class="fa fa-tags text-muted"></i>
+      <span><span class="label label-primary label-tag">InvenioRDM</span><span class="label label-primary label-tag">Showcase</span></span>
+      <div class="pt-4"> 
+        <i class="fa fa-external-link text-muted"></i>
+        <a href="https://doi.org/10.63517/312pg-rah44" target="_blank" rel="noopener noreferrer">https://doi.org/10.63517/312pg-rah44</a>
+      </div>
+    </div>
+  </header>
+  <article class="post-content">
+    <p><img src="/assets/images/blog-posts/datastore.png" alt="datastore landing page"></p>
+<p>We’ve recently completed a major overhaul of <strong>datastore</strong>, the research data repository of the University of Münster. The service has been fully rebuilt and is now running on <strong>InvenioRDM v14.0.0b4</strong>.</p>
+<p>This relaunch also marks a major technology shift: the previous datastore service was based on a <strong>Java/React</strong> stack. Moving to InvenioRDM helps us ensure <strong>sustainable maintenance</strong> and long-term <strong>future viability</strong> by building on a shared, actively developed codebase.</p>
+<p>datastore is available at: <a href="https://datastore.uni-muenster.de/">https://datastore.uni-muenster.de/</a></p>
+<h3>What’s improved</h3>
+<p>The new system brings major improvements, both functionally and in terms of usability:</p>
+<ul>
+<li><strong>Publish datasets up to 5 TB</strong><br>
+Records can now include datasets up to 5 terabytes, better supporting data-intensive projects.</li>
+<li><strong>Modern, streamlined UI</strong><br>
+A clearer interface and updated design make creating and publishing records easier.</li>
+<li><strong>Improved deposit guidance</strong><br>
+More structured submission steps support more consistent documentation.</li>
+<li><strong>Standardized metadata</strong><br>
+Richer, more consistent metadata improves discoverability and supports long-term reuse.</li>
+</ul>
+<h3>CRIS-assisted metadata entry (local integration)</h3>
+<p>To reduce manual entry and improve metadata quality, we implemented a local integration with the University of Münster’s <strong>Current Research Information System (CRIS)</strong>. During deposit, users can retrieve project-related metadata from CRIS and use it as a basis for describing their dataset.</p>
+<h3>Curation workflow with invenio-curations</h3>
+<p>All submissions are curated by the University and State Library (ULB) and the Service Center for Data Management. We use the <strong>invenio-curations module</strong> developed in collaboration by <strong>TU Graz</strong> and <strong>TU Wien</strong> to ensure compliance with our metadata requirements and repository standards, improving the quality and reusability of published datasets.</p>
+<p>We also <strong>extended the module with additional features</strong>, e.g. ensuring that <strong>records remain locked for editing while they are in curation</strong>, which helps avoid conflicting changes and keeps the review process consistent.</p>
+<h3>Access and availability</h3>
+<p>Deposits are available to <strong>University of Münster members</strong>. Published records can generally be <strong>viewed openly</strong>, depending on the access settings chosen for a dataset. The interface is currently <strong>English-only</strong>; a <strong>fully translated German UI is planned for May</strong> using the InvenioRDM translation workflow improved by the new <strong>translation bundle</strong> feature from TU Graz.</p>
+<p>For those interested in learning more about our implementation, you can contact our team at <a href="mailto:forschungsdaten@uni-muenster.de">forschungsdaten@uni-muenster.de</a>.</p>
+
+  </article>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer>
+  <!-- hero footer -->
+  <div class="contact-section section-content-dark-bg">
+    <div class="container">
+      <div class="row">
+        <!-- first col -->
+        <div class="col-md-6 footer-logo-centered">
+          <a href="/">
+            <img src="/assets/images/logo-invenio-white.svg" alt="Invenio logo" title="Invenio logo" class="icon-contact">
+          </a>
+        </div>
+        <!-- second col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Products</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td><a href="/products/rdm/">InvenioRDM</a></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/products/ils/">InvenioILS</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/products/framework/">Invenio Framework</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/#products">Get Started</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/showcase/">Examples</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="/about/">About</a></td>
+              </tr>
+              <tr>
+                <td><a href="/about#logos">Logos</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- third col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Community</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td><a href="/products/rdm/roadmap/">Roadmap</a></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/getinvolved/">Get Involved</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/events/">Events & Training</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/support/">Hosting & Support</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/governance/">Governance</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/people/">People</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- fourth col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Keep in touch</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td>
+                  <a href="https://github.com/inveniosoftware">GitHub</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://discord.gg/8qatqBC">Chatroom</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://invenio-talk.web.cern.ch">Talk</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://x.com/inveniosoftware">@𝕏</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="/feed.xml">Blog Feed</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /end hero footer -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 centered">
+          <span>Copyright &copy; 2016-2026 CERN &amp; contributors. Icons by <a href="http://fontawesome.io/">Font Awesome</a> and <a href="https://icons8.com/">Icons8</a>. Text is licensed under Creative Commons Attribution 4.0 International.<br>
+        </span></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://webanalytics.web.cern.ch/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '233']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Matomo Code -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"></script>
+    <script>
+      //Main navigation scroll spy for shadow
+      $(window).scroll(function() {
+        var y = $(window).scrollTop();
+        if (y > 0) {
+          $(".invenio-navbar").addClass('invenio-navbar-not-top');
+        } else {
+          $(".invenio-navbar").removeClass('invenio-navbar-not-top');
+        }
+      });
+  </script>
+  </body>
+</html>

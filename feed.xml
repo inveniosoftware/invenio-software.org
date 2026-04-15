@@ -4,11 +4,48 @@
   <subtitle>Follow news and updates from the Invenio community</subtitle>
   <link href="https://inveniosoftware.org/feed.xml" rel="self" />
   <link href="https://inveniosoftware.org/blog/" />
-  <updated>2026-03-20T00:00:00Z</updated>
+  <updated>2026-04-14T00:00:00Z</updated>
   <id>https://inveniosoftware.org/blog/</id>
   <author>
     <name>Invenio Software</name>
   </author>
+  <entry>
+    <title>datastore: Relaunch of our research data repository</title>
+    <link href="https://inveniosoftware.org/blog/2026-04-14-datastore-uni-muenster.md/" />
+    <updated>2026-04-14T00:00:00Z</updated>
+    <published>2026-04-14T00:00:00Z</published>
+    <author>
+      <name>Sarah Wiechers</name><uri>https://orcid.org/0000-0002-3899-3461</uri>
+    </author>
+    <category term="InvenioRDM" />
+    <category term="Showcase" />
+    <id>https://doi.org/10.63517/312pg-rah44</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/datastore.png&quot; alt=&quot;datastore landing page&quot;&gt;&lt;/p&gt;
+&lt;p&gt;We’ve recently completed a major overhaul of &lt;strong&gt;datastore&lt;/strong&gt;, the research data repository of the University of Münster. The service has been fully rebuilt and is now running on &lt;strong&gt;InvenioRDM v14.0.0b4&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This relaunch also marks a major technology shift: the previous datastore service was based on a &lt;strong&gt;Java/React&lt;/strong&gt; stack. Moving to InvenioRDM helps us ensure &lt;strong&gt;sustainable maintenance&lt;/strong&gt; and long-term &lt;strong&gt;future viability&lt;/strong&gt; by building on a shared, actively developed codebase.&lt;/p&gt;
+&lt;p&gt;datastore is available at: &lt;a href=&quot;https://datastore.uni-muenster.de/&quot;&gt;https://datastore.uni-muenster.de/&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;What’s improved&lt;/h3&gt;
+&lt;p&gt;The new system brings major improvements, both functionally and in terms of usability:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Publish datasets up to 5 TB&lt;/strong&gt;&lt;br&gt;
+Records can now include datasets up to 5 terabytes, better supporting data-intensive projects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modern, streamlined UI&lt;/strong&gt;&lt;br&gt;
+A clearer interface and updated design make creating and publishing records easier.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved deposit guidance&lt;/strong&gt;&lt;br&gt;
+More structured submission steps support more consistent documentation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standardized metadata&lt;/strong&gt;&lt;br&gt;
+Richer, more consistent metadata improves discoverability and supports long-term reuse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;CRIS-assisted metadata entry (local integration)&lt;/h3&gt;
+&lt;p&gt;To reduce manual entry and improve metadata quality, we implemented a local integration with the University of Münster’s &lt;strong&gt;Current Research Information System (CRIS)&lt;/strong&gt;. During deposit, users can retrieve project-related metadata from CRIS and use it as a basis for describing their dataset.&lt;/p&gt;
+&lt;h3&gt;Curation workflow with invenio-curations&lt;/h3&gt;
+&lt;p&gt;All submissions are curated by the University and State Library (ULB) and the Service Center for Data Management. We use the &lt;strong&gt;invenio-curations module&lt;/strong&gt; developed in collaboration by &lt;strong&gt;TU Graz&lt;/strong&gt; and &lt;strong&gt;TU Wien&lt;/strong&gt; to ensure compliance with our metadata requirements and repository standards, improving the quality and reusability of published datasets.&lt;/p&gt;
+&lt;p&gt;We also &lt;strong&gt;extended the module with additional features&lt;/strong&gt;, e.g. ensuring that &lt;strong&gt;records remain locked for editing while they are in curation&lt;/strong&gt;, which helps avoid conflicting changes and keeps the review process consistent.&lt;/p&gt;
+&lt;h3&gt;Access and availability&lt;/h3&gt;
+&lt;p&gt;Deposits are available to &lt;strong&gt;University of Münster members&lt;/strong&gt;. Published records can generally be &lt;strong&gt;viewed openly&lt;/strong&gt;, depending on the access settings chosen for a dataset. The interface is currently &lt;strong&gt;English-only&lt;/strong&gt;; a &lt;strong&gt;fully translated German UI is planned for May&lt;/strong&gt; using the InvenioRDM translation workflow improved by the new &lt;strong&gt;translation bundle&lt;/strong&gt; feature from TU Graz.&lt;/p&gt;
+&lt;p&gt;For those interested in learning more about our implementation, you can contact our team at &lt;a href=&quot;mailto:forschungsdaten@uni-muenster.de&quot;&gt;forschungsdaten@uni-muenster.de&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Whoops! The Better-Late-Than-Never March 2025 InvenioRDM Partner Meeting Summary</title>
     <link href="https://inveniosoftware.org/blog/2026-03-20-inveniordm-partner-meeting-hamburg/" />
@@ -107,7 +144,7 @@ Your voice is welcome - &lt;a href=&quot;https://inveniosoftware.org/getinvolved
     <updated>2025-10-15T00:00:00Z</updated>
     <published>2025-10-15T00:00:00Z</published>
     <author>
-      <name>Sarah Wiechers</name>
+      <name>Sarah Wiechers</name><uri>https://orcid.org/0000-0002-3899-3461</uri>
     </author>
     <category term="InvenioRDM" />
     <category term="Showcase" />
@@ -629,7 +666,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
     <updated>2024-04-24T00:00:00Z</updated>
     <published>2024-04-24T00:00:00Z</published>
     <author>
-      <name>Sarah Wiechers</name>
+      <name>Sarah Wiechers</name><uri>https://orcid.org/0000-0002-3899-3461</uri>
     </author>
     <category term="InvenioRDM" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/20_workgroup_structure_governance_image01.jpg" />
