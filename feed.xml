@@ -15,10 +15,10 @@
     <updated>2026-05-08T00:00:00Z</updated>
     <published>2026-05-08T00:00:00Z</published>
     <author>
-      <name>Ian Scott</name>
+      <name>Ian W. Scott</name><uri>https://orcid.org/0000-0002-0722-4993</uri>
     </author>
     <category term="InvenioRDM" />
-    <id>https://doi.org/10.63517/....</id>
+    <id>https://doi.org/10.63517/gx1dx-08q02</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/2026-05-08-basics-required-fields.png&quot; alt=&quot;Deposit form extension showing stepped form progression&quot;&gt;&lt;/p&gt;
 &lt;h1&gt;Extending the InvenioRDM Deposit Form&lt;/h1&gt;
 &lt;p&gt;When I first started work on Knowledge Commons Works, one of the first things I built was an extension to add several layers of functionality to the stock InvenioRDM deposit form: invenio-modular-deposit-form. Three years later, that extension has matured and been rewritten from the ground up to be re-usable by other InvenioRDM instances.&lt;/p&gt;
