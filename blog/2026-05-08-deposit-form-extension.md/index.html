@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="invenio, library, framework, ils, research, data, multimedia, ir, institutional, repository, cern, foss, open, software, model, search, workflows, marc, marc21, python, api, doi, json, oai-pmh, orcid, openaire, rest, zenodo, cds, flask">
+    <meta name="generator" content="Eleventy v3.1.2">
+    <title>InvenioRDM Deposit Form Extension - inveniosoftware.org</title>
+    <meta property="og:title" content="InvenioRDM Deposit Form Extension">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="/blog/2026-05-08-deposit-form-extension.md/">
+    <meta property="og:site_name" content="Invenio">
+    <meta property="og:description" content="Powering Open Science">
+    <link rel="icon" href="/assets/images/favicon.ico">
+    <link rel="canonical" href="/blog/2026-05-08-deposit-form-extension.md/">
+    <link rel="alternate" type="application/atom+xml" title="Invenio Blog Feed" href="/feed.xml">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600|Oswald|Source+Code+Pro:400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    
+<section class="header-section ">
+  <div class="cover-image">
+    
+<header class="header-nav">
+  <nav class="navbar navbar-fixed-top invenio-navbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#inv-navbar-collapse" aria-controls="inv-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="navbar-brand">
+          <img src="/assets/images/logo-invenio-white.svg" alt="Invenio logo" title="Invenio logo" class="icon-contact">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="inv-navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/">Home</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="nav-label">Products</span>
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  
+                    <li><a href="/products/rdm/">InvenioRDM</a></li>
+                  
+                    <li><a href="/products/ils/">InvenioILS</a></li>
+                  
+                    <li><a href="/products/framework/">Invenio Framework</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/showcase/">Showcase</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="nav-label">Community</span>
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  
+                    <li><a href="/getinvolved/">Get Involved</a></li>
+                  
+                    <li><a href="/events/">Events & Training</a></li>
+                  
+                    <li><a href="/support/">Hosting & Support</a></li>
+                  
+                    <li><a href="/governance/">Governance</a></li>
+                  
+                    <li><a href="/maintainers/">Maintainers</a></li>
+                  
+                    <li><a href="/people/">People</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/documentation/">Docs</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a class="active-menu" href="/blog/">Blog</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="https://invenio-talk.web.cern.ch/">Talk</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/about/">About</a></li>
+            
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <div class="container">
+      <div class="row centered">
+        <div class="col-12">
+          
+          <div class="header-section-title">
+            
+            <h1>Invenio Blog</h1>
+            <p class="sub-title">Follow news and updates from the Invenio community</p>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+    <main tabindex="-1" id="main-content">
+    
+<section id="blog-post-content-section" class="section-content-light-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-xs-12 block-center">
+          <div class="blog-back-button">
+  <a href="/blog">Back</a>
+</div>
+<div class="blog-post blog-post-frame">
+  <header class="post-header">
+    <h2 class="post-title">InvenioRDM Deposit Form Extension</h2>
+    <div class="post-meta">
+      <i class="fa fa-users text-muted"></i>
+      <span class="author"></span>
+      <i class="fa fa-calendar text-muted"></i>
+      <span>May 8, 2026</span>
+      <i class="fa fa-tags text-muted"></i>
+      <span><span class="label label-primary label-tag">InvenioRDM</span></span>
+      <div class="pt-4"> 
+        <i class="fa fa-external-link text-muted"></i>
+        <a href="https://doi.org/10.63517/...." target="_blank" rel="noopener noreferrer">https://doi.org/10.63517/....</a>
+      </div>
+    </div>
+  </header>
+  <article class="post-content">
+    <p><img src="/assets/images/blog-posts/2026-05-08-basics-required-fields.png" alt="Deposit form extension showing stepped form progression"></p>
+<h1>Extending the InvenioRDM Deposit Form</h1>
+<p>When I first started work on Knowledge Commons Works, one of the first things I built was an extension to add several layers of functionality to the stock InvenioRDM deposit form: invenio-modular-deposit-form. Three years later, that extension has matured and been rewritten from the ground up to be re-usable by other InvenioRDM instances.</p>
+<h2>Born from our UX research</h2>
+<p>Early on I was handed the challenge of adding several things to the stock InvenioRDM upload form. Our team had been doing UX research with our user base, and had come up with some recommendations. The stock form was a bit overwhelming for users. They wanted a stepped form that let them deal with just one section at a time. They wanted a form that adapted to the resource type they were uploading. It should be smart enough to recognize that I don't need to see the &quot;Journal Title&quot; field if I'm uploading a dataset. They got frustrated when they refreshed their browser, or closed the tab, and lost all of the values they'd been entering. And they didn't want to wait until they submitted the form to find out they'd missed a required field or that their publication date wasn't formatted properly. They wanted immediate feedback. Finally, they wanted the fields to be grouped differently than the stock form arrangement, and that included bringing &quot;custom&quot; fields from the bottom of the form into the main form sections. Along the way, we rearranged the form fields several times, convincing me that I needed to be able to change the form's layout without rewriting templates every time.</p>
+<p>And so the invenio-modular-deposit-form was born. The first version was not a very elegant beast and it was also very tightly coupled to our own InvenioRDM instance. As I learned more about InvenioRDM's internals, I also heard other developers talk about needing similar features. So when I had the chance to revisit our deposit form, as part of our upgrade to InvenioRDM v13, I took the opportunity to rewrite invenio-modular-deposit-form as a cleaner and fully generic extension.</p>
+<p>Now we're finally ready to share the extension and see whether it can be useful to others.</p>
+<h2>Five layers of added functionality</h2>
+<h3>Fully configurable layout</h3>
+<p>Form layout with the extension is driven entirely by a configuration object. So it's quick and easy to move fields around in the form, and swap out different field components, without touching any React code. Layout is configured declaratively, using a Python dictionary that describes a tree of React component names. At the top of this component object we name six basic form regions (title, form header, centre column, sidebars, and form footer). Inside each of these regions we can place structural components (like form rows, or form sections). Then individual field components can be nested as desired in those structural elements.</p>
+<p>While the form layout dictionary has a simple structure, it also allows great flexibility because it can pass any desired class names and other props through to the React components themselves. This allows for, e.g., using responsive css classes to add responsive behaviour to any component. It also provides one central place for defining (or overriding) things like field labels, descriptions, etc.</p>
+<h3>Custom fields anywhere</h3>
+<p>Custom field inputs can be placed anywhere in this layout configuration, mixed as desired with the rest of the stock InvenioRDM fields. This is made possible by a CustomField wrapper component that reads the standard custom fields UI configuration.</p>
+<h3>Stepped form progression</h3>
+<p>The form fields in the centre column can be divided into a set of form pages, allowing users to interact with the form as a series of manageable steps. The extension also provides two different navigation components: a button-based stepper component that fits at the top of the form, or a vertical menu that can be displayed in either sidebar.</p>
+<p>Just as the form sections, fields, and regions can be made responsive via classes, whole form pages can be set to display only at certain display dimensions. For example, the form submission buttons could be displayed in a sidebar on wider devices and then moved into a separate page of the form on smaller screens.</p>
+<h3>Extensible component registry</h3>
+<p>Behind the scenes, this layout is driven by a FormLayoutContainer component that is responsible for reading the configuration at runtime and arranging the form fields. The registry of available form components can be extended via an entry point, allowing instance maintainers to use their own React components--either for custom fields or simply to add alternate components for existing fields.</p>
+<h3>Adaptation to resource type</h3>
+<p><img src="/assets/images/blog-posts/2026-05-08-fields-by-resource-type.png" alt="Deposit form extension displaying fields by resource type"></p>
+<p>The form layout can also adapt to whatever resource type is currently selected. Alongside the main form layout configuration object, a second dictionary can be used to define layout overrides for any resource type. Fields can be rearranged, shown, or hidden instantly when the resource type is changed. And props in these override configurations can be used to adapt field properties to the selected resource type, so that the field label, default values, description, etc. remain relevant to the kind of material being deposited.</p>
+<h3>Client-side validation</h3>
+<p><img src="/assets/images/blog-posts/2026-05-08-error-tooltips.png" alt="Error tooltips"></p>
+<p>The invenio-modular-deposit-form extension also adds immediate client-side validation of the form fields, letting users see immediate warnings if there are problems with a value they've entered. Error tooltips are displayed in-place above the affected fields, and error labels are shown on the stepper or menu components for any pages that have errors. A separate FormFeedback component can display a summary of form error messages in any region of the form layout.</p>
+<p>This validation is driven by a Yup validation schema that duplicates as closely as possible the validation that InvenioRDM performs on the back end when a draft is submitted. This schema can also be customized or extended as desired.</p>
+<h3>Autosave and restore</h3>
+<p>In addition to the configurable layout and client-side validation, the extension also adds autosave and restore to the form. As the user types, the form's current values are stored in their browser's local storage. If the user leaves the page before saving a draft to the back end, when they return to the form they are prompted to either restore these locally backed-up values or discard them and start fresh. Separate backups are stored for each draft id and each user working in the same browser, so that unsaved values aren't lost if a user switches from one active draft to another.</p>
+<h3>Form pre-submission transformations</h3>
+<p>Finally, the invenio-modular-deposit-form extension provides an extensible hook to modify any of the form values when the user clicks &quot;save draft&quot; or &quot;publish&quot;. No transformations are included by default. But instance maintainers can use a final entry point to supply functions that modify any of the field values on form submission. So one might, for example, catch records that do not include a &quot;publisher&quot; value, and add a different default depending on the resource type, the selected community, or even the institutional affiliation of the record's creators.</p>
+<h3>Bonuses</h3>
+<p><img src="/assets/images/blog-posts/2026-05-08-contributors-and-funding.png" alt="Contributors and funding inline fields"></p>
+<p>Along the way, we've also developed alternate versions of some form fields that are included with the extension. These include a Creator/Contributor field that uses collapsible inline fields (instead of a modal) and an alternate publication date field that provides separate year, month, and day selectors, ensuring that entered dates are formatted as proper EDTF strings. These are included, in part, in the hope that others might also share their own alternate components.</p>
+<h2>How does all of this get added?</h2>
+<p>My basic approach in writing invenio-modular-deposit-form has been to modify the stock form as little as possible. Most of the added functionality comes from (a) a custom deposit form template, and (b) two React components that live <em>between</em> the stock form's API/Formik bootstrapping layer and the actual form fields: <code>FormUIStateManager</code> for keeping track of the form's dynamic state, and <code>FormLayoutContainer</code> for setting up the configurable layout. This is complemented by structural components for various form regions and layout sections (<code>FormSection</code>, <code>FormRow</code>), as well as by wrapper components that feed the individual fields with the props and configuration values they need (<code>FieldComponentWrapper</code>, <code>CustomField</code>).</p>
+<p>The ideal goal is to make this layer work with the stock InvenioRDM form field components as is. We're not quite there yet. The invenio-modular-deposit-form currently comes bundled with forked versions of many components, since slight changes were necessary to get aspects of the client-side validation and per-type adaptation working. The hope is that I'll be able to upstream enough of these changes to drop most of these forks.</p>
+<h2>An example of the possibilities</h2>
+<p>Our invenio-modular-deposit-form extension doesn't aim to be the perfect deposit form. Our goal has, instead, been to make the stock InvenioRDM form as flexible as possible, to extend its functionality to meet an even wider variety of needs. Many of us who develop and maintain InvenioRDM instances have made the deposit form our own. I hope our work provides one example of how we might make these kinds of customizations easier to implement and maintain for all of us.</p>
+
+  </article>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer>
+  <!-- hero footer -->
+  <div class="contact-section section-content-dark-bg">
+    <div class="container">
+      <div class="row">
+        <!-- first col -->
+        <div class="col-md-6 footer-logo-centered">
+          <a href="/">
+            <img src="/assets/images/logo-invenio-white.svg" alt="Invenio logo" title="Invenio logo" class="icon-contact">
+          </a>
+        </div>
+        <!-- second col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Products</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td><a href="/products/rdm/">InvenioRDM</a></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/products/ils/">InvenioILS</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/products/framework/">Invenio Framework</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/#products">Get Started</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/showcase/">Examples</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="/about/">About</a></td>
+              </tr>
+              <tr>
+                <td><a href="/about#logos">Logos</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- third col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Community</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td><a href="/products/rdm/roadmap/">Roadmap</a></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/getinvolved/">Get Involved</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/events/">Events & Training</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/support/">Hosting & Support</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/governance/">Governance</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/people/">People</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- fourth col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Keep in touch</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td>
+                  <a href="https://github.com/inveniosoftware">GitHub</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://discord.gg/8qatqBC">Chatroom</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://invenio-talk.web.cern.ch">Talk</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="/feed.xml">Blog Feed</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /end hero footer -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 centered">
+          <span>Copyright &copy; 2016-2026 CERN &amp; contributors. Icons by <a href="http://fontawesome.io/">Font Awesome</a> and <a href="https://icons8.com/">Icons8</a>. Text is licensed under Creative Commons Attribution 4.0 International.<br>
+        </span></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://webanalytics.web.cern.ch/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '233']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Matomo Code -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"></script>
+    <script>
+      //Main navigation scroll spy for shadow
+      $(window).scroll(function() {
+        var y = $(window).scrollTop();
+        if (y > 0) {
+          $(".invenio-navbar").addClass('invenio-navbar-not-top');
+        } else {
+          $(".invenio-navbar").removeClass('invenio-navbar-not-top');
+        }
+      });
+  </script>
+  </body>
+</html>
