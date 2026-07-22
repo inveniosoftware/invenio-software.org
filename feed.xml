@@ -4,11 +4,69 @@
   <subtitle>Follow news and updates from the Invenio community</subtitle>
   <link href="https://inveniosoftware.org/feed.xml" rel="self" />
   <link href="https://inveniosoftware.org/blog/" />
-  <updated>2026-05-08T00:00:00Z</updated>
+  <updated>2026-07-21T00:00:00Z</updated>
   <id>https://inveniosoftware.org/blog/</id>
   <author>
     <name>Invenio Software</name>
   </author>
+  <entry>
+    <title>Conference Spotlight: InvenioRDM Workshop Day at Open Repositories 2026</title>
+    <link href="https://inveniosoftware.org/blog/2026-07-21-InvenioRDM-Workshop-OR2026/" />
+    <updated>2026-07-21T00:00:00Z</updated>
+    <published>2026-07-21T00:00:00Z</published>
+    <author>
+      <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
+    </author>
+    <category term="InvenioRDM" />
+    <category term="Open Repositories" />
+    <id>https://doi.org/10.63517/43kgp-yny92</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/2026-07-21-july-OR2026.png&quot; alt=&quot;Open Repositories 2026&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The 21st annual &lt;a href=&quot;https://or2026.openrepositories.org/&quot;&gt;Open Repositories conference&lt;/a&gt; took place virtually on June 8 - 11, 2026. The first virtual conference since 2021, the dozens of presentations and posters featured presenters from around the world, all sharing innovations related to the conference theme: &lt;em&gt;Open to All? Repositories at the Intersection of People, Practice, and Emerging Technologies.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As an added bonus, all presentations except the Roundtables were recorded, and are now available, along with all other conference materials, through &lt;a href=&quot;https://zenodo.org/communities/openrepos/&quot;&gt;Open Repositories&#39; Zenodo community&lt;/a&gt;. This includes the InvenioRDM Workshop, one of five half-day workshops offered.&lt;/p&gt;
+&lt;p&gt;At our fifth annual &lt;a href=&quot;https://zenodo.org/communities/inveniordm-workshop-2026&quot;&gt;OR InvenioRDM Workshop&lt;/a&gt;, a dozen of our community members collaborated to present on the most recent features and cutting-edge customizations of InvenioRDM. Show-and-tells and demos were presented in the first half. After a short break, we offered participants choices of three breakout rooms, enabling them to ask the experts questions in three key areas: technical installation and support; user support and promotion of an InvenioRDM-based institutional repository; and the activities of, and how to become involved with, the InvenioRDM Community.&lt;/p&gt;
+&lt;p&gt;Our expert-led Show-and-tells and demos, and supporting slides, included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CERN&#39;s most up-to-date &lt;a href=&quot;https://doi.org/10.5281/zenodo.20445471&quot;&gt;product updates&lt;/a&gt; (including information on v14)&lt;/li&gt;
+&lt;li&gt;TU Wien&#39;s &lt;a href=&quot;https://doi.org/10.5281/zenodo.21248860&quot;&gt;customizations and enhanced features on their instance&lt;/a&gt;, TU Wien Research Data&lt;/li&gt;
+&lt;li&gt;Paradigm&#39;s outline of a &lt;a href=&quot;https://doi.org/10.5281/zenodo.21249140&quot;&gt;bulk import / export tool&lt;/a&gt; for use with InvenioRDM instances&lt;/li&gt;
+&lt;li&gt;NYU&#39;s description of a &lt;a href=&quot;https://doi.org/10.5281/zenodo.20734133&quot;&gt;migration project to bring geospatial data&lt;/a&gt; into a local InvenioRDM instance&lt;/li&gt;
+&lt;li&gt;Northwestern University&#39;s &lt;a href=&quot;https://doi.org/10.5281/zenodo.21249205&quot;&gt;explorations into a metadata-assisted repository service model&lt;/a&gt; for deposits into Prism, the local instance of InvenioRDM&lt;/li&gt;
+&lt;li&gt;Caltech&#39;s presentation on their Library&#39;s &lt;a href=&quot;https://doi.org/10.5281/zenodo.21249014&quot;&gt;three InvenioRDM-based institutional repositories&lt;/a&gt;: Caltech Authors, Caltech Research Data Repository, and Caltech Thesis&lt;/li&gt;
+&lt;li&gt;An &lt;a href=&quot;https://doi.org/10.5281/zenodo.21247805&quot;&gt;InvenioRDM Technical FAQ&lt;/a&gt; prepared by developers from Northwestern University&lt;/li&gt;
+&lt;li&gt;A summary of the &lt;a href=&quot;https://doi.org/10.5281/zenodo.20633150&quot;&gt;work and functions of the InvenioRDM open source community&lt;/a&gt;, prepared by Northwestern and NYU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thirteen of our fifty participants completed a post-survey, revealing their differing roles, including Librarians (38%), Developers (23%), Managers (15%), Other (15%), and IT/System Administrators (8%). Most (85%) had never attended an InvenioRDM workshop before, and most (nearly 70%) were at least somewhat familiar with the software. 46% did not have an InvenioRDM instance, while 23% did, and 31% were considering setting one up. Satisfaction levels were high, with expectations generally being met and a high likelihood of recommending a future InvenioRDM workshop like this one to a colleague. The examples and practical applications we demonstrated were considered relevant, awareness of the software was increased, and people affirmed that they were highly likely to use knowledge, skills, and resources from the workshop in their work settings. A slightly lower score was obtained for the statement, &amp;quot;I got all the information about InvenioRDM that I need to implement for my institution&amp;quot;, however no specific requests or feedback were provided as to what types of information would be most useful to address this in the future.&lt;/p&gt;
+&lt;p&gt;InvenioRDM made an appearance in several other sessions apart from the Workshop, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://doi.org/10.5281/zenodo.20789135&quot;&gt;The Repository Showdown&lt;/a&gt;: Nicola Tarocco on behalf of Zenodo&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://doi.org/10.5281/zenodo.20789098&quot;&gt;Ask a Robot - Adding AI Search to InvenioRDM&lt;/a&gt; by Steven Eardley of Cottage Labs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://doi.org/10.5281/zenodo.20789021&quot;&gt;University of Edinburgh Streamlined Research Data Service Feasibility Study&lt;/a&gt; by Robin Rice and Ianthe Sutherland&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://doi.org/10.5281/zenodo.20788963&quot;&gt;Public Health Data in Context: Publishing the RKI Research Graph&lt;/a&gt; by Luca Leipold, Franziska Diehr, Nicholas Drebenstedt (Robert Koch Institute), Richard Jones (Cottage Labs)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://doi.org/10.5281/zenodo.20789011&quot;&gt;Institutional repository service design at NYU Libraries&lt;/a&gt; by Laura Henze, Jonathan Greenberg, and Deb Verhoff of NYU&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://doi.org/10.5281/zenodo.20788969&quot;&gt;When &amp;quot;Open to All&amp;quot; Threatens Sustainability: AI, Bots, and the Future of Open Repositories&lt;/a&gt; by Aaron McCollough (Paradigm), Tom Morrell (Caltech), Mirek Simek (CESNET), and Alex Ioannidis (CERN)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://doi.org/10.5281/zenodo.20778609&quot;&gt;Presenting Metadata Differently&lt;/a&gt; by Aga Domanska (Cottage Labs), Franziska Diehr (Robert Koch Institute), and Richard Jones (Cottage Labs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At the end of the conference, it was announced that the next Open Repositories will be hosted in Salvador, Brazil from June 6 - 10, 2027. We will aim to host an InvenioRDM workshop once again then, and we hope to see you there!&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Tarocco, N., Ioannidis, A., &amp;amp; Gonzales, S. (2026). InvenioRDM OR2026 Workshop Kick-off. &lt;a href=&quot;https://doi.org/10.5281/zenodo.20445471&quot;&gt;https://doi.org/10.5281/zenodo.20445471&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Moser, M. (2026). TU Wien Research Data: InvenioRDM Customized &amp;amp; Certified. &lt;a href=&quot;https://doi.org/10.5281/zenodo.21248860&quot;&gt;https://doi.org/10.5281/zenodo.21248860&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;McCollough, A. (2026). Paradigm’s Bulk Import / Export Tool for InvenioRDM. &lt;a href=&quot;https://doi.org/10.5281/zenodo.21249140&quot;&gt;https://doi.org/10.5281/zenodo.21249140&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Verhoff, D., &amp;amp; Pechekhonova, E. (2026). Migration from a Spatial Data Repository to InvenioRDM. &lt;a href=&quot;https://doi.org/10.5281/zenodo.20734133&quot;&gt;https://doi.org/10.5281/zenodo.20734133&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gutzman, K., &amp;amp; Elder, J. (2026). Beyond Manual Deposit: Exploring a Metadata-Assisted Repository Service Model. &lt;a href=&quot;https://doi.org/10.5281/zenodo.21249205&quot;&gt;https://doi.org/10.5281/zenodo.21249205&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Morrell, T. E. (2026). Caltech Library Repositories. &lt;a href=&quot;https://doi.org/10.5281/zenodo.21249014&quot;&gt;https://doi.org/10.5281/zenodo.21249014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Viger, G., Sharp, A., &amp;amp; Newman, E. (2026). InvenioRDM Technical FAQ - A Remixed Addendum. &lt;a href=&quot;https://doi.org/10.5281/zenodo.21247805&quot;&gt;https://doi.org/10.5281/zenodo.21247805&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gonzales, S., &amp;amp; Verhoff, D. (2026). The InvenioRDM Community 2026. &lt;a href=&quot;https://doi.org/10.5281/zenodo.20633150&quot;&gt;https://doi.org/10.5281/zenodo.20633150&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tarocco, N., Ioannidis, A., &amp;amp; Gonzales, S. (2026). InvenioRDM repository showdown. &lt;a href=&quot;https://doi.org/10.5281/zenodo.20789135&quot;&gt;https://doi.org/10.5281/zenodo.20789135&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Eardley, S. (2026). Ask a robot—Adding AI search to InvenioRDM. &lt;a href=&quot;https://doi.org/10.5281/zenodo.20789098&quot;&gt;https://doi.org/10.5281/zenodo.20789098&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rice, R., &amp;amp; Sutherland, I. (2026). University of Edinburgh Streamlined Research Data Service Feasibility Study. &lt;a href=&quot;https://doi.org/10.5281/zenodo.20789021&quot;&gt;https://doi.org/10.5281/zenodo.20789021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Leipold, L., Diehr, F., Drebenstedt, N., &amp;amp; Jones, R. (2026). Public Health Data in Context: Publishing the RKI research graph. &lt;a href=&quot;https://doi.org/10.5281/zenodo.20788963&quot;&gt;https://doi.org/10.5281/zenodo.20788963&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Henze, L., Greenberg, J., &amp;amp; Verhoff, D. (2026). Institutional repository service design at NYU Libraries. &lt;a href=&quot;https://doi.org/10.5281/zenodo.20789011&quot;&gt;https://doi.org/10.5281/zenodo.20789011&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;McCollough, A., Morrell, T., Simek, M., &amp;amp; Ioannidis, A. (2026). When “Open to All” Threatens Sustainability: AI, Bots, and the Future of Open Repositories. &lt;a href=&quot;https://doi.org/10.5281/zenodo.20788969&quot;&gt;https://doi.org/10.5281/zenodo.20788969&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Domanska Aga, Diehr Franziska, &amp;amp; Jones Richard. (2026). Presentations: Presenting Metadata Differently. &lt;a href=&quot;https://doi.org/10.5281/zenodo.20778609&quot;&gt;https://doi.org/10.5281/zenodo.20778609&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
   <entry>
     <title>InvenioRDM Deposit Form Extension</title>
     <link href="https://inveniosoftware.org/blog/2026-05-08-deposit-form-extension.md/" />
