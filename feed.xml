@@ -4,11 +4,208 @@
   <subtitle>Follow news and updates from the Invenio community</subtitle>
   <link href="https://inveniosoftware.org/feed.xml" rel="self" />
   <link href="https://inveniosoftware.org/blog/" />
-  <updated>2026-07-21T00:00:00Z</updated>
+  <updated>2026-08-07T00:00:00Z</updated>
   <id>https://inveniosoftware.org/blog/</id>
   <author>
     <name>Invenio Software</name>
   </author>
+  <entry>
+    <title>InvenioRDM v14.0 released</title>
+    <link href="https://inveniosoftware.org/blog/2026-08-07-invenio-rdm-14/" />
+    <updated>2026-08-07T00:00:00Z</updated>
+    <published>2026-08-07T00:00:00Z</published>
+    <author>
+      <name>Guillaume Viger</name>
+    </author>
+    <category term="InvenioRDM" />
+    <id>https://doi.org/10.63517/kshzw-ay335</id>
+    <content type="html">&lt;p&gt;InvenioRDM v14.0 was just released on August 7th 2026, and it&#39;s jam-packed with features, improvements and fixes! This is a big one, so let&#39;s get into it.&lt;/p&gt;
+&lt;h2&gt;Try it&lt;/h2&gt;
+&lt;p&gt;Want to see it in action? Go to &lt;a href=&quot;https://inveniordm.web.cern.ch&quot;&gt;the demo site&lt;/a&gt;. If you want to install it, follow &lt;a href=&quot;https://inveniordm.docs.cern.ch/install/&quot;&gt;the installation instructions&lt;/a&gt;!&lt;/p&gt;
+&lt;h2&gt;Release Notes&lt;/h2&gt;
+&lt;p&gt;See the &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v14/version-v14.0.0/&quot;&gt;full release notes&lt;/a&gt; for &lt;em&gt;all&lt;/em&gt; the details, and the &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v14/upgrade-v14.0/&quot;&gt;upgrade guide&lt;/a&gt; for instructions on how to upgrade from your v13 instance to v14.&lt;/p&gt;
+&lt;h2&gt;What&#39;s new?&lt;/h2&gt;
+&lt;h3&gt;Administration panel: users and roles&lt;/h3&gt;
+&lt;p&gt;Administrators can now manage user roles directly from the administration panel.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-14/manage-user-roles-dropdow-menu.png&quot; alt=&quot;Manage user roles dropdown menu&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Community membership requests&lt;/h3&gt;
+&lt;p&gt;Users can request to become members of communities directly. This feature is opt-in per community and feature-gated at the instance level.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-14/community-request-membership.png&quot; alt=&quot;Request membership&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Community reviews for each record version&lt;/h3&gt;
+&lt;p&gt;It is now possible to require a review for all record versions, subject to custom code on the instance level.&lt;/p&gt;
+&lt;h3&gt;DOI registration with Crossref&lt;/h3&gt;
+&lt;p&gt;DOI registration with Crossref, instead of or in addition to DataCite, is possible. Crossref has a different metadata schema than DataCite and supports textual content types such as journal articles, books, conference proceedings, preprints, posters or dissertations.&lt;/p&gt;
+&lt;h3&gt;Files modification&lt;/h3&gt;
+&lt;p&gt;You can now allow users to modify the files of their published records, in accordance with your policies. When enabled, the record&#39;s owner can unlock file editing within the first 30 days of publication and modify them within 45 days (by default).&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-14/file-modification.png&quot; alt=&quot;Showing the flow to edit the files of a record&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Files quota&lt;/h3&gt;
+&lt;p&gt;You can specify a default amount of extra storage for files which users can spread across their records, allowing them to selectively use their volume budget for extra large records.
+Additionally users can view the extra quota which they have used across their records in the new storage page in their settings.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-14/storage-settings.jpg&quot; alt=&quot;Storage settings&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;GeoJSON and Web Archive previewers&lt;/h3&gt;
+&lt;p&gt;Preview GeoJSON files uploaded by users directly on an interactive map rendered with &lt;a href=&quot;https://leafletjs.com&quot;&gt;Leaflet&lt;/a&gt; and &lt;a href=&quot;https://www.openstreetmap.org/&quot;&gt;OpenStreetMap&lt;/a&gt; tiles.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-14/geojson.jpg&quot; alt=&quot;GeoJSON previewer&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;The new previewer automatically detects and displays GeoJSON files as maps within the existing JSON file previewer. When users upload a GeoJSON file, it will be rendered as an interactive map instead of raw JSON.&lt;/p&gt;
+&lt;p&gt;You can also preview web archives (WACZ, WARC, HAR, CDX, CDXJ) using an embedded &lt;a href=&quot;https://replayweb.page/&quot;&gt;ReplayWeb.page&lt;/a&gt; viewer.&lt;/p&gt;
+&lt;h3&gt;Job notifications&lt;/h3&gt;
+&lt;p&gt;Jobs can now send email notifications to configured recipients when runs complete with specific statuses. This enables administrators and librarians to be automatically informed about the outcome of scheduled or manually triggered jobs.&lt;/p&gt;
+&lt;h3&gt;Metadata schema update&lt;/h3&gt;
+&lt;p&gt;We have aligned the core metadata schema and vocabularies with the latest additions from DataCite Schemas v4.5, v4.6 and v4.7. The goal is to adopt relevant updates that benefit InvenioRDM instances while strictly limiting breaking changes to ensure a smooth upgrade path. Additional breaking changes will happen in a future release.&lt;/p&gt;
+&lt;p&gt;List of changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The existing resource types &amp;quot;Publication / Thesis&amp;quot; (id &lt;code&gt;publication-thesis&lt;/code&gt;) and &amp;quot;Publication / Dissertation&amp;quot; (id &lt;code&gt;publication-dissertation&lt;/code&gt;) were merged into the former, which has been mapped to the resource type &lt;code&gt;Dissertation&lt;/code&gt; in DataCite.&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;Poster&lt;/code&gt;, &lt;code&gt;Presentation&lt;/code&gt;, and &lt;code&gt;Study Registration&lt;/code&gt; to the depositable default resource types. Added &lt;code&gt;Project&lt;/code&gt; and &lt;code&gt;Instrument&lt;/code&gt; to the linkable default resource types.&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;IsTranslationOf&lt;/code&gt;, &lt;code&gt;HasTranslation&lt;/code&gt;, &lt;code&gt;IsCollectedBy&lt;/code&gt;, &lt;code&gt;Collects&lt;/code&gt;, and &lt;code&gt;Other&lt;/code&gt; to the default relation types. Added the new contributor type &lt;code&gt;Translator&lt;/code&gt; and the new date type &lt;code&gt;Coverage&lt;/code&gt; to their respective default vocabularies.&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;CSTR&lt;/code&gt; (Science and Technology Resource Identifier) and &lt;code&gt;RRID&lt;/code&gt; (Research Resource Identifier) as identifiable related identifiers.&lt;/li&gt;
+&lt;li&gt;When minting DataCite DOIs, renamed the &lt;code&gt;identifiers&lt;/code&gt; field to &lt;code&gt;alternateIdentifiers&lt;/code&gt; and moved the &lt;code&gt;doi&lt;/code&gt; identifier to its own field.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Modern toolchain&lt;/h3&gt;
+&lt;p&gt;The modern build toolchain introduced as experimental in v13 is now considered stable and ready for adoption:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://docs.astral.sh/uv/&quot;&gt;uv&lt;/a&gt;&lt;/strong&gt; in place of &lt;code&gt;pipenv&lt;/code&gt; for Python dependency management.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://pnpm.io/&quot;&gt;pnpm&lt;/a&gt;&lt;/strong&gt; in place of &lt;code&gt;npm&lt;/code&gt; for JavaScript dependency management, with faster installs and a disk-efficient content-addressable store.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.rspack.dev/&quot;&gt;Rspack&lt;/a&gt;&lt;/strong&gt; in place of &lt;code&gt;webpack&lt;/code&gt; for asset bundling, with Rust-based builds that are much faster and drop-in compatible with the existing Invenio asset pipeline.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;OAuth improvements&lt;/h3&gt;
+&lt;p&gt;We&#39;ve added a few small but crucial improvements to our OAuth implementation, improving security and bringing Invenio&#39;s third-party authentication in line with modern standards.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Refresh tokens&lt;/strong&gt; are now supported, meaning we now have full compatibility with all OAuth 2.0 authorization servers.&lt;/li&gt;
+&lt;li&gt;The performance and flexibility of queries have been improved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Overridable: easily find components IDs&lt;/h3&gt;
+&lt;p&gt;When customizing InvenioRDM, you often need the UI component ID to override. Developer mode now highlights all overridable components on a page, making it easy to find the ID you need.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-14/metadata_id_overlay.png&quot; alt=&quot;Metadata-only checkbox overridable ID in an overlay&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Preview content of ZIP files and others&lt;/h3&gt;
+&lt;p&gt;We&#39;ve enhanced support for ZIP files and introduced a flexible framework for handling other similar container formats (e.g., NetCDF, TAR). Users can now explore and access files inside archives without downloading them entirely, making large datasets easier to work with.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-14/container-file-formats.png&quot; alt=&quot;ZIP file preview&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Publication date range facet&lt;/h3&gt;
+&lt;p&gt;InvenioRDM v14 introduces an interactive publication date facet on the search
+page. Users can filter records by year using a histogram and range slider, or
+pick from preset ranges (last 6 months, last year, last 5 years) and enter a
+custom date range.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-14/publication-date-range-facet.png&quot; alt=&quot;Publication date range facet&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Record deletion&lt;/h3&gt;
+&lt;p&gt;You can now configure InvenioRDM to allow users to delete, or request deletion of, their own published records in accordance with any policy or criteria you may have. When enabled, the default behavior is that records can be deleted within 30 days of publication. After, the deletion can be requested to the repository&#39;s administrators. Deletion requests are visible within the administration panel and the user&#39;s request dashboard.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-14/deletion-modal.png&quot; alt=&quot;Modal to immediately delete a record&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;This feature is highly customizable. You can introduce deletion policies based on resource type, community role, file type, or any other criteria you require. Additionally, you can prevent unnecessary record deletion by adding a deletion checklist that suggests how users can resolve the issue correctly instead of deleting the record.&lt;/p&gt;
+&lt;h3&gt;Request commenting enhancements&lt;/h3&gt;
+&lt;p&gt;We&#39;ve introduced a number of exciting new features to improve the commenting experience on requests, which are currently used across InvenioRDM for a range of purposes such as community record submission.
+You can now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;share a link to a comment&lt;/li&gt;
+&lt;li&gt;insert LaTeX equations in comments&lt;/li&gt;
+&lt;li&gt;reply to comments directly&lt;/li&gt;
+&lt;li&gt;quote previous comments in full or in part when writing a comment&lt;/li&gt;
+&lt;li&gt;lock a request&#39;s conversation to prevent further comments at any time&lt;/li&gt;
+&lt;li&gt;attach files to a comment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-14/attached-file-comment.png&quot; alt=&quot;A submitted comment showing an attached file below the comment text&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Software archiving (from GitHub, GitLab, etc.)&lt;/h3&gt;
+&lt;p&gt;Software releases can now be archived not only from GitHub, but also from other code forges such as GitLab and GitHub Enterprise.
+The new &lt;a href=&quot;https://github.com/inveniosoftware/invenio-vcs/&quot;&gt;&lt;code&gt;invenio-vcs&lt;/code&gt;&lt;/a&gt; module replaces the existing &lt;code&gt;invenio-github&lt;/code&gt; module with a nearly identical end-user experience while adding support for a generic code forge interface.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-14/gitlab.jpg&quot; alt=&quot;GitLab integration&quot; width=&quot;600&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;... and plenty more&lt;/h3&gt;
+&lt;p&gt;See the full list of &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v14/version-v14.0/#miscellaneous-additions&quot;&gt;all additions&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Breaking changes&lt;/h2&gt;
+&lt;p&gt;Make sure to read the &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v14/version-v14.0/#breaking-changes&quot;&gt;Breaking Changes&lt;/a&gt; section in the release notes.&lt;/p&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;InvenioRDM v14 requires:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python 3.14&lt;/li&gt;
+&lt;li&gt;Node.js 24+&lt;/li&gt;
+&lt;li&gt;PostgreSQL 15+&lt;/li&gt;
+&lt;li&gt;OpenSearch v2.12+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Questions&lt;/h2&gt;
+&lt;p&gt;If you have questions related to the InvenioRDM v14.0 release, don&#39;t hesitate to jump on &lt;a href=&quot;https://discord.gg/8qatqBC&quot;&gt;Discord&lt;/a&gt; and ask us!&lt;/p&gt;
+&lt;h2&gt;Credit&lt;/h2&gt;
+&lt;p&gt;The development of this release wouldn&#39;t have been possible without the help of these smart people (name or GitHub handle, alphabetically sorted):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alex Ioannidis&lt;/li&gt;
+&lt;li&gt;Alžběta Pokorná&lt;/li&gt;
+&lt;li&gt;Anika Churilova&lt;/li&gt;
+&lt;li&gt;Brian Kelly&lt;/li&gt;
+&lt;li&gt;Carlin MacKenzie&lt;/li&gt;
+&lt;li&gt;Chokri Ben Romdhane&lt;/li&gt;
+&lt;li&gt;Chris Wagner&lt;/li&gt;
+&lt;li&gt;Christoph Ladurner&lt;/li&gt;
+&lt;li&gt;Dan Granville&lt;/li&gt;
+&lt;li&gt;ducica&lt;/li&gt;
+&lt;li&gt;Dusan Stojanovic&lt;/li&gt;
+&lt;li&gt;enitu&lt;/li&gt;
+&lt;li&gt;Eric Newman&lt;/li&gt;
+&lt;li&gt;Esteban J. G. Gabancho&lt;/li&gt;
+&lt;li&gt;Fatimah Zulfiqar&lt;/li&gt;
+&lt;li&gt;Guillaume Viger&lt;/li&gt;
+&lt;li&gt;Hrafn Malmquist&lt;/li&gt;
+&lt;li&gt;Ian Scott&lt;/li&gt;
+&lt;li&gt;Jacob Collins&lt;/li&gt;
+&lt;li&gt;Jakob Miesner&lt;/li&gt;
+&lt;li&gt;Javier Romero Castro&lt;/li&gt;
+&lt;li&gt;Jorge Marco&lt;/li&gt;
+&lt;li&gt;Julie Hinge&lt;/li&gt;
+&lt;li&gt;Karl Krägelin&lt;/li&gt;
+&lt;li&gt;Karolina Przerwa&lt;/li&gt;
+&lt;li&gt;Lars Holm Nielsen&lt;/li&gt;
+&lt;li&gt;Laura&lt;/li&gt;
+&lt;li&gt;Maira Salazar&lt;/li&gt;
+&lt;li&gt;Markus Klöpper&lt;/li&gt;
+&lt;li&gt;Martin Fenner&lt;/li&gt;
+&lt;li&gt;Maximilian Moser&lt;/li&gt;
+&lt;li&gt;Miroslav Bauer&lt;/li&gt;
+&lt;li&gt;Miroslav Simek&lt;/li&gt;
+&lt;li&gt;Nicola Tarocco&lt;/li&gt;
+&lt;li&gt;Oliver Geneser&lt;/li&gt;
+&lt;li&gt;Ondřej Ruml&lt;/li&gt;
+&lt;li&gt;Orkun BALCI&lt;/li&gt;
+&lt;li&gt;Pablo Saiz&lt;/li&gt;
+&lt;li&gt;Pablo Tamarit&lt;/li&gt;
+&lt;li&gt;Pal Kerecsenyi&lt;/li&gt;
+&lt;li&gt;Pascal Repond&lt;/li&gt;
+&lt;li&gt;Peter Desmet&lt;/li&gt;
+&lt;li&gt;Peter Weber&lt;/li&gt;
+&lt;li&gt;Rafael Martínez-Estévez&lt;/li&gt;
+&lt;li&gt;Rishabh Oberoi&lt;/li&gt;
+&lt;li&gt;ron&lt;/li&gt;
+&lt;li&gt;Saksham&lt;/li&gt;
+&lt;li&gt;Sam Arbid&lt;/li&gt;
+&lt;li&gt;Sarah Wiechers&lt;/li&gt;
+&lt;li&gt;senyaaa&lt;/li&gt;
+&lt;li&gt;Simone Tripodi&lt;/li&gt;
+&lt;li&gt;sushmithainjeti&lt;/li&gt;
+&lt;li&gt;Taha Khan&lt;/li&gt;
+&lt;li&gt;Till Korten&lt;/li&gt;
+&lt;li&gt;Tom Morrell&lt;/li&gt;
+&lt;li&gt;Uma Ganapathy&lt;/li&gt;
+&lt;li&gt;Werner Greßhoff&lt;/li&gt;
+&lt;li&gt;yashlamba&lt;/li&gt;
+&lt;li&gt;Zacharias Zacharodimos&lt;/li&gt;
+&lt;li&gt;Zübeyde Civelek&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Conference Spotlight: InvenioRDM Workshop Day at Open Repositories 2026</title>
     <link href="https://inveniosoftware.org/blog/2026-07-21-InvenioRDM-Workshop-OR2026/" />

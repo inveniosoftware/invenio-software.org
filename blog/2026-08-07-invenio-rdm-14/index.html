@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="invenio, library, framework, ils, research, data, multimedia, ir, institutional, repository, cern, foss, open, software, model, search, workflows, marc, marc21, python, api, doi, json, oai-pmh, orcid, openaire, rest, zenodo, cds, flask">
+    <meta name="generator" content="Eleventy v3.1.2">
+    <title>InvenioRDM v14.0 released - inveniosoftware.org</title>
+    <meta property="og:title" content="InvenioRDM v14.0 released">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="/blog/2026-08-07-invenio-rdm-14/">
+    <meta property="og:site_name" content="Invenio">
+    <meta property="og:description" content="Powering Open Science">
+    <link rel="icon" href="/assets/images/favicon.ico">
+    <link rel="canonical" href="/blog/2026-08-07-invenio-rdm-14/">
+    <link rel="alternate" type="application/atom+xml" title="Invenio Blog Feed" href="/feed.xml">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600|Oswald|Source+Code+Pro:400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    
+<section class="header-section ">
+  <div class="cover-image">
+    
+<header class="header-nav">
+  <nav class="navbar navbar-fixed-top invenio-navbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#inv-navbar-collapse" aria-controls="inv-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="navbar-brand">
+          <img src="/assets/images/logo-invenio-white.svg" alt="Invenio logo" title="Invenio logo" class="icon-contact">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="inv-navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/">Home</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="nav-label">Products</span>
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  
+                    <li><a href="/products/rdm/">InvenioRDM</a></li>
+                  
+                    <li><a href="/products/ils/">InvenioILS</a></li>
+                  
+                    <li><a href="/products/framework/">Invenio Framework</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/showcase/">Showcase</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="nav-label">Community</span>
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  
+                    <li><a href="/getinvolved/">Get Involved</a></li>
+                  
+                    <li><a href="/events/">Events & Training</a></li>
+                  
+                    <li><a href="/support/">Hosting & Support</a></li>
+                  
+                    <li><a href="/governance/">Governance</a></li>
+                  
+                    <li><a href="/maintainers/">Maintainers</a></li>
+                  
+                    <li><a href="/people/">People</a></li>
+                  
+                </ul>
+              </li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/documentation/">Docs</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a class="active-menu" href="/blog/">Blog</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="https://invenio-talk.web.cern.ch/">Talk</a></li>
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+              <li><a href="/about/">About</a></li>
+            
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <div class="container">
+      <div class="row centered">
+        <div class="col-12">
+          
+          <div class="header-section-title">
+            
+            <h1>Invenio Blog</h1>
+            <p class="sub-title">Follow news and updates from the Invenio community</p>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+    <main tabindex="-1" id="main-content">
+    
+<section id="blog-post-content-section" class="section-content-light-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-xs-12 block-center">
+          <div class="blog-back-button">
+  <a href="/blog">Back</a>
+</div>
+<div class="blog-post blog-post-frame">
+  <header class="post-header">
+    <h2 class="post-title">InvenioRDM v14.0 released</h2>
+    <div class="post-meta">
+      <i class="fa fa-users text-muted"></i>
+      <span class="author">Guillaume Viger</span>
+      <i class="fa fa-calendar text-muted"></i>
+      <span>Aug 7, 2026</span>
+      <i class="fa fa-tags text-muted"></i>
+      <span><span class="label label-primary label-tag">InvenioRDM</span></span>
+      <div class="pt-4"> 
+        <i class="fa fa-external-link text-muted"></i>
+        <a href="https://doi.org/10.63517/kshzw-ay335" target="_blank" rel="noopener noreferrer">https://doi.org/10.63517/kshzw-ay335</a>
+      </div>
+    </div>
+  </header>
+  <article class="post-content">
+    <p>InvenioRDM v14.0 was just released on August 7th 2026, and it's jam-packed with features, improvements and fixes! This is a big one, so let's get into it.</p>
+<h2>Try it</h2>
+<p>Want to see it in action? Go to <a href="https://inveniordm.web.cern.ch">the demo site</a>. If you want to install it, follow <a href="https://inveniordm.docs.cern.ch/install/">the installation instructions</a>!</p>
+<h2>Release Notes</h2>
+<p>See the <a href="https://inveniordm.docs.cern.ch/releases/v14/version-v14.0.0/">full release notes</a> for <em>all</em> the details, and the <a href="https://inveniordm.docs.cern.ch/releases/v14/upgrade-v14.0/">upgrade guide</a> for instructions on how to upgrade from your v13 instance to v14.</p>
+<h2>What's new?</h2>
+<h3>Administration panel: users and roles</h3>
+<p>Administrators can now manage user roles directly from the administration panel.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/manage-user-roles-dropdow-menu.png" alt="Manage user roles dropdown menu" width="600">
+</p>
+<h3>Community membership requests</h3>
+<p>Users can request to become members of communities directly. This feature is opt-in per community and feature-gated at the instance level.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/community-request-membership.png" alt="Request membership" width="600">
+</p>
+<h3>Community reviews for each record version</h3>
+<p>It is now possible to require a review for all record versions, subject to custom code on the instance level.</p>
+<h3>DOI registration with Crossref</h3>
+<p>DOI registration with Crossref, instead of or in addition to DataCite, is possible. Crossref has a different metadata schema than DataCite and supports textual content types such as journal articles, books, conference proceedings, preprints, posters or dissertations.</p>
+<h3>Files modification</h3>
+<p>You can now allow users to modify the files of their published records, in accordance with your policies. When enabled, the record's owner can unlock file editing within the first 30 days of publication and modify them within 45 days (by default).</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/file-modification.png" alt="Showing the flow to edit the files of a record" width="600">
+</p>
+<h3>Files quota</h3>
+<p>You can specify a default amount of extra storage for files which users can spread across their records, allowing them to selectively use their volume budget for extra large records.
+Additionally users can view the extra quota which they have used across their records in the new storage page in their settings.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/storage-settings.jpg" alt="Storage settings" width="600">
+</p>
+<h3>GeoJSON and Web Archive previewers</h3>
+<p>Preview GeoJSON files uploaded by users directly on an interactive map rendered with <a href="https://leafletjs.com">Leaflet</a> and <a href="https://www.openstreetmap.org/">OpenStreetMap</a> tiles.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/geojson.jpg" alt="GeoJSON previewer" width="600">
+</p>
+<p>The new previewer automatically detects and displays GeoJSON files as maps within the existing JSON file previewer. When users upload a GeoJSON file, it will be rendered as an interactive map instead of raw JSON.</p>
+<p>You can also preview web archives (WACZ, WARC, HAR, CDX, CDXJ) using an embedded <a href="https://replayweb.page/">ReplayWeb.page</a> viewer.</p>
+<h3>Job notifications</h3>
+<p>Jobs can now send email notifications to configured recipients when runs complete with specific statuses. This enables administrators and librarians to be automatically informed about the outcome of scheduled or manually triggered jobs.</p>
+<h3>Metadata schema update</h3>
+<p>We have aligned the core metadata schema and vocabularies with the latest additions from DataCite Schemas v4.5, v4.6 and v4.7. The goal is to adopt relevant updates that benefit InvenioRDM instances while strictly limiting breaking changes to ensure a smooth upgrade path. Additional breaking changes will happen in a future release.</p>
+<p>List of changes:</p>
+<ul>
+<li>The existing resource types &quot;Publication / Thesis&quot; (id <code>publication-thesis</code>) and &quot;Publication / Dissertation&quot; (id <code>publication-dissertation</code>) were merged into the former, which has been mapped to the resource type <code>Dissertation</code> in DataCite.</li>
+<li>Added <code>Poster</code>, <code>Presentation</code>, and <code>Study Registration</code> to the depositable default resource types. Added <code>Project</code> and <code>Instrument</code> to the linkable default resource types.</li>
+<li>Added <code>IsTranslationOf</code>, <code>HasTranslation</code>, <code>IsCollectedBy</code>, <code>Collects</code>, and <code>Other</code> to the default relation types. Added the new contributor type <code>Translator</code> and the new date type <code>Coverage</code> to their respective default vocabularies.</li>
+<li>Added <code>CSTR</code> (Science and Technology Resource Identifier) and <code>RRID</code> (Research Resource Identifier) as identifiable related identifiers.</li>
+<li>When minting DataCite DOIs, renamed the <code>identifiers</code> field to <code>alternateIdentifiers</code> and moved the <code>doi</code> identifier to its own field.</li>
+</ul>
+<h3>Modern toolchain</h3>
+<p>The modern build toolchain introduced as experimental in v13 is now considered stable and ready for adoption:</p>
+<ul>
+<li><strong><a href="https://docs.astral.sh/uv/">uv</a></strong> in place of <code>pipenv</code> for Python dependency management.</li>
+<li><strong><a href="https://pnpm.io/">pnpm</a></strong> in place of <code>npm</code> for JavaScript dependency management, with faster installs and a disk-efficient content-addressable store.</li>
+<li><strong><a href="https://www.rspack.dev/">Rspack</a></strong> in place of <code>webpack</code> for asset bundling, with Rust-based builds that are much faster and drop-in compatible with the existing Invenio asset pipeline.</li>
+</ul>
+<h3>OAuth improvements</h3>
+<p>We've added a few small but crucial improvements to our OAuth implementation, improving security and bringing Invenio's third-party authentication in line with modern standards.</p>
+<ul>
+<li><strong>Refresh tokens</strong> are now supported, meaning we now have full compatibility with all OAuth 2.0 authorization servers.</li>
+<li>The performance and flexibility of queries have been improved.</li>
+</ul>
+<h3>Overridable: easily find components IDs</h3>
+<p>When customizing InvenioRDM, you often need the UI component ID to override. Developer mode now highlights all overridable components on a page, making it easy to find the ID you need.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/metadata_id_overlay.png" alt="Metadata-only checkbox overridable ID in an overlay" width="600">
+</p>
+<h3>Preview content of ZIP files and others</h3>
+<p>We've enhanced support for ZIP files and introduced a flexible framework for handling other similar container formats (e.g., NetCDF, TAR). Users can now explore and access files inside archives without downloading them entirely, making large datasets easier to work with.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/container-file-formats.png" alt="ZIP file preview" width="600">
+</p>
+<h3>Publication date range facet</h3>
+<p>InvenioRDM v14 introduces an interactive publication date facet on the search
+page. Users can filter records by year using a histogram and range slider, or
+pick from preset ranges (last 6 months, last year, last 5 years) and enter a
+custom date range.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/publication-date-range-facet.png" alt="Publication date range facet" width="600">
+</p>
+<h3>Record deletion</h3>
+<p>You can now configure InvenioRDM to allow users to delete, or request deletion of, their own published records in accordance with any policy or criteria you may have. When enabled, the default behavior is that records can be deleted within 30 days of publication. After, the deletion can be requested to the repository's administrators. Deletion requests are visible within the administration panel and the user's request dashboard.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/deletion-modal.png" alt="Modal to immediately delete a record" width="600">
+</p>
+<p>This feature is highly customizable. You can introduce deletion policies based on resource type, community role, file type, or any other criteria you require. Additionally, you can prevent unnecessary record deletion by adding a deletion checklist that suggests how users can resolve the issue correctly instead of deleting the record.</p>
+<h3>Request commenting enhancements</h3>
+<p>We've introduced a number of exciting new features to improve the commenting experience on requests, which are currently used across InvenioRDM for a range of purposes such as community record submission.
+You can now:</p>
+<ul>
+<li>share a link to a comment</li>
+<li>insert LaTeX equations in comments</li>
+<li>reply to comments directly</li>
+<li>quote previous comments in full or in part when writing a comment</li>
+<li>lock a request's conversation to prevent further comments at any time</li>
+<li>attach files to a comment</li>
+</ul>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/attached-file-comment.png" alt="A submitted comment showing an attached file below the comment text" width="600">
+</p>
+<h3>Software archiving (from GitHub, GitLab, etc.)</h3>
+<p>Software releases can now be archived not only from GitHub, but also from other code forges such as GitLab and GitHub Enterprise.
+The new <a href="https://github.com/inveniosoftware/invenio-vcs/"><code>invenio-vcs</code></a> module replaces the existing <code>invenio-github</code> module with a nearly identical end-user experience while adding support for a generic code forge interface.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/gitlab.jpg" alt="GitLab integration" width="600">
+</p>
+<h3>... and plenty more</h3>
+<p>See the full list of <a href="https://inveniordm.docs.cern.ch/releases/v14/version-v14.0/#miscellaneous-additions">all additions</a>.</p>
+<h2>Breaking changes</h2>
+<p>Make sure to read the <a href="https://inveniordm.docs.cern.ch/releases/v14/version-v14.0/#breaking-changes">Breaking Changes</a> section in the release notes.</p>
+<h2>Requirements</h2>
+<p>InvenioRDM v14 requires:</p>
+<ul>
+<li>Python 3.14</li>
+<li>Node.js 24+</li>
+<li>PostgreSQL 15+</li>
+<li>OpenSearch v2.12+</li>
+</ul>
+<h2>Questions</h2>
+<p>If you have questions related to the InvenioRDM v14.0 release, don't hesitate to jump on <a href="https://discord.gg/8qatqBC">Discord</a> and ask us!</p>
+<h2>Credit</h2>
+<p>The development of this release wouldn't have been possible without the help of these smart people (name or GitHub handle, alphabetically sorted):</p>
+<ul>
+<li>Alex Ioannidis</li>
+<li>Alžběta Pokorná</li>
+<li>Anika Churilova</li>
+<li>Brian Kelly</li>
+<li>Carlin MacKenzie</li>
+<li>Chokri Ben Romdhane</li>
+<li>Chris Wagner</li>
+<li>Christoph Ladurner</li>
+<li>Dan Granville</li>
+<li>ducica</li>
+<li>Dusan Stojanovic</li>
+<li>enitu</li>
+<li>Eric Newman</li>
+<li>Esteban J. G. Gabancho</li>
+<li>Fatimah Zulfiqar</li>
+<li>Guillaume Viger</li>
+<li>Hrafn Malmquist</li>
+<li>Ian Scott</li>
+<li>Jacob Collins</li>
+<li>Jakob Miesner</li>
+<li>Javier Romero Castro</li>
+<li>Jorge Marco</li>
+<li>Julie Hinge</li>
+<li>Karl Krägelin</li>
+<li>Karolina Przerwa</li>
+<li>Lars Holm Nielsen</li>
+<li>Laura</li>
+<li>Maira Salazar</li>
+<li>Markus Klöpper</li>
+<li>Martin Fenner</li>
+<li>Maximilian Moser</li>
+<li>Miroslav Bauer</li>
+<li>Miroslav Simek</li>
+<li>Nicola Tarocco</li>
+<li>Oliver Geneser</li>
+<li>Ondřej Ruml</li>
+<li>Orkun BALCI</li>
+<li>Pablo Saiz</li>
+<li>Pablo Tamarit</li>
+<li>Pal Kerecsenyi</li>
+<li>Pascal Repond</li>
+<li>Peter Desmet</li>
+<li>Peter Weber</li>
+<li>Rafael Martínez-Estévez</li>
+<li>Rishabh Oberoi</li>
+<li>ron</li>
+<li>Saksham</li>
+<li>Sam Arbid</li>
+<li>Sarah Wiechers</li>
+<li>senyaaa</li>
+<li>Simone Tripodi</li>
+<li>sushmithainjeti</li>
+<li>Taha Khan</li>
+<li>Till Korten</li>
+<li>Tom Morrell</li>
+<li>Uma Ganapathy</li>
+<li>Werner Greßhoff</li>
+<li>yashlamba</li>
+<li>Zacharias Zacharodimos</li>
+<li>Zübeyde Civelek</li>
+</ul>
+
+  </article>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer>
+  <!-- hero footer -->
+  <div class="contact-section section-content-dark-bg">
+    <div class="container">
+      <div class="row">
+        <!-- first col -->
+        <div class="col-md-6 footer-logo-centered">
+          <a href="/">
+            <img src="/assets/images/logo-invenio-white.svg" alt="Invenio logo" title="Invenio logo" class="icon-contact">
+          </a>
+        </div>
+        <!-- second col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Products</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td><a href="/products/rdm/">InvenioRDM</a></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/products/ils/">InvenioILS</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/products/framework/">Invenio Framework</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/#products">Get Started</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/showcase/">Examples</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="/about/">About</a></td>
+              </tr>
+              <tr>
+                <td><a href="/about#logos">Logos</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- third col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Community</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td><a href="/products/rdm/roadmap/">Roadmap</a></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/getinvolved/">Get Involved</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/events/">Events & Training</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/support/">Hosting & Support</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/governance/">Governance</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/people/">People</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- fourth col -->
+        <div class="col-md-2">
+          <h3 class="contact-title">Keep in touch</h3>
+          <table class="contact-list">
+            <tbody>
+              <tr>
+                <td>
+                  <a href="https://github.com/inveniosoftware">GitHub</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://discord.gg/8qatqBC">Chatroom</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://invenio-talk.web.cern.ch">Talk</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="/feed.xml">Blog Feed</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /end hero footer -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 centered">
+          <span>Copyright &copy; 2016-2026 CERN &amp; contributors. Icons by <a href="http://fontawesome.io/">Font Awesome</a> and <a href="https://icons8.com/">Icons8</a>. Text is licensed under Creative Commons Attribution 4.0 International.<br>
+        </span></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://webanalytics.web.cern.ch/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '233']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Matomo Code -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"></script>
+    <script>
+      //Main navigation scroll spy for shadow
+      $(window).scroll(function() {
+        var y = $(window).scrollTop();
+        if (y > 0) {
+          $(".invenio-navbar").addClass('invenio-navbar-not-top');
+        } else {
+          $(".invenio-navbar").removeClass('invenio-navbar-not-top');
+        }
+      });
+  </script>
+  </body>
+</html>

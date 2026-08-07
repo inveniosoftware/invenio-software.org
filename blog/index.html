@@ -210,17 +210,250 @@
         <div class="blog-top blog-top-frame">
   <header class="blog-top-header">
     <h2>
-      <a href="/blog/2026-07-21-InvenioRDM-Workshop-OR2026/">Conference Spotlight: InvenioRDM Workshop Day at Open Repositories 2026</a>
+      <a href="/blog/2026-08-07-invenio-rdm-14/">InvenioRDM v14.0 released</a>
     </h2>
     <p class="blog-list-item-meta">
       <i class="fa fa-external-link text-muted"></i>
-      <a href="https://doi.org/10.63517/43kgp-yny92" target="_blank" rel="noopener noreferrer" class="pr-5">https://doi.org/10.63517/43kgp-yny92</a>
+      <a href="https://doi.org/10.63517/kshzw-ay335" target="_blank" rel="noopener noreferrer" class="pr-5">https://doi.org/10.63517/kshzw-ay335</a>
       <i class="fa fa-user text-muted"></i>
+      <span class="author">
+        Guillaume Viger
+      </span>
+      <i class="fa fa-calendar text-muted"></i>
+      <span>Aug 7, 2026</span><span class="label label-primary label-tag">InvenioRDM</span></p>
+  </header>
+  <div class="blog-list-item-content">
+    <p>InvenioRDM v14.0 was just released on August 7th 2026, and it's jam-packed with features, improvements and fixes! This is a big one, so let's get into it.</p>
+<h2>Try it</h2>
+<p>Want to see it in action? Go to <a href="https://inveniordm.web.cern.ch">the demo site</a>. If you want to install it, follow <a href="https://inveniordm.docs.cern.ch/install/">the installation instructions</a>!</p>
+<h2>Release Notes</h2>
+<p>See the <a href="https://inveniordm.docs.cern.ch/releases/v14/version-v14.0.0/">full release notes</a> for <em>all</em> the details, and the <a href="https://inveniordm.docs.cern.ch/releases/v14/upgrade-v14.0/">upgrade guide</a> for instructions on how to upgrade from your v13 instance to v14.</p>
+<h2>What's new?</h2>
+<h3>Administration panel: users and roles</h3>
+<p>Administrators can now manage user roles directly from the administration panel.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/manage-user-roles-dropdow-menu.png" alt="Manage user roles dropdown menu" width="600">
+</p>
+<h3>Community membership requests</h3>
+<p>Users can request to become members of communities directly. This feature is opt-in per community and feature-gated at the instance level.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/community-request-membership.png" alt="Request membership" width="600">
+</p>
+<h3>Community reviews for each record version</h3>
+<p>It is now possible to require a review for all record versions, subject to custom code on the instance level.</p>
+<h3>DOI registration with Crossref</h3>
+<p>DOI registration with Crossref, instead of or in addition to DataCite, is possible. Crossref has a different metadata schema than DataCite and supports textual content types such as journal articles, books, conference proceedings, preprints, posters or dissertations.</p>
+<h3>Files modification</h3>
+<p>You can now allow users to modify the files of their published records, in accordance with your policies. When enabled, the record's owner can unlock file editing within the first 30 days of publication and modify them within 45 days (by default).</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/file-modification.png" alt="Showing the flow to edit the files of a record" width="600">
+</p>
+<h3>Files quota</h3>
+<p>You can specify a default amount of extra storage for files which users can spread across their records, allowing them to selectively use their volume budget for extra large records.
+Additionally users can view the extra quota which they have used across their records in the new storage page in their settings.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/storage-settings.jpg" alt="Storage settings" width="600">
+</p>
+<h3>GeoJSON and Web Archive previewers</h3>
+<p>Preview GeoJSON files uploaded by users directly on an interactive map rendered with <a href="https://leafletjs.com">Leaflet</a> and <a href="https://www.openstreetmap.org/">OpenStreetMap</a> tiles.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/geojson.jpg" alt="GeoJSON previewer" width="600">
+</p>
+<p>The new previewer automatically detects and displays GeoJSON files as maps within the existing JSON file previewer. When users upload a GeoJSON file, it will be rendered as an interactive map instead of raw JSON.</p>
+<p>You can also preview web archives (WACZ, WARC, HAR, CDX, CDXJ) using an embedded <a href="https://replayweb.page/">ReplayWeb.page</a> viewer.</p>
+<h3>Job notifications</h3>
+<p>Jobs can now send email notifications to configured recipients when runs complete with specific statuses. This enables administrators and librarians to be automatically informed about the outcome of scheduled or manually triggered jobs.</p>
+<h3>Metadata schema update</h3>
+<p>We have aligned the core metadata schema and vocabularies with the latest additions from DataCite Schemas v4.5, v4.6 and v4.7. The goal is to adopt relevant updates that benefit InvenioRDM instances while strictly limiting breaking changes to ensure a smooth upgrade path. Additional breaking changes will happen in a future release.</p>
+<p>List of changes:</p>
+<ul>
+<li>The existing resource types &quot;Publication / Thesis&quot; (id <code>publication-thesis</code>) and &quot;Publication / Dissertation&quot; (id <code>publication-dissertation</code>) were merged into the former, which has been mapped to the resource type <code>Dissertation</code> in DataCite.</li>
+<li>Added <code>Poster</code>, <code>Presentation</code>, and <code>Study Registration</code> to the depositable default resource types. Added <code>Project</code> and <code>Instrument</code> to the linkable default resource types.</li>
+<li>Added <code>IsTranslationOf</code>, <code>HasTranslation</code>, <code>IsCollectedBy</code>, <code>Collects</code>, and <code>Other</code> to the default relation types. Added the new contributor type <code>Translator</code> and the new date type <code>Coverage</code> to their respective default vocabularies.</li>
+<li>Added <code>CSTR</code> (Science and Technology Resource Identifier) and <code>RRID</code> (Research Resource Identifier) as identifiable related identifiers.</li>
+<li>When minting DataCite DOIs, renamed the <code>identifiers</code> field to <code>alternateIdentifiers</code> and moved the <code>doi</code> identifier to its own field.</li>
+</ul>
+<h3>Modern toolchain</h3>
+<p>The modern build toolchain introduced as experimental in v13 is now considered stable and ready for adoption:</p>
+<ul>
+<li><strong><a href="https://docs.astral.sh/uv/">uv</a></strong> in place of <code>pipenv</code> for Python dependency management.</li>
+<li><strong><a href="https://pnpm.io/">pnpm</a></strong> in place of <code>npm</code> for JavaScript dependency management, with faster installs and a disk-efficient content-addressable store.</li>
+<li><strong><a href="https://www.rspack.dev/">Rspack</a></strong> in place of <code>webpack</code> for asset bundling, with Rust-based builds that are much faster and drop-in compatible with the existing Invenio asset pipeline.</li>
+</ul>
+<h3>OAuth improvements</h3>
+<p>We've added a few small but crucial improvements to our OAuth implementation, improving security and bringing Invenio's third-party authentication in line with modern standards.</p>
+<ul>
+<li><strong>Refresh tokens</strong> are now supported, meaning we now have full compatibility with all OAuth 2.0 authorization servers.</li>
+<li>The performance and flexibility of queries have been improved.</li>
+</ul>
+<h3>Overridable: easily find components IDs</h3>
+<p>When customizing InvenioRDM, you often need the UI component ID to override. Developer mode now highlights all overridable components on a page, making it easy to find the ID you need.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/metadata_id_overlay.png" alt="Metadata-only checkbox overridable ID in an overlay" width="600">
+</p>
+<h3>Preview content of ZIP files and others</h3>
+<p>We've enhanced support for ZIP files and introduced a flexible framework for handling other similar container formats (e.g., NetCDF, TAR). Users can now explore and access files inside archives without downloading them entirely, making large datasets easier to work with.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/container-file-formats.png" alt="ZIP file preview" width="600">
+</p>
+<h3>Publication date range facet</h3>
+<p>InvenioRDM v14 introduces an interactive publication date facet on the search
+page. Users can filter records by year using a histogram and range slider, or
+pick from preset ranges (last 6 months, last year, last 5 years) and enter a
+custom date range.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/publication-date-range-facet.png" alt="Publication date range facet" width="600">
+</p>
+<h3>Record deletion</h3>
+<p>You can now configure InvenioRDM to allow users to delete, or request deletion of, their own published records in accordance with any policy or criteria you may have. When enabled, the default behavior is that records can be deleted within 30 days of publication. After, the deletion can be requested to the repository's administrators. Deletion requests are visible within the administration panel and the user's request dashboard.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/deletion-modal.png" alt="Modal to immediately delete a record" width="600">
+</p>
+<p>This feature is highly customizable. You can introduce deletion policies based on resource type, community role, file type, or any other criteria you require. Additionally, you can prevent unnecessary record deletion by adding a deletion checklist that suggests how users can resolve the issue correctly instead of deleting the record.</p>
+<h3>Request commenting enhancements</h3>
+<p>We've introduced a number of exciting new features to improve the commenting experience on requests, which are currently used across InvenioRDM for a range of purposes such as community record submission.
+You can now:</p>
+<ul>
+<li>share a link to a comment</li>
+<li>insert LaTeX equations in comments</li>
+<li>reply to comments directly</li>
+<li>quote previous comments in full or in part when writing a comment</li>
+<li>lock a request's conversation to prevent further comments at any time</li>
+<li>attach files to a comment</li>
+</ul>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/attached-file-comment.png" alt="A submitted comment showing an attached file below the comment text" width="600">
+</p>
+<h3>Software archiving (from GitHub, GitLab, etc.)</h3>
+<p>Software releases can now be archived not only from GitHub, but also from other code forges such as GitLab and GitHub Enterprise.
+The new <a href="https://github.com/inveniosoftware/invenio-vcs/"><code>invenio-vcs</code></a> module replaces the existing <code>invenio-github</code> module with a nearly identical end-user experience while adding support for a generic code forge interface.</p>
+<p align="center">
+  <img src="/assets/images/blog-posts/invenio-rdm-14/gitlab.jpg" alt="GitLab integration" width="600">
+</p>
+<h3>... and plenty more</h3>
+<p>See the full list of <a href="https://inveniordm.docs.cern.ch/releases/v14/version-v14.0/#miscellaneous-additions">all additions</a>.</p>
+<h2>Breaking changes</h2>
+<p>Make sure to read the <a href="https://inveniordm.docs.cern.ch/releases/v14/version-v14.0/#breaking-changes">Breaking Changes</a> section in the release notes.</p>
+<h2>Requirements</h2>
+<p>InvenioRDM v14 requires:</p>
+<ul>
+<li>Python 3.14</li>
+<li>Node.js 24+</li>
+<li>PostgreSQL 15+</li>
+<li>OpenSearch v2.12+</li>
+</ul>
+<h2>Questions</h2>
+<p>If you have questions related to the InvenioRDM v14.0 release, don't hesitate to jump on <a href="https://discord.gg/8qatqBC">Discord</a> and ask us!</p>
+<h2>Credit</h2>
+<p>The development of this release wouldn't have been possible without the help of these smart people (name or GitHub handle, alphabetically sorted):</p>
+<ul>
+<li>Alex Ioannidis</li>
+<li>Alžběta Pokorná</li>
+<li>Anika Churilova</li>
+<li>Brian Kelly</li>
+<li>Carlin MacKenzie</li>
+<li>Chokri Ben Romdhane</li>
+<li>Chris Wagner</li>
+<li>Christoph Ladurner</li>
+<li>Dan Granville</li>
+<li>ducica</li>
+<li>Dusan Stojanovic</li>
+<li>enitu</li>
+<li>Eric Newman</li>
+<li>Esteban J. G. Gabancho</li>
+<li>Fatimah Zulfiqar</li>
+<li>Guillaume Viger</li>
+<li>Hrafn Malmquist</li>
+<li>Ian Scott</li>
+<li>Jacob Collins</li>
+<li>Jakob Miesner</li>
+<li>Javier Romero Castro</li>
+<li>Jorge Marco</li>
+<li>Julie Hinge</li>
+<li>Karl Krägelin</li>
+<li>Karolina Przerwa</li>
+<li>Lars Holm Nielsen</li>
+<li>Laura</li>
+<li>Maira Salazar</li>
+<li>Markus Klöpper</li>
+<li>Martin Fenner</li>
+<li>Maximilian Moser</li>
+<li>Miroslav Bauer</li>
+<li>Miroslav Simek</li>
+<li>Nicola Tarocco</li>
+<li>Oliver Geneser</li>
+<li>Ondřej Ruml</li>
+<li>Orkun BALCI</li>
+<li>Pablo Saiz</li>
+<li>Pablo Tamarit</li>
+<li>Pal Kerecsenyi</li>
+<li>Pascal Repond</li>
+<li>Peter Desmet</li>
+<li>Peter Weber</li>
+<li>Rafael Martínez-Estévez</li>
+<li>Rishabh Oberoi</li>
+<li>ron</li>
+<li>Saksham</li>
+<li>Sam Arbid</li>
+<li>Sarah Wiechers</li>
+<li>senyaaa</li>
+<li>Simone Tripodi</li>
+<li>sushmithainjeti</li>
+<li>Taha Khan</li>
+<li>Till Korten</li>
+<li>Tom Morrell</li>
+<li>Uma Ganapathy</li>
+<li>Werner Greßhoff</li>
+<li>yashlamba</li>
+<li>Zacharias Zacharodimos</li>
+<li>Zübeyde Civelek</li>
+</ul>
+
+  </div>
+  <div class="blog-top-more-link">
+    <a href="/blog/2026-08-07-invenio-rdm-14/">Read More</a>
+  </div>`
+</div>
+
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12 col-xs-12 block-center">
+        <div class="blog-post-list">
+          
+            
+          
+            
+            <div class="blog-list-item col-xs-12 col-md-4">
+              
+              
+              
+              
+              
+              
+              
+              <div class="blog-list-item blog-list-item-frame">
+  <header class="blog-list-item-header">
+    <h3>
+      
+        <a href="/blog/2026-07-21-InvenioRDM-Workshop-OR2026/">Conference Spotlight: InvenioRDM Workshop Day at Open Repositories 2026</a>
+      
+    </h3>
+    <div class="blog-list-item-meta">
+      <div class="pt-4"> 
+        <i class="fa fa-external-link text-muted"></i>
+        <a href="https://doi.org/10.63517/43kgp-yny92" target="_blank" rel="noopener noreferrer">https://doi.org/10.63517/43kgp-yny92</a>
+      </div>
+      <i class="fa fa-users text-muted"></i>
       <span class="author">
         Sara Gonzales
       </span>
       <i class="fa fa-calendar text-muted"></i>
-      <span>Jul 21, 2026</span><span class="label label-primary label-tag">InvenioRDM</span><span class="label label-primary label-tag">Open Repositories</span></p>
+      <span>Jul 21, 2026</span>
+      <div>
+        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span><span class="label label-primary">Open Repositories</span></div>
+    </div>
   </header>
   <div class="blog-list-item-content">
     <p><img src="/assets/images/blog-posts/2026-07-21-july-OR2026.png" alt="Open Repositories 2026"></p>
@@ -270,18 +503,14 @@
 </ol>
 
   </div>
-  <div class="blog-top-more-link">
-    <a href="/blog/2026-07-21-InvenioRDM-Workshop-OR2026/">Read More</a>
-  </div>`
+  <div class="blog-list-item-more-link">
+    
+      <a href="/blog/2026-07-21-InvenioRDM-Workshop-OR2026/">Read More</a>
+    
+  </div>
 </div>
 
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col-md-12 col-xs-12 block-center">
-        <div class="blog-post-list">
-          
+            </div>
             
           
             
@@ -929,68 +1158,6 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
   <div class="blog-list-item-more-link">
     
       <a href="/blog/2025-07-22-invenio-rdm-13/">Read More</a>
-    
-  </div>
-</div>
-
-            </div>
-            
-          
-            
-            <div class="blog-list-item col-xs-12 col-md-4">
-              
-              
-              
-              
-              
-              
-              
-              <div class="blog-list-item blog-list-item-frame">
-  <header class="blog-list-item-header">
-    <h3>
-      
-        <a href="/blog/2025-03-11-march-KTH-data-repository/">KTH Data Repository: Launching an InvenioRDM-based Institutional Repository</a>
-      
-    </h3>
-    <div class="blog-list-item-meta">
-      <div class="pt-4"> 
-        <i class="fa fa-external-link text-muted"></i>
-        <a href="https://doi.org/10.63517/yjyra-pvq62" target="_blank" rel="noopener noreferrer">https://doi.org/10.63517/yjyra-pvq62</a>
-      </div>
-      <i class="fa fa-users text-muted"></i>
-      <span class="author">
-        Rosa Lönneborg, Sara Gonzales, Martin Fenner
-      </span>
-      <i class="fa fa-calendar text-muted"></i>
-      <span>Mar 11, 2025</span>
-      <div>
-        <i class="fa fa-tags text-muted"></i><span class="label label-primary">InvenioRDM</span></div>
-    </div>
-  </header>
-  <div class="blog-list-item-content">
-    <p><img src="/assets/images/blog-posts/KTH_Data_Repository.png" alt=""></p>
-<p>KTH Data Repository - we added <a href="https://docs.datarepository.kth.se/">user guides</a> and updated the <a href="https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/forskningsdata-1.1002828">KTH web-pages on research data management</a> when the new repository was launched.</p>
-<p>On the 29th of January 2025, the <a href="https://datarepository.kth.se/">KTH Data Repository</a> was launched through a team effort supported by management and policies at the KTH Royal Institute of Technology, and by partnering up with the InvenioRDM community.</p>
-<h3>A Bit of History Behind the Launch</h3>
-<p>Back in 2021, KTH had an institutional repository for publications, theses, and student reports, but no repository for research data. A recently established cross-functional research data team offers curation support for researchers depositing data to either a KTH community in Zenodo or the Swedish National Data Service data catalog, DORIS. But we had challenges the services at the time didn’t meet:</p>
-<ul>
-<li>Researchers often document data at the last minute before publishing results, resulting in both stress and lower quality of metadata.</li>
-<li>Composing good quality metadata requires researchers’ domain-specific understanding of the data as well as understanding of FAIR data principles.</li>
-<li>Researchers prefer to keep documentation and data private or share data within a limited group before results are published. That group most often consists of collaboration partners as well as KTH staff.</li>
-<li>KTH has a legal obligation to keep a registry of data underlying scientific results. Some types of data can’t be shared outside the organisation; other types can only be shared if legal agreements are signed.</li>
-<li>Data-driven research areas produce much larger data-sets than the current limits to deposit in the institutional repository and most external repositories.</li>
-</ul>
-<p>Since the team also supported researchers writing data management plans, we knew that in a few years there would be a large number of projects in need of long-term archival storage compliant with funder requirements on FAIR data. Many of those projects also had data that could only be shared with restricted access.</p>
-<p>In 2022 a project aiming to find out how research support could become more accessible was conducted and a group of researchers were interviewed. Conclusions from the interviews were combined with basic technical requirements collected via the KTH digitalisation platform. This resulted in a pilot project where InvenioRDM was selected as the candidate that best fulfilled the requirements collected by the digitalisation platform and criteria for a FAIR data repository according to the KTH guidelines for managing research data. The pilot was funded after a decision from a steering group which allowed for an IT-developer to join the team, and KTH also decided to join the InvenioRDM project as a partner.</p>
-<p>The pilot was extended in 2023, when test users from different research communities tried out the system and provided feedback during demos, and more user stories and insights to the pilot team. 2024 was the year of management decisions on long-term maintenance and work on deployment, where we could get access to devops expertise for deploying on Kubernetes thanks to shared interest with the <a href="https://www.scilifelab.se/">Scilifelab</a> research infrastructure. Kubernetes allows for scaling services running on the platform and ensures high availability, so we hope that contributions in the area may be of use for other partners.</p>
-<h3>Where are we now?</h3>
-<p>It has been very fruitful to be part of the global InvenioRDM Open Source Community, and we are very grateful for the support we’ve received from the community. For KTH, the most interesting features that came with InvenioRDM were the ability to create communities, the easy-to-use deposit interface, and the APIs. The APIs are crucial since many research groups are using automated workflows. For data governance reasons, we needed to customize InvenioRDM so that all data must belong to at least one community. We also see the need in the near future to make changes to the log-in mechanism, where collaborative research makes it necessary to enable log-in for collaboration partners but with stronger means of verification of the identity of users in a way that complies with the eIDAS regulation.</p>
-<p>We have received quite a lot of interest since the launch both from KTH researchers interested in using the repository but also from other universities and research infrastructures in Sweden. We are open for discussions with anyone interested in the KTH data repository - so don't hesitate to <a href="https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/deponera-och-publicera-data-1.861137">contact us</a> if you want to learn more!</p>
-
-  </div>
-  <div class="blog-list-item-more-link">
-    
-      <a href="/blog/2025-03-11-march-KTH-data-repository/">Read More</a>
     
   </div>
 </div>
