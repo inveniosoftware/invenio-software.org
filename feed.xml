@@ -23,7 +23,7 @@
 &lt;h2&gt;Try it&lt;/h2&gt;
 &lt;p&gt;Want to see it in action? Go to &lt;a href=&quot;https://inveniordm.web.cern.ch&quot;&gt;the demo site&lt;/a&gt;. If you want to install it, follow &lt;a href=&quot;https://inveniordm.docs.cern.ch/install/&quot;&gt;the installation instructions&lt;/a&gt;!&lt;/p&gt;
 &lt;h2&gt;Release Notes&lt;/h2&gt;
-&lt;p&gt;See the &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v14/version-v14.0.0/&quot;&gt;full release notes&lt;/a&gt; for &lt;em&gt;all&lt;/em&gt; the details, and the &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v14/upgrade-v14.0/&quot;&gt;upgrade guide&lt;/a&gt; for instructions on how to upgrade from your v13 instance to v14.&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v14/version-v14.0/&quot;&gt;full release notes&lt;/a&gt; for &lt;em&gt;all&lt;/em&gt; the details, and the &lt;a href=&quot;https://inveniordm.docs.cern.ch/releases/v14/upgrade-v14.0/&quot;&gt;upgrade guide&lt;/a&gt; for instructions on how to upgrade from your v13 instance to v14.&lt;/p&gt;
 &lt;h2&gt;What&#39;s new?&lt;/h2&gt;
 &lt;h3&gt;Administration panel: users and roles&lt;/h3&gt;
 &lt;p&gt;Administrators can now manage user roles directly from the administration panel.&lt;/p&gt;
