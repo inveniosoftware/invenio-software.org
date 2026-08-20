@@ -15,7 +15,7 @@
     <updated>2026-08-07T00:00:00Z</updated>
     <published>2026-08-07T00:00:00Z</published>
     <author>
-      <name>Guillaume Viger</name>
+      <name>Guillaume Viger</name><uri>https://orcid.org/0009-0005-6010-9424</uri>
     </author>
     <category term="InvenioRDM" />
     <id>https://doi.org/10.63517/kshzw-ay335</id>
@@ -849,7 +849,7 @@ Jobs are triggered via the admin UI or REST API, run using Celery, and support l
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <author>
-      <name>Guillaume Viger</name>
+      <name>Guillaume Viger</name><uri>https://orcid.org/0009-0005-6010-9424</uri>
     </author>
     <category term="InvenioRDM" />
     <media:thumbnail url="https://inveniosoftware.org/assets/images/blog-posts/invenio-rdm-v12.0-screenshot.png" />
@@ -1693,7 +1693,7 @@ heavy production loads.&lt;/p&gt;
       <name>Lars Holm Nielsen</name>
     </author>
     <author>
-      <name>Guillaume Viger</name>
+      <name>Guillaume Viger</name><uri>https://orcid.org/0009-0005-6010-9424</uri>
     </author>
     <author>
       <name>Max Moser</name>
@@ -1873,7 +1873,7 @@ heavy production loads.&lt;/p&gt;
       <name>Lars Holm Nielsen</name>
     </author>
     <author>
-      <name>Guillaume Viger</name>
+      <name>Guillaume Viger</name><uri>https://orcid.org/0009-0005-6010-9424</uri>
     </author>
     <author>
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
@@ -2151,7 +2151,7 @@ invenio-cli destroy
       <name>Lars Holm Nielsen</name>
     </author>
     <author>
-      <name>Guillaume Viger</name>
+      <name>Guillaume Viger</name><uri>https://orcid.org/0009-0005-6010-9424</uri>
     </author>
     <author>
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
@@ -2281,7 +2281,7 @@ invenio-cli destroy
       <name>Pablo Panero</name>
     </author>
     <author>
-      <name>Guillaume Viger</name>
+      <name>Guillaume Viger</name><uri>https://orcid.org/0009-0005-6010-9424</uri>
     </author>
     <author>
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
@@ -2672,7 +2672,7 @@ invenio-cli destroy
       <name>Lars Holm Nielsen</name>
     </author>
     <author>
-      <name>Guillaume Viger</name>
+      <name>Guillaume Viger</name><uri>https://orcid.org/0009-0005-6010-9424</uri>
     </author>
     <author>
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
@@ -2718,7 +2718,7 @@ invenio-cli destroy
     <updated>2020-09-01T00:00:00Z</updated>
     <published>2020-09-01T00:00:00Z</published>
     <author>
-      <name>Guillaume Viger</name>
+      <name>Guillaume Viger</name><uri>https://orcid.org/0009-0005-6010-9424</uri>
     </author>
     <author>
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
@@ -2809,7 +2809,7 @@ docker-compose -f docker-compose.full.yml down
       <name>Sara Gonzales</name><uri>https://orcid.org/0000-0002-1193-2298</uri>
     </author>
     <author>
-      <name>Guillaume Viger</name>
+      <name>Guillaume Viger</name><uri>https://orcid.org/0009-0005-6010-9424</uri>
     </author>
     <category term="InvenioRDM" />
     <id>https://doi.org/10.63517/ap3nt-jh372</id>
@@ -3089,7 +3089,7 @@ Invenio v3.5 and minimum until 2021-05-18.&lt;/p&gt;
       <name>Lisa O&#39;Keefe</name>
     </author>
     <author>
-      <name>Guillaume Viger</name>
+      <name>Guillaume Viger</name><uri>https://orcid.org/0009-0005-6010-9424</uri>
     </author>
     <category term="InvenioRDM" />
     <id>https://doi.org/10.63517/mcw20-dng91</id>
